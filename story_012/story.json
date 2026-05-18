@@ -1,0 +1,62 @@
+{
+  "id": "story_012",
+  "title": "The Repair Shop",
+  "level": "A2",
+  "description": "Han fixes things. Chairs, clocks, cameras — everything broken in the small town of Fern eventually arrives at his workbench. One afternoon, a woman brings a music box that plays a song nobody can name.",
+  "genre": ["slice-of-life", "drama"],
+  "is_premium": false,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] The repair shop had been on Fern's main street for forty years. Han's father had opened it. Han had taken it over when he was twenty-six. The sign outside still said his father's name, and Han had never changed it. Inside: wooden shelves full of small objects in various states of repair, a long workbench with good light, and the sound of a clock Han had been working on for three weeks.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "The woman arrived at eleven on a Tuesday. She was perhaps fifty, well-dressed for the village, and she carried a wooden box with both hands — not tightly, but with great care. She set it on the counter and looked at Han for a moment before saying anything. \"It was my mother's,\" she said. \"And before that, her mother's.\"",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "She opened the box. Inside was a small music box with a porcelain dancer on top. The dancer's arm was raised slightly, as if mid-step. The woman wound the small key at the bottom. Nothing happened. \"It stopped working fifteen years ago,\" she said. \"I've had it in a drawer since then. I don't know why I'm bringing it now.\"",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "[hesitates] Han lifted the box and turned it over slowly. He wound the key again. He felt the tension in the spring — it was intact, there was energy stored there. Something downstream of the spring was stopping the mechanism. He told her he would need to open it. She nodded. She looked at the dancer for a moment, then at Han. \"Do you need me to stay?\" \"No,\" he said. \"I'll call you.\"",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "He worked on it that afternoon. He found the problem quickly — a single gear, the second from the left, completely seized with rust. Old rust, not recent. It had probably stopped working slowly, the sound getting quieter over months before it stopped entirely. He could see the song it would have played, written in the arrangement of the parts — something simple, in three-four time.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "[calm] He had a replacement gear close to the right size. Close, but not exact. The song might sound slightly different — a small change in the speed of the melody. He called the woman to ask if this was acceptable. She was quiet for a moment on the phone. \"I don't know what the song sounds like,\" she said finally. \"I only heard it once, when I was very small. I just want it to play again. Whatever it plays.\"",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "He replaced the gear the next morning. He wound the key slowly, feeling the mechanism turn. A note came first — one clear note — and then the rest followed. A melody, light and simple, slightly old-fashioned in the way of things made a long time ago. He played it three times. He could not remember hearing it before.",
+      "audio_file": "p06.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 7,
+      "text": "He wrote it down on paper, one note at a time — just the melody, in simple notation. He was not a musician, but he knew enough. He looked at it when it was done. Six measures, simple rhythm, repeating. He searched it online using a music recognition app. No results. The song either had no name or had been forgotten.",
+      "audio_file": "p07.opus"
+    },
+    {
+      "id": 8,
+      "text": "The woman came to collect it two days later. He set the box on the counter and wound it in front of her. The melody began. She went very still. She did not move until it finished. She did not cry. She just stood completely still, with her hands at her sides, listening.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] When it finished, she closed the lid gently. \"Thank you,\" she said. She paid and left. Han sat at the workbench. He looked at the notation for a long time. He photographed it and uploaded it to a music forum with one question: Does anyone know this melody? Then he picked up the clock he had been working on for three weeks. He worked until the light changed. When he checked later, there were no replies. He put the phone in his pocket and began locking up. Then it buzzed — not the forum. An email, no subject line, from an address he did not recognize. One line: Where did you hear that melody? Han had not said anything about the music box. He had not mentioned the town. He had only posted the notes.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

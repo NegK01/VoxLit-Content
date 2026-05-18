@@ -1,0 +1,62 @@
+{
+  "id": "story_011",
+  "title": "The Inheritance",
+  "level": "B1",
+  "description": "Clara has met her grandmother five times in her life. When the woman dies, she leaves Clara a house in a village Clara has never visited. Inside the house, on the kitchen table, there is a list — and at the bottom, one word: bakery.",
+  "genre": ["drama", "mystery"],
+  "is_premium": true,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] The solicitor's letter had arrived on a Tuesday. By Thursday, Clara was on a train heading west, with a key in her coat pocket and a single page of instructions she had already read four times. The Cotswolds were grey and green outside the window. She had never been to this part of the country. Her grandmother had never invited her.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "The village was smaller than the map had suggested. She found a room above a pub called The Stag. When she said her grandmother's surname at the front desk, the woman behind it went still for a moment. \"Margaret's granddaughter,\" she said. Not a question. \"I'll give you the room with the garden view,\" she said. She did not say more than that.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "The solicitor met her at the house the next morning. It sat behind an old stone wall at the edge of the village — long and low, with small windows and a garden that had not been tended in some time. He handed her the key, told her the property taxes were paid through the end of the year, and left quickly, as if the house made him uncomfortable.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "[sigh] Inside, the furniture was covered in white sheets. The fireplace was cold and dark. There was a smell of old paper and dried lavender, and something else beneath it that Clara could not name. On the kitchen table, uncovered and clearly placed there deliberately, was a handwritten list. It was her grandmother's writing. She had seen it before on birthday cards. At the bottom of the list, underlined once: bakery.",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "She went to the bakery the next morning. It was the second building on the high street — warm and full of people, smelling of bread and coffee. The woman behind the counter was perhaps sixty, with a calm, careful face. When Clara said her grandmother's name, the woman's hands stopped moving over the bread she was wrapping. She looked at Clara for a moment.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "[hesitates] \"She told me you might come someday,\" the woman said. She did not offer her name. She went to the back room and returned with an envelope, yellowed at the edges but still sealed. \"She left this two years ago,\" she said. \"She said to give it to whoever inherited the house. She said they would understand why it had to be that way.\"",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "Clara opened the envelope at a table in the corner with a coffee she had not ordered but which had appeared in front of her. Inside: a photograph, black and white. A young woman — not her grandmother, someone younger — standing in front of a house Clara recognized immediately as the house she had just inherited. Visible in the doorway behind her was a man. Clara had seen that man before. In another photograph. In another family's album.",
+      "audio_file": "p06.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 7,
+      "text": "[quiet] She sat at the table in the corner for a long time after the woman left her. She turned the photograph over. Nothing on the back — no date, no names. The woman in the picture was young, perhaps twenty-five, dressed in the way of the early sixties. She was not her grandmother. Clara was certain of that. But she was standing in front of the house with the stone wall. The house Clara had a key to in her coat pocket.",
+      "audio_file": "p07.opus"
+    },
+    {
+      "id": 8,
+      "text": "It was the man she could not stop looking at. He stood in the doorway behind the young woman, slightly out of focus. She had seen that face before. Not in her grandmother's photographs — Margaret had kept very few. Somewhere else. A friend's house, years ago. A birthday dinner where she had turned the pages of a family album left open on a side table. She could not remember whose album. But she remembered that face.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[hesitates] She folded the photograph and put it in her coat pocket, next to the key. Outside, the high street was cold and quiet. She stood on the pavement and thought about what she knew: a house, a list, a sealed envelope, a face from someone else's family. She did not yet know what question to ask first. But she understood, standing there, why her grandmother had left everything to someone who had never visited. Someone who would arrive not knowing enough to stop.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "story_004",
+  "title": "The Clockmaker's Secret",
+  "level": "B1",
+  "description": "In a quiet corner of Vienna, Leopold the clockmaker spends his days repairing things that others have given up on. When a young woman arrives with a silver watch that refuses to move, he discovers that some clocks are built to hide more than the time.",
+  "genre": ["mystery", "historical", "drama"],
+  "is_premium": false,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] Leopold had lived at the end of Schönbrunner Straße for sixty-one years. The first thirty, he had lived there as a child, watching his father repair watches at the long wooden table. The last thirty-one, he had done the same work himself. His shop was small and always quiet, filled with the sound of ticking clocks and the faint smell of machine oil. People said you could bring any broken watch to Leopold, and it would come back to you as if time had simply agreed to start again.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "One morning in late October, a young woman came in from the rain. She was perhaps twenty-five, with dark hair pressed flat by the wet and careful, observant eyes that moved around the shop before they settled on him. She carried a small wooden box under one arm, holding it the way people hold things that matter — not tightly, but with attention. Leopold set down the watch spring he was working on and waited.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "[nervous] \"My grandfather left this to me,\" she said. She placed the box on the counter and stepped back, as if offering him space to look. Inside was a silver pocket watch, older than anything he kept in his own collection. \"He told me it stopped twelve years ago,\" she said. \"He also told me only one clockmaker in Vienna could fix it. He wrote your name in his notebook. Just the name. Nothing else.\"",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "Leopold lifted the watch from the box. It was heavier than expected. The case was silver, engraved on the front with a pattern of climbing roses — fine work, old work, the kind that took weeks. He opened the front and looked at the mechanism inside. The parts were intact. Nothing was broken, as far as he could tell. Yet the hands had stopped at exactly three o'clock, and no amount of gentle winding moved them.",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "He turned the watch over. On the back, in letters so small he needed his glass to read them, there was an inscription: For the one who finds the right hour. He read it twice. Then he set the watch down carefully and looked at the woman across from him. \"What was your grandfather's name?\" he asked. She paused. \"Albrecht,\" she said. \"Albrecht Voss.\" Leopold was quiet for a moment. He had not heard that name in thirty years.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "\"Leave it with me,\" he said finally. The woman — Clara, she told him her name was Clara — nodded once and pulled her coat closed. She asked no questions about the price or the time it would take. She did not ask for a receipt. At the door, she paused and looked at the shop in the way she had when she first came in — as if she were memorizing it. Then she stepped back out into the rain and was gone.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "[calm] Leopold worked on the watch for three days. He took it apart piece by piece and found nothing wrong. He cleaned each part and reassembled it carefully. The hands still would not move. On the fourth morning, while turning the case under his magnifying lamp, he noticed something — a slight asymmetry in the engraving near the edge. He pressed it. Something inside the watch clicked, and a small panel on the back slid open to reveal a narrow hidden compartment.",
+      "audio_file": "p06.opus"
+    },
+    {
+      "id": 7,
+      "text": "[whispers] Inside the compartment was a piece of paper, folded four times. He unfolded it on the table. It was a drawing — not of a city or a street, but of his shop. His own shop, drawn in careful ink. The shelves were in the right places. The counter was there. The workbench. But on the far wall, behind the large oak shelf where he kept his reference books, the drawing showed something he had never noticed before: a door.",
+      "audio_file": "p07.opus"
+    },
+    {
+      "id": 8,
+      "text": "It took him nearly an hour to move the shelf. It was heavier than he expected, and he had to work slowly, pulling it away from the wall in small increments. Behind it, the plaster was a different color — painted over, yes, but he could see the shape of a frame, feel the edge of wood beneath the surface. He found the handle. The door opened inward with a sound like a long breath. Beyond it was a small room. On a table inside, arranged in a row, sat twelve pocket watches. Each one stopped at exactly three o'clock.",
+      "audio_file": "p08.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] Clara arrived the next morning, just after nine. Leopold had the watch ready on the counter — repaired, the hands moving again, ticking softly. He said nothing about the room, nothing about the map, nothing about the twelve watches stopped at the same hour. \"Your grandfather was a careful man,\" was all he offered. Clara picked up the watch and looked at it for a moment, then at Leopold. \"I know,\" she said quietly. She left. He stood in the empty shop and listened to the clocks, and for the first time in a long time, he felt that some questions were better kept than answered.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

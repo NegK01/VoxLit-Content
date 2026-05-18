@@ -1,0 +1,62 @@
+{
+  "id": "story_010",
+  "title": "Footprints in the Snow",
+  "level": "A2",
+  "description": "A mountain village wakes to find a set of footprints in the fresh snow — leading into the forest and stopping completely in the middle of nowhere. Ruth follows them. What she finds changes everything she thought she knew.",
+  "genre": ["mystery", "drama"],
+  "is_premium": false,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] The village of Harren sat high in the mountains and was very quiet in winter. Snow came in November and did not leave until April. People here knew how to live with it — they kept their paths clear, their roofs strong, and their doors well sealed. Ruth had lived here for most of her life. She knew the difference between a morning that was simply cold and a morning when something was different.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "She noticed them from the kitchen window while the coffee was still heating. A line of footprints in the fresh snow, starting at the edge of her yard and going straight toward the tree line. They were clear and deep — someone walking with purpose. She pressed her face closer to the glass. The prints went into the trees and did not come back out.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "She put on her coat and boots and went outside. The snow had stopped falling around midnight. The prints were made after that — they were clean and sharp, not softened by new snow. She followed them with her eyes to where they entered the forest, then looked at her watch. It was just after seven. Nobody should have been walking here in the dark.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "[hesitates] She followed the prints into the forest. The trees were tall and close, and the light changed under them — softer, blue. The prints went straight for about fifty meters, then turned slightly right, then stopped. In the middle of a small clearing with no trees nearby and no rocks to jump to, the prints simply ended. The snow around the last print was perfectly smooth.",
+      "audio_file": "p03.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 4,
+      "text": "She walked back to the village and knocked on her neighbor Marta's door. Marta came with her coffee cup still in her hand. She looked at the prints for a long time. She looked at the clearing. She looked back at Ruth. She said nothing. That worried Ruth more than anything else.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "[calm] At the market, Ruth mentioned it to the butcher. He grew very still. \"Did they go toward the north side?\" he asked. She said yes. He looked at the counter between them. \"It's not the first time,\" he said. He said nothing more. She waited. He began wrapping someone's order. The conversation was over.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "She took photographs of the prints before the afternoon light changed. She measured the last print with her hand — the length, the width. She looked at the boot shape: flat sole, no heel. A working boot. Practical. She had seen boots like that before. She had seen those boots before.",
+      "audio_file": "p06.opus"
+    },
+    {
+      "id": 7,
+      "text": "[nervous] That evening, she asked the village's oldest resident, old Hedda, about the north forest. Hedda sat with her hands in her lap and did not look uncomfortable, which was its own kind of answer. \"Some people go in,\" she said quietly, \"and come out different. Some don't come out.\" She looked at Ruth. \"Have you ever lost anyone?\"",
+      "audio_file": "p07.opus"
+    },
+    {
+      "id": 8,
+      "text": "Ruth walked home in the dark. She sat at the kitchen table with the photographs she had printed. She looked at the last print for a long time. The boot shape. The size. The flat sole with no heel. She opened the drawer where she kept old things — letters, photographs, a small notebook. She found what she was looking for near the bottom.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[whispers] It was a photograph from eleven years ago. Her brother Thomas, standing in front of this house, smiling, wearing his winter coat. She looked at his boots. Flat sole. No heel. She put the photograph beside the print on the table. She looked at both for a long time. Outside, the snow began to fall again.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

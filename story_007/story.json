@@ -1,0 +1,62 @@
+{
+  "id": "story_007",
+  "title": "The Night Shift",
+  "level": "B1",
+  "description": "Nora has worked the overnight shift at the hospital for ten years. She knows how to read the quiet. But the patient in room 14 — with no name on his chart — is a kind of quiet she has never encountered before.",
+  "genre": ["thriller", "contemporary", "mystery"],
+  "is_premium": true,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] Nora had worked the night shift for ten years, and she had learned that hospitals at night have their own logic. The sounds were different — slower, heavier. The light was different too, a fluorescent white that made everything look slightly unreal. She had learned to read those sounds and that light the way some people read weather. She knew when something was about to happen.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "The patient in room 14 had arrived three days earlier. The chart said UNKNOWN in the name field. She had seen this before — accident victims, people brought in unconscious and unidentified. What she had not seen before was a patient with no name who was fully awake, sitting up in bed, and watching the door.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "[nervous] Every time she passed room 14, he was there. Upright, still, eyes on the open door. She could not tell if he was afraid of something coming in or waiting for something to happen. He had accepted medication without speaking, had eaten what was brought to him, had not asked for anything. He simply watched.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "She reviewed the chart with the head nurse on her third night. No identification had been found. No one had come to ask about him. The police had been notified at admission but had not followed up. The doctor who had signed the intake form had written a name in the referring physician field, but the name was unclear — written quickly, hard to read.",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "[calm] On the fourth night, she brought his medication herself. She set it on the table beside him. He looked at the cup, then at her. \"What day is it?\" he asked. It was the first time she had heard his voice. It was calm, low, completely steady. She told him the date. He nodded once, slowly, as if confirming something he had already calculated.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "She asked him his name. He looked at her for a long moment — not with hostility, but with consideration, as if measuring what to say. \"Not yet,\" he said. She waited. He said nothing else. She left. For the rest of the shift she thought about those two words. Not yet. Not 'I don't know,' not 'I won't say.' Not yet.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "[whispers] Near the end of the shift, she pulled the admission paperwork to read the referring physician's signature more carefully. Under strong light, she could finally make out the name. She looked it up in the hospital's staff database. Dr. A. Mercer had worked there from 2011 to 2019. He had retired due to illness. The signature on the form was dated last Tuesday.",
+      "audio_file": "p06.opus"
+    },
+    {
+      "id": 7,
+      "text": "She went back to the nurse's station and sat for a while without moving. The hospital was quiet around her — the deep, 3 a.m. kind of quiet. She told herself there was probably an explanation. A clerical error. A name pulled from an old file. She believed this less with every minute that passed.",
+      "audio_file": "p07.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 8,
+      "text": "[nervous] She walked back to room 14. The bed was empty. The sheets were neatly folded at the foot of the mattress — not thrown off, but folded, carefully, with time. His medication cup was still full on the table. On the pillow, there was a folded square of paper with her name written on the outside.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] She unfolded it slowly. Inside, one line in small, precise handwriting: Thank you for not asking again. She stood in the empty room for a long time. Outside the window, the city was still dark. She folded the paper back along its crease and put it in her pocket. She had seven more hours left on shift.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

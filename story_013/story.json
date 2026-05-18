@@ -1,0 +1,62 @@
+{
+  "id": "story_013",
+  "title": "Red Line",
+  "level": "B1",
+  "description": "Every morning, Daniel rides the same metro line to work. Every morning, the same man in a grey coat stands near the second door of Car 3. One morning, the man is not there. Three minutes later, Daniel's phone buzzes with a message from an unknown number: Get off at the next stop.",
+  "genre": ["thriller", "contemporary"],
+  "is_premium": true,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] Daniel had taken the Red Line every weekday for four years. He knew the commute the way you know a path you walk in the dark — not by thinking, but by habit. He knew which car to board, which door to stand near, which section of the platform to wait on. He noticed things without meaning to. It was a quality that had been useful in his work as a data analyst, and inconvenient everywhere else.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "He had first noticed the man in the grey coat approximately two months earlier. Brown shoes. A coat the color of concrete. He always boarded at Ribera station — the same stop as Daniel — and stood near the second door from the left on Car 3. Daniel had never spoken to him. He did not know his name or where he worked or where he went when he got off the train. He simply existed, reliably, as part of the pattern.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "He was there on rainy Mondays and clear Fridays. He was there the week of the transport strike, when half the usual passengers had given up and taken buses. He was there the day Daniel came in with a broken umbrella and the day Daniel was twenty minutes late due to an overslept alarm. Every time, the same position, the same stillness, the same slightly downward angle of his head. After a while, Daniel stopped noting him consciously. He became part of the background.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "[hesitates] On a Thursday in November, the man was not there. Daniel boarded the train, moved to Car 3, stood near the second door, and was already in his seat before he understood why the morning felt slightly wrong. He looked at the space where the man usually stood. Empty. A woman he had never seen before was standing there. He told himself it meant nothing.",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "The train left Ribera station. Three minutes later, his phone buzzed. An unknown number — no name, no prefix he recognized. The message was four words: Get off at Reina Mercedes. He read it twice. Reina Mercedes was the next stop — two minutes away. It was not his stop. He had never gotten off at Reina Mercedes in four years.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "[nervous] He looked around the car. Nobody was looking at him. The other passengers were on their phones or looking at the windows. He typed back: Who is this? No response. The train was slowing. The announcement came over the speaker: Reina Mercedes, next stop. He stood up. He told himself he was doing it out of curiosity and nothing else. The doors opened.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "The platform at Reina Mercedes was almost empty at this hour. A cleaning worker was moving slowly along the far wall. An old man sat on a bench reading a folded newspaper. Daniel stood near the exit stairs and waited. The train moved on without him. The platform was quiet.",
+      "audio_file": "p06.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 7,
+      "text": "[whispers] After about thirty seconds, a woman sat down on the bench nearest to him. She was perhaps forty, in a dark coat, with a bag on her lap. She did not look at him. \"He said you'd come,\" she said, to no one in particular — but there was no one else nearby. \"He said you were the kind of person who noticed things.\"",
+      "audio_file": "p07.opus"
+    },
+    {
+      "id": 8,
+      "text": "\"Who said?\" Daniel asked. She reached into her bag and took out a small notebook. The cover was grey — the same grey as the coat. She held it out toward him without looking at him. \"He left this for you,\" she said. \"He said you'd know what to do with it.\" She stood up, pulled her bag onto her shoulder, and walked toward the exit without looking back.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] Daniel stood on the empty platform holding the notebook. The next train was in four minutes. He opened the cover. At the top of the first page, in small, very precise handwriting: You have been watching the wrong line. Below it, a date — yesterday's. Below the date, an address. He stood there reading it until the next train arrived, and then he did not get on it.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

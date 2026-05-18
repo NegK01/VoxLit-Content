@@ -1,0 +1,62 @@
+{
+  "id": "story_006",
+  "title": "Sunday Soup",
+  "level": "A2",
+  "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
+  "genre": ["slice-of-life", "drama"],
+  "is_premium": false,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] Oscar's Sundays always began the same way. He woke up at seven, made coffee in the small silver pot his wife had used for forty years, and sat at the kitchen table to listen to the radio for a while. Then he started the soup. The soup was the most important part. It always had been.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "His wife, Marta, had taught him to make it. Not by writing anything down — she never wrote recipes down — but by showing him, step by step, in this same kitchen, twenty years ago. He had paid close attention. She had not expected him to remember. He had remembered everything.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "He was adding the onion when he heard the knock. It was just past eleven — not an hour for visitors. He set down his knife and went to the door. A young woman stood in the hallway. She had short dark hair and paint on her fingers. He had seen her twice before in the elevator. She had just moved in.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "\"I'm sorry to bother you,\" she said. \"I'm Lena. From number seven. I'm making pasta and I have no salt. I know it's a strange thing to ask.\" She looked slightly embarrassed. Oscar stepped back and opened the door wider. \"Come in,\" he said. \"I have salt.\"",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "[light chuckle] She stepped into the kitchen, saw the pot on the stove, and stopped. \"That smells incredible,\" she said. \"What is it?\" Oscar handed her the salt. \"Soup,\" he said simply. She looked at him, then at the pot, then back at him. \"Just soup?\" \"Yes,\" he said. \"Just soup.\"",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "She asked how he made it. He was not sure why he answered in detail — he usually did not talk much about it. But he told her: the order of the vegetables, the time for each one, why the heat had to be low, why you never stirred it too much. She listened carefully, the salt container still in her hand.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "[calm] She put the salt down on the counter and started helping without being asked. He showed her when to add the herbs. She added them. For a while, they worked in the kitchen without talking. Outside, the Sunday light came through the window and sat on the floor between them.",
+      "audio_file": "p06.opus"
+    },
+    {
+      "id": 7,
+      "text": "They ate at the small table by the window. She told him she had moved because of a relationship that had ended. She said it simply, without asking for sympathy. He did not offer any. He listened. It seemed to be what she needed.",
+      "audio_file": "p07.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 8,
+      "text": "He told her about Marta. Not much — just that she had been the one who cooked on Sundays for most of their life together, and that after she died, he had learned to do it himself, because Sundays without soup seemed wrong. Lena nodded. She did not say she was sorry. He appreciated that.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] After Lena left, Oscar stood at the sink and washed two bowls. He had not washed two bowls on a Sunday in three years. He set them on the drying rack side by side. He looked at them for a moment. Then he went to turn off the radio, which had been playing quietly the whole afternoon.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

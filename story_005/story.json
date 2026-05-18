@@ -1,0 +1,62 @@
+{
+  "id": "story_005",
+  "title": "The Wrong Address",
+  "level": "A2",
+  "description": "A letter arrives at Mia's apartment addressed to someone who hasn't lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
+  "genre": ["mystery", "contemporary"],
+  "is_premium": true,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] The apartment was on the fourth floor of a building that smelled like old carpet and something Mia could not identify. She moved in on a Saturday in March, with three boxes and a lamp she had carried on the metro. The rooms were small and quiet. The walls were white. She stood in the middle of the living room for a moment, listening to nothing, and decided it would be fine.",
+      "audio_file": "p00.opus"
+    },
+    {
+      "id": 1,
+      "text": "The mailbox in the lobby had her name on a small paper label, written by the landlord in blue pen. Below it, someone had taped a piece of card — older, yellowed at the edges — with another name already there: MR. JOHN SMITH, APT. D. She pulled it off and left it on the front table. She would throw it away later.",
+      "audio_file": "p01.opus"
+    },
+    {
+      "id": 2,
+      "text": "Two days after she moved in, a letter appeared in the mailbox. The envelope was old and slightly bent, as if it had been carried a long distance. The address on the front was hers — Apartment D — but the name above it was Mr. John Smith. There was no return address. No stamp. Someone had put it there by hand.",
+      "audio_file": "p02.opus"
+    },
+    {
+      "id": 3,
+      "text": "[hesitates] She asked the building manager about John Smith. He was a man who had lived in the building before the renovation, he said. Twenty, maybe thirty years ago. He didn't know much more. Nobody had mentioned that name in a long time. \"Are you sure it's the right apartment?\" she asked. He nodded. \"Apartment D has always been Apartment D,\" he said.",
+      "audio_file": "p03.opus"
+    },
+    {
+      "id": 4,
+      "text": "That evening, Mia sat at her kitchen table with the letter in front of her. She should return it. Or throw it away. There was no one to return it to. She turned the envelope over in her hands. Whatever was inside was light — paper, maybe. She opened it.",
+      "audio_file": "p04.opus"
+    },
+    {
+      "id": 5,
+      "text": "[nervous] Inside was a single sheet of paper, folded once. On it, someone had drawn a map. A small, careful drawing of a bathroom — with measurements marked in pencil. The third tile from the left on the back wall was marked with an X. Below the drawing, a sentence in careful handwriting: If you found this, you know what to do.",
+      "audio_file": "p05.opus"
+    },
+    {
+      "id": 6,
+      "text": "She sat with the paper for a long time. She thought about calling her sister. She thought about calling the landlord. She did neither. She picked up the paper and walked to the bathroom. She stood in front of the back wall and counted the tiles from left to right. One. Two. Three.",
+      "audio_file": "p06.opus"
+    },
+    {
+      "id": 7,
+      "text": "[whispers] She pressed the third tile. It moved. Not much — just a small shift, like a breath. She pressed harder. The tile swung inward on a thin hinge, revealing a space behind the wall, no larger than a shoe box. Inside was a small tin box, green with age.",
+      "audio_file": "p07.opus",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 8,
+      "text": "She opened the tin. Inside: a brass key, old and heavy. And a folded note, newer than the letter in the mailbox. She unfolded it. Four words, written in the same handwriting: The lock is not here.",
+      "audio_file": "p08.opus"
+    },
+    {
+      "id": 9,
+      "text": "[sigh] Mia sat on the bathroom floor with the key in her hand. The apartment was quiet around her. Outside, the city made its usual sounds — a car, someone's television, the wind. She closed her fingers around the key. It was cold and heavier than it looked. She did not sleep well that night.",
+      "audio_file": "p09.opus"
+    }
+  ]
+}

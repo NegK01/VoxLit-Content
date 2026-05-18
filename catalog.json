@@ -1,0 +1,24 @@
+{
+  "downloadable_stories": [
+    {
+      "id": "story_004",
+      "title": "The Clockmaker's Secret",
+      "level": "B1",
+      "description": "An old clockmaker in Vienna discovers a hidden room inside his own shop after repairing a mysterious pocket watch left by a stranger.",
+      "genre":["mystery", "historical"],
+      "is_premium": false,
+      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-004/story_004.zip",
+      "zip_size_bytes": 4200000
+    },
+    {
+      "id": "story_005",
+      "title": "The Last Train",
+      "level": "A2",
+      "description": "A young woman quits her job and boards the last midnight train to a city she has never visited, carrying nothing but a bag and a need to start over.",
+      "genre":["adventure", "contemporary"],
+      "is_premium": true,
+      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-005/story_005.zip",
+      "zip_size_bytes": 3800000
+    }
+  ]
+}
