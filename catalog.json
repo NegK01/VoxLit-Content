@@ -19,6 +19,16 @@
       "is_premium": true,
       "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-005/story_005.zip",
       "zip_size_bytes": 3800000
+    },
+    {
+      "id": "story_006",
+      "title": "Sunday Soup",
+      "level": "A2",
+      "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
+      "genre": ["slice-of-life", "drama"],
+      "is_premium": false,
+      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-006/story_006.zip",
+      "zip_size_bytes": 3800000
     }
   ]
 }
