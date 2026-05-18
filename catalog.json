@@ -12,12 +12,22 @@
     },
     {
       "id": "story_005",
-      "title": "The Last Train",
+      "title": "The Wrong Address",
       "level": "A2",
-      "description": "A young woman quits her job and boards the last midnight train to a city she has never visited, carrying nothing but a bag and a need to start over.",
-      "genre":["adventure", "contemporary"],
+      "description": "A letter arrives at Mia's apartment addressed to someone who hasn't lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
+      "genre": ["mystery", "contemporary"],
       "is_premium": true,
       "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-005/story_005.zip",
+      "zip_size_bytes": 3800000
+    },
+    {
+      "id": "story_006",
+      "title": "Sunday Soup",
+      "level": "A2",
+      "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
+      "genre": ["slice-of-life", "drama"],
+      "is_premium": false,
+      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-006/story_006.zip",
       "zip_size_bytes": 3800000
     }
   ]
