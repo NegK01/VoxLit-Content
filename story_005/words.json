@@ -1,0 +1,17 @@
+{
+  "landlord": { "ipa": "/ˈlændlɔːrd/", "pos": "sustantivo" },
+  "mailbox": { "ipa": "/ˈmeɪlbɒks/", "pos": "sustantivo" },
+  "lobby": { "ipa": "/ˈlɒbi/", "pos": "sustantivo" },
+  "label": { "ipa": "/ˈleɪbəl/", "pos": "sustantivo" },
+  "envelope": { "ipa": "/ˈɛnvəloʊp/", "pos": "sustantivo" },
+  "stamp": { "ipa": "/stæmp/", "pos": "sustantivo" },
+  "renovation": { "ipa": "/ˌrɛnəˈveɪʃən/", "pos": "sustantivo" },
+  "tile": { "ipa": "/taɪl/", "pos": "sustantivo" },
+  "hinge": { "ipa": "/hɪndʒ/", "pos": "sustantivo" },
+  "swing": { "ipa": "/swɪŋ/", "pos": "verbo" },
+  "tin": { "ipa": "/tɪn/", "pos": "sustantivo" },
+  "brass": { "ipa": "/bræs/", "pos": "sustantivo" },
+  "handwriting": { "ipa": "/ˈhændˌraɪtɪŋ/", "pos": "sustantivo" },
+  "carpet": { "ipa": "/ˈkɑːrpɪt/", "pos": "sustantivo" },
+  "reveal": { "ipa": "/rɪˈviːl/", "pos": "verbo" }
+}

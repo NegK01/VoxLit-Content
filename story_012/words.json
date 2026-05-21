@@ -1,0 +1,16 @@
+{
+  "porcelain": { "ipa": "/ˈpɔːrsəlɪn/", "pos": "sustantivo" },
+  "gear": { "ipa": "/ɡɪər/", "pos": "sustantivo" },
+  "seize": { "ipa": "/siːz/", "pos": "verbo" },
+  "notation": { "ipa": "/noʊˈteɪʃən/", "pos": "sustantivo" },
+  "melody": { "ipa": "/ˈmɛlədi/", "pos": "sustantivo" },
+  "tension": { "ipa": "/ˈtɛnʃən/", "pos": "sustantivo" },
+  "rhythm": { "ipa": "/ˈrɪðəm/", "pos": "sustantivo" },
+  "buzz": { "ipa": "/bʌz/", "pos": "verbo" },
+  "forum": { "ipa": "/ˈfɔːrəm/", "pos": "sustantivo" },
+  "recognition": { "ipa": "/ˌrɛkəɡˈnɪʃən/", "pos": "sustantivo" },
+  "arrangement": { "ipa": "/əˈreɪndʒmənt/", "pos": "sustantivo" },
+  "replacement": { "ipa": "/rɪˈpleɪsmənt/", "pos": "sustantivo" },
+  "measure": { "ipa": "/ˈmɛʒər/", "pos": "sustantivo" },
+  "upload": { "ipa": "/ˈʌpˌloʊd/", "pos": "verbo" }
+}

@@ -1,0 +1,16 @@
+{
+  "ferry": { "ipa": "/ˈfɛri/", "pos": "sustantivo" },
+  "deck": { "ipa": "/dɛk/", "pos": "sustantivo" },
+  "dock": { "ipa": "/dɒk/", "pos": "sustantivo" },
+  "terrace": { "ipa": "/ˈtɛrəs/", "pos": "sustantivo" },
+  "signal": { "ipa": "/ˈsɪɡnəl/", "pos": "sustantivo" },
+  "bitter": { "ipa": "/ˈbɪtər/", "pos": "adjetivo" },
+  "untie": { "ipa": "/ʌnˈtaɪ/", "pos": "verbo" },
+  "drift": { "ipa": "/drɪft/", "pos": "verbo" },
+  "oar": { "ipa": "/ɔːr/", "pos": "sustantivo" },
+  "bow": { "ipa": "/baʊ/", "pos": "sustantivo" },
+  "coil": { "ipa": "/kɔɪl/", "pos": "sustantivo" },
+  "rust": { "ipa": "/rʌst/", "pos": "verbo" },
+  "compartment": { "ipa": "/kəmˈpɑːrtmənt/", "pos": "sustantivo" },
+  "unpack": { "ipa": "/ʌnˈpæk/", "pos": "verbo" }
+}

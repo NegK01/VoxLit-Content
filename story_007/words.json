@@ -1,0 +1,20 @@
+{
+  "fluorescent": { "ipa": "/flʊˈrɛsənt/", "pos": "adjetivo" },
+  "conscious": { "ipa": "/ˈkɒnʃəs/", "pos": "adjetivo" },
+  "upright": { "ipa": "/ˈʌpraɪt/", "pos": "adjetivo" },
+  "medication": { "ipa": "/ˌmɛdɪˈkeɪʃən/", "pos": "sustantivo" },
+  "intake": { "ipa": "/ˈɪnteɪk/", "pos": "sustantivo" },
+  "notify": { "ipa": "/ˈnoʊtɪfaɪ/", "pos": "verbo" },
+  "admission": { "ipa": "/ədˈmɪʃən/", "pos": "sustantivo" },
+  "physician": { "ipa": "/fɪˈzɪʃən/", "pos": "sustantivo" },
+  "signature": { "ipa": "/ˈsɪɡnətʃər/", "pos": "sustantivo" },
+  "retire": { "ipa": "/rɪˈtaɪər/", "pos": "verbo" },
+  "hostility": { "ipa": "/hɒˈstɪlɪti/", "pos": "sustantivo" },
+  "clerical": { "ipa": "/ˈklɛrɪkəl/", "pos": "adjetivo" },
+  "fold": { "ipa": "/foʊld/", "pos": "verbo" },
+  "mattress": { "ipa": "/ˈmætrɪs/", "pos": "sustantivo" },
+  "crease": { "ipa": "/kriːs/", "pos": "sustantivo" },
+  "steady": { "ipa": "/ˈstɛdi/", "pos": "adjetivo" },
+  "precise": { "ipa": "/prɪˈsaɪs/", "pos": "adjetivo" },
+  "shift": { "ipa": "/ʃɪft/", "pos": "sustantivo" }
+}
