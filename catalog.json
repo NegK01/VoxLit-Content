@@ -29,6 +29,16 @@
       "is_premium": false,
       "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-006/story_006.zip",
       "zip_size_bytes": 3800000
+    },
+    {
+      "id": "story_007",
+      "title": "The Night Shift",
+      "level": "B1",
+      "description": "Nora has worked the overnight shift at the hospital for ten years. She knows how to read the quiet. But the patient in room 14 — with no name on his chart — is a kind of quiet she has never encountered before.",
+      "genre": ["thriller", "contemporary", "mystery"],
+      "is_premium": true,
+      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-007/story_007.zip",
+      "zip_size_bytes": 3800000
     }
   ]
 }
