@@ -1,62 +1,135 @@
 {
-  "id": "story_010",
-  "title": "Footprints in the Snow",
-  "level": "A2",
-  "description": "A mountain village wakes to find a set of footprints in the fresh snow — leading into the forest and stopping completely in the middle of nowhere. Ruth follows them. What she finds changes everything she thought she knew.",
-  "genre": ["mystery", "drama"],
-  "is_premium": false,
-  "header_scene": "scene_01.webp",
-  "paragraphs": [
-    {
-      "id": 0,
-      "text": "[calm] The village of Harren sat high in the mountains and was very quiet in winter. Snow came in November and did not leave until April. People here knew how to live with it — they kept their paths clear, their roofs strong, and their doors well sealed. Ruth had lived here for most of her life. She knew the difference between a morning that was simply cold and a morning when something was different.",
-      "audio_file": "p00.opus"
-    },
-    {
-      "id": 1,
-      "text": "She noticed them from the kitchen window while the coffee was still heating. A line of footprints in the fresh snow, starting at the edge of her yard and going straight toward the tree line. They were clear and deep — someone walking with purpose. She pressed her face closer to the glass. The prints went into the trees and did not come back out.",
-      "audio_file": "p01.opus"
-    },
-    {
-      "id": 2,
-      "text": "She put on her coat and boots and went outside. The snow had stopped falling around midnight. The prints were made after that — they were clean and sharp, not softened by new snow. She followed them with her eyes to where they entered the forest, then looked at her watch. It was just after seven. Nobody should have been walking here in the dark.",
-      "audio_file": "p02.opus"
-    },
-    {
-      "id": 3,
-      "text": "[hesitates] She followed the prints into the forest. The trees were tall and close, and the light changed under them — softer, blue. The prints went straight for about fifty meters, then turned slightly right, then stopped. In the middle of a small clearing with no trees nearby and no rocks to jump to, the prints simply ended. The snow around the last print was perfectly smooth.",
-      "audio_file": "p03.opus",
-      "scene_image": "scene_02.webp"
-    },
-    {
-      "id": 4,
-      "text": "She walked back to the village and knocked on her neighbor Marta's door. Marta came with her coffee cup still in her hand. She looked at the prints for a long time. She looked at the clearing. She looked back at Ruth. She said nothing. That worried Ruth more than anything else.",
-      "audio_file": "p04.opus"
-    },
-    {
-      "id": 5,
-      "text": "[calm] At the market, Ruth mentioned it to the butcher. He grew very still. \"Did they go toward the north side?\" he asked. She said yes. He looked at the counter between them. \"It's not the first time,\" he said. He said nothing more. She waited. He began wrapping someone's order. The conversation was over.",
-      "audio_file": "p05.opus"
-    },
-    {
-      "id": 6,
-      "text": "She took photographs of the prints before the afternoon light changed. She measured the last print with her hand — the length, the width. She looked at the boot shape: flat sole, no heel. A working boot. Practical. She had seen boots like that before. She had seen those boots before.",
-      "audio_file": "p06.opus"
-    },
-    {
-      "id": 7,
-      "text": "[nervous] That evening, she asked the village's oldest resident, old Hedda, about the north forest. Hedda sat with her hands in her lap and did not look uncomfortable, which was its own kind of answer. \"Some people go in,\" she said quietly, \"and come out different. Some don't come out.\" She looked at Ruth. \"Have you ever lost anyone?\"",
-      "audio_file": "p07.opus"
-    },
-    {
-      "id": 8,
-      "text": "Ruth walked home in the dark. She sat at the kitchen table with the photographs she had printed. She looked at the last print for a long time. The boot shape. The size. The flat sole with no heel. She opened the drawer where she kept old things — letters, photographs, a small notebook. She found what she was looking for near the bottom.",
-      "audio_file": "p08.opus"
-    },
-    {
-      "id": 9,
-      "text": "[whispers] It was a photograph from eleven years ago. Her brother Thomas, standing in front of this house, smiling, wearing his winter coat. She looked at his boots. Flat sole. No heel. She put the photograph beside the print on the table. She looked at both for a long time. Outside, the snow began to fall again.",
-      "audio_file": "p09.opus"
-    }
-  ]
+    "id":  "story_010",
+    "title":  "Footprints in the Snow",
+    "level":  "A2",
+    "description":  "A mountain village wakes to find a set of footprints in the fresh snow — leading into the forest and stopping completely in the middle of nowhere. Ruth follows them. What she finds changes everything she thought she knew.",
+    "genre":  [
+                  "mystery",
+                  "drama"
+              ],
+    "is_premium":  false,
+    "header_scene":  "scene_01.webp",
+    "paragraphs":  [
+                       {
+                           "id":  0,
+                           "text":  "[calm] The village of Harren sat high in the mountains and was very quiet in winter. Snow came in November and did not leave until April. People here knew how to live with it — they kept their paths clear, their roofs strong, and their doors well sealed. Ruth had lived here for most of her life. She knew the difference between a morning that was simply cold and a morning when something was different."
+                       },
+                       {
+                           "id":  1,
+                           "text":  "She noticed them from the kitchen window while the coffee was still heating. A line of footprints in the fresh snow, starting at the edge of her yard and going straight toward the tree line. They were clear and deep — someone walking with purpose. She pressed her face closer to the glass. The prints went into the trees and did not come back out."
+                       },
+                       {
+                           "id":  2,
+                           "text":  "She put on her coat and boots and went outside. The snow had stopped falling around midnight. The prints were made after that — they were clean and sharp, not softened by new snow. She followed them with her eyes to where they entered the forest, then looked at her watch. It was just after seven. Nobody should have been walking here in the dark."
+                       },
+                       {
+                           "id":  3,
+                           "text":  "[hesitates] She followed the prints into the forest. The trees were tall and close, and the light changed under them — softer, blue. The prints went straight for about fifty meters, then turned slightly right, then stopped. In the middle of a small clearing with no trees nearby and no rocks to jump to, the prints simply ended. The snow around the last print was perfectly smooth.",
+                           "scene_image":  "scene_02.webp"
+                       },
+                       {
+                           "id":  4,
+                           "text":  "She walked back to the village and knocked on her neighbor Marta\u0027s door. Marta came with her coffee cup still in her hand. She looked at the prints for a long time. She looked at the clearing. She looked back at Ruth. She said nothing. That worried Ruth more than anything else."
+                       },
+                       {
+                           "id":  5,
+                           "text":  "[calm] At the market, Ruth mentioned it to the butcher. He grew very still. \"Did they go toward the north side?\" he asked. She said yes. He looked at the counter between them. \"It\u0027s not the first time,\" he said. He said nothing more. She waited. He began wrapping someone\u0027s order. The conversation was over."
+                       },
+                       {
+                           "id":  6,
+                           "text":  "She took photographs of the prints before the afternoon light changed. She measured the last print with her hand — the length, the width. She looked at the boot shape: flat sole, no heel. A working boot. Practical. She had seen boots like that before. She had seen those boots before."
+                       },
+                       {
+                           "id":  7,
+                           "text":  "[nervous] That evening, she asked the village\u0027s oldest resident, old Hedda, about the north forest. Hedda sat with her hands in her lap and did not look uncomfortable, which was its own kind of answer. \"Some people go in,\" she said quietly, \"and come out different. Some don\u0027t come out.\" She looked at Ruth. \"Have you ever lost anyone?\""
+                       },
+                       {
+                           "id":  8,
+                           "text":  "Ruth walked home in the dark. She sat at the kitchen table with the photographs she had printed. She looked at the last print for a long time. The boot shape. The size. The flat sole with no heel. She opened the drawer where she kept old things — letters, photographs, a small notebook. She found what she was looking for near the bottom."
+                       },
+                       {
+                           "id":  9,
+                           "text":  "[whispers] It was a photograph from eleven years ago. Her brother Thomas, standing in front of this house, smiling, wearing his winter coat. She looked at his boots. Flat sole. No heel. She put the photograph beside the print on the table. She looked at both for a long time. Outside, the snow began to fall again."
+                       },
+                       {
+                           "id":  10,
+                           "text":  "[calm] Ruth did not sleep that night. She lay in bed with the photograph of Thomas on the table beside her, and the boots in the photograph — flat sole, no heel — would not leave her mind. By the time the sky began to turn gray, she had decided. She was going back to the clearing. And she was not going to wait for daylight to do it."
+                       },
+                       {
+                           "id":  11,
+                           "text":  "She knew how that sounded. A sensible woman did not walk into a winter forest in the dark. But Ruth had her reasons. In the daytime, the village watched everything. She had seen how the butcher had gone still, how Marta had said nothing at all. Whatever was in that forest, Ruth wanted to see it without the whole village seeing her."
+                       },
+                       {
+                           "id":  12,
+                           "text":  "[nervous] She waited until the village was asleep. Then she put on her warmest coat, took the old lantern from the shed, and walked out into the cold. The snow was hard and bright under the moon. Her own footprints followed her across the yard — and she thought, not for the first time, about whose footprints she was following, and where they had stopped."
+                       },
+                       {
+                           "id":  13,
+                           "text":  "The forest at night was a different place. The trees were black against the snow, and the lantern made a small circle of yellow light that moved with her. It was very quiet. She found the path easily — her own marks from the morning were still there — and she walked between the trees toward the clearing, slowly, listening to nothing but her boots in the snow."
+                       },
+                       {
+                           "id":  14,
+                           "text":  "[hesitates] The clearing looked smaller at night. The last footprint was still there, exactly where it had ended, and the smooth snow around it was untouched. In the morning, Ruth had only looked. This time she meant to search. She held the lantern low and walked a slow circle around the clearing, studying every meter of the snow, every shadow under every tree."
+                       },
+                       {
+                           "id":  15,
+                           "text":  "It was at the edge of the clearing, half under a low branch, that she found it. A stone. It was about the size of two hands together, and it was the wrong kind of stone for this place — darker, smoother, carried here from somewhere else. Someone had put it down on purpose. The snow had been brushed off the top of it."
+                       },
+                       {
+                           "id":  16,
+                           "text":  "[whispers] Ruth knelt down and held the lantern close to the stone. There were marks on it — lines cut into the flat top, pale against the dark surface. She touched them with one cold finger. The cuts were sharp and clean. Snow had not yet softened their edges. Whatever had made these marks had made them recently. Days ago. Perhaps less."
+                       },
+                       {
+                           "id":  17,
+                           "text":  "She studied the marks for a long time. They were not letters, and they were not a picture. They were simple — a short line, and below it, an arrow. The arrow pointed away from the clearing, away from the village, between two tall trees, into the dark part of the forest. Ruth knew that direction. Everyone in Harren knew it. It was the north side."
+                       },
+                       {
+                           "id":  18,
+                           "text":  "[hesitates] She sat back on her heels and tried to think clearly. The footprints had walked into this clearing and stopped. And here, at the edge of it, someone had left a stone with an arrow, pointing the way the footprints had not gone. The two things did not fit together — unless the footprints were never meant to be the whole message. Unless the clearing was only the place where you were supposed to stop, and look, and find the stone."
+                       },
+                       {
+                           "id":  19,
+                           "text":  "[sigh] Ruth stood up, her knees stiff with cold. She looked at the arrow, and then at the dark trees it pointed toward, and then back at the safe yellow lights of the sleeping village behind her. The stone had not been there eleven years. It was new. Someone had walked into this forest in the last few days and left it for her to find. She picked up her lantern. She was not ready to follow the arrow tonight. But she knew, now, that she would."
+                       },
+                       {
+                           "id":  20,
+                           "text":  "[calm] In the morning, Ruth sat at her kitchen table with a cup of coffee she did not drink. She thought about the stone, and the arrow, and the north side. And she thought about Marta. On the first day, when Ruth had shown her the footprints, Marta had looked at the clearing for a long time and said nothing at all. Ruth had known Marta for forty years. That silence had not been an empty silence."
+                       },
+                       {
+                           "id":  21,
+                           "text":  "Marta lived three houses down the same road. Ruth walked there before she could change her mind. Marta opened the door, saw Ruth\u0027s face, and seemed, somehow, to have been expecting her. She did not ask why Ruth had come. She only stepped back from the door and said, \"You had better come in. It\u0027s cold.\""
+                       },
+                       {
+                           "id":  22,
+                           "text":  "[hesitates] They sat at Marta\u0027s kitchen table. Ruth did not waste time. She told Marta about the night in the forest, the clearing, the stone, the marks, the arrow pointing north. Marta listened without moving. When Ruth finished, she said, \"I knew you would find something. I have been waiting eleven years for someone to make you go and look.\" Ruth put down her cup. \"Marta,\" she said. \"What do you know about my brother?\""
+                       },
+                       {
+                           "id":  23,
+                           "text":  "For a long moment, Marta did not answer. She looked down at her own hands on the table — old hands now, as old as Ruth\u0027s. The kitchen was warm and quiet, and outside the window the snow had begun, very lightly, to fall again. Then Marta took a slow breath, the way a person does before setting down something heavy they have carried for a long time."
+                       },
+                       {
+                           "id":  24,
+                           "text":  "[whispers] \"I saw Thomas,\" Marta said. \"The night he disappeared. Eleven years ago. It was very late, and I could not sleep, and I was at my window. I saw him walk past this house, in the dark, with a bag on his back. He was not lost, Ruth. He was not confused. He was walking somewhere he had decided to walk.\""
+                       },
+                       {
+                           "id":  25,
+                           "text":  "Ruth sat very still. \"You never told anyone,\" she said. It was not an accusation. It was almost a question. \"He saw me at the window,\" Marta said. \"He stopped. He came close, and he asked me — quietly, so quietly — not to tell. Not the police. Not the village. Not you. He said it was important. He said he would explain one day. And then he walked on, toward the north side, and I never saw him again.\""
+                       },
+                       {
+                           "id":  26,
+                           "text":  "[hesitates] \"I have asked myself every day,\" Marta said, \"whether I did the right thing. He asked me to keep a secret. I kept it. That is what you do for the people you care about — you keep their secrets, even the heavy ones. But you were his sister, Ruth. And I watched you look for him for eleven years, and I said nothing, and that was its own kind of wrong.\""
+                       },
+                       {
+                           "id":  27,
+                           "text":  "Ruth did not say anything for a while. She was not angry, although she had expected to be. Mostly she felt tired, and sad, and strangely lighter — the way you feel when a door that has been locked for years finally opens, even if you do not yet know what is behind it. \"Why now?\" she asked at last. \"Why is the stone there now?\""
+                       },
+                       {
+                           "id":  28,
+                           "text":  "\"I don\u0027t know who left the stone,\" Marta said. \"That was not me. But I can tell you what Thomas told me that night, the one thing I have kept the longest.\" She looked at Ruth steadily. \"He said: if anyone ever truly needs to find me, they should go to the old north cabin. Past the clearing. Past the two tall trees. He said the door would not be locked.\""
+                       },
+                       {
+                           "id":  29,
+                           "text":  "[sigh] Ruth walked home through the falling snow. The arrow on the stone and the words from Marta\u0027s mouth pointed at exactly the same place — the north side, the two tall trees, a cabin she had never seen. For eleven years she had been looking for a brother who was lost. Now she understood that he had not been lost at all. He had gone somewhere on purpose, and asked the world to wait. Tomorrow, Ruth decided, the waiting would end. Tomorrow she would walk north."
+                       }
+                   ]
 }

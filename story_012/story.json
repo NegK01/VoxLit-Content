@@ -1,62 +1,135 @@
 {
-  "id": "story_012",
-  "title": "The Repair Shop",
-  "level": "A2",
-  "description": "Han fixes things. Chairs, clocks, cameras — everything broken in the small town of Fern eventually arrives at his workbench. One afternoon, a woman brings a music box that plays a song nobody can name.",
-  "genre": ["slice-of-life", "drama"],
-  "is_premium": false,
-  "header_scene": "scene_01.webp",
-  "paragraphs": [
-    {
-      "id": 0,
-      "text": "[calm] The repair shop had been on Fern's main street for forty years. Han's father had opened it. Han had taken it over when he was twenty-six. The sign outside still said his father's name, and Han had never changed it. Inside: wooden shelves full of small objects in various states of repair, a long workbench with good light, and the sound of a clock Han had been working on for three weeks.",
-      "audio_file": "p00.opus"
-    },
-    {
-      "id": 1,
-      "text": "The woman arrived at eleven on a Tuesday. She was perhaps fifty, well-dressed for the village, and she carried a wooden box with both hands — not tightly, but with great care. She set it on the counter and looked at Han for a moment before saying anything. \"It was my mother's,\" she said. \"And before that, her mother's.\"",
-      "audio_file": "p01.opus"
-    },
-    {
-      "id": 2,
-      "text": "She opened the box. Inside was a small music box with a porcelain dancer on top. The dancer's arm was raised slightly, as if mid-step. The woman wound the small key at the bottom. Nothing happened. \"It stopped working fifteen years ago,\" she said. \"I've had it in a drawer since then. I don't know why I'm bringing it now.\"",
-      "audio_file": "p02.opus"
-    },
-    {
-      "id": 3,
-      "text": "[hesitates] Han lifted the box and turned it over slowly. He wound the key again. He felt the tension in the spring — it was intact, there was energy stored there. Something downstream of the spring was stopping the mechanism. He told her he would need to open it. She nodded. She looked at the dancer for a moment, then at Han. \"Do you need me to stay?\" \"No,\" he said. \"I'll call you.\"",
-      "audio_file": "p03.opus"
-    },
-    {
-      "id": 4,
-      "text": "He worked on it that afternoon. He found the problem quickly — a single gear, the second from the left, completely seized with rust. Old rust, not recent. It had probably stopped working slowly, the sound getting quieter over months before it stopped entirely. He could see the song it would have played, written in the arrangement of the parts — something simple, in three-four time.",
-      "audio_file": "p04.opus"
-    },
-    {
-      "id": 5,
-      "text": "[calm] He had a replacement gear close to the right size. Close, but not exact. The song might sound slightly different — a small change in the speed of the melody. He called the woman to ask if this was acceptable. She was quiet for a moment on the phone. \"I don't know what the song sounds like,\" she said finally. \"I only heard it once, when I was very small. I just want it to play again. Whatever it plays.\"",
-      "audio_file": "p05.opus"
-    },
-    {
-      "id": 6,
-      "text": "He replaced the gear the next morning. He wound the key slowly, feeling the mechanism turn. A note came first — one clear note — and then the rest followed. A melody, light and simple, slightly old-fashioned in the way of things made a long time ago. He played it three times. He could not remember hearing it before.",
-      "audio_file": "p06.opus",
-      "scene_image": "scene_02.webp"
-    },
-    {
-      "id": 7,
-      "text": "He wrote it down on paper, one note at a time — just the melody, in simple notation. He was not a musician, but he knew enough. He looked at it when it was done. Six measures, simple rhythm, repeating. He searched it online using a music recognition app. No results. The song either had no name or had been forgotten.",
-      "audio_file": "p07.opus"
-    },
-    {
-      "id": 8,
-      "text": "The woman came to collect it two days later. He set the box on the counter and wound it in front of her. The melody began. She went very still. She did not move until it finished. She did not cry. She just stood completely still, with her hands at her sides, listening.",
-      "audio_file": "p08.opus"
-    },
-    {
-      "id": 9,
-      "text": "[sigh] When it finished, she closed the lid gently. \"Thank you,\" she said. She paid and left. Han sat at the workbench. He looked at the notation for a long time. He photographed it and uploaded it to a music forum with one question: Does anyone know this melody? Then he picked up the clock he had been working on for three weeks. He worked until the light changed. When he checked later, there were no replies. He put the phone in his pocket and began locking up. Then it buzzed — not the forum. An email, no subject line, from an address he did not recognize. One line: Where did you hear that melody? Han had not said anything about the music box. He had not mentioned the town. He had only posted the notes.",
-      "audio_file": "p09.opus"
-    }
-  ]
+    "id":  "story_012",
+    "title":  "The Repair Shop",
+    "level":  "A2",
+    "description":  "Han fixes things. Chairs, clocks, cameras — everything broken in the small town of Fern eventually arrives at his workbench. One afternoon, a woman brings a music box that plays a song nobody can name.",
+    "genre":  [
+                  "slice-of-life",
+                  "drama"
+              ],
+    "is_premium":  false,
+    "header_scene":  "scene_01.webp",
+    "paragraphs":  [
+                       {
+                           "id":  0,
+                           "text":  "[calm] The repair shop had been on Fern\u0027s main street for forty years. Han\u0027s father had opened it. Han had taken it over when he was twenty-six. The sign outside still said his father\u0027s name, and Han had never changed it. Inside: wooden shelves full of small objects in various states of repair, a long workbench with good light, and the sound of a clock Han had been working on for three weeks."
+                       },
+                       {
+                           "id":  1,
+                           "text":  "The woman arrived at eleven on a Tuesday. She was perhaps fifty, well-dressed for the village, and she carried a wooden box with both hands — not tightly, but with great care. She set it on the counter and looked at Han for a moment before saying anything. \"It was my mother\u0027s,\" she said. \"And before that, her mother\u0027s.\""
+                       },
+                       {
+                           "id":  2,
+                           "text":  "She opened the box. Inside was a small music box with a porcelain dancer on top. The dancer\u0027s arm was raised slightly, as if mid-step. The woman wound the small key at the bottom. Nothing happened. \"It stopped working fifteen years ago,\" she said. \"I\u0027ve had it in a drawer since then. I don\u0027t know why I\u0027m bringing it now.\""
+                       },
+                       {
+                           "id":  3,
+                           "text":  "[hesitates] Han lifted the box and turned it over slowly. He wound the key again. He felt the tension in the spring — it was intact, there was energy stored there. Something downstream of the spring was stopping the mechanism. He told her he would need to open it. She nodded. She looked at the dancer for a moment, then at Han. \"Do you need me to stay?\" \"No,\" he said. \"I\u0027ll call you.\""
+                       },
+                       {
+                           "id":  4,
+                           "text":  "He worked on it that afternoon. He found the problem quickly — a single gear, the second from the left, completely seized with rust. Old rust, not recent. It had probably stopped working slowly, the sound getting quieter over months before it stopped entirely. He could see the song it would have played, written in the arrangement of the parts — something simple, in three-four time."
+                       },
+                       {
+                           "id":  5,
+                           "text":  "[calm] He had a replacement gear close to the right size. Close, but not exact. The song might sound slightly different — a small change in the speed of the melody. He called the woman to ask if this was acceptable. She was quiet for a moment on the phone. \"I don\u0027t know what the song sounds like,\" she said finally. \"I only heard it once, when I was very small. I just want it to play again. Whatever it plays.\""
+                       },
+                       {
+                           "id":  6,
+                           "text":  "He replaced the gear the next morning. He wound the key slowly, feeling the mechanism turn. A note came first — one clear note — and then the rest followed. A melody, light and simple, slightly old-fashioned in the way of things made a long time ago. He played it three times. He could not remember hearing it before.",
+                           "scene_image":  "scene_02.webp"
+                       },
+                       {
+                           "id":  7,
+                           "text":  "He wrote it down on paper, one note at a time — just the melody, in simple notation. He was not a musician, but he knew enough. He looked at it when it was done. Six measures, simple rhythm, repeating. He searched it online using a music recognition app. No results. The song either had no name or had been forgotten."
+                       },
+                       {
+                           "id":  8,
+                           "text":  "The woman came to collect it two days later. He set the box on the counter and wound it in front of her. The melody began. She went very still. She did not move until it finished. She did not cry. She just stood completely still, with her hands at her sides, listening."
+                       },
+                       {
+                           "id":  9,
+                           "text":  "[sigh] When it finished, she closed the lid gently. \"Thank you,\" she said. She paid and left. Han sat at the workbench. He looked at the notation for a long time. He photographed it and uploaded it to a music forum with one question: Does anyone know this melody? Then he picked up the clock he had been working on for three weeks. He worked until the light changed. When he checked later, there were no replies. He put the phone in his pocket and began locking up. Then it buzzed — not the forum. An email, no subject line, from an address he did not recognize. One line: Where did you hear that melody? Han had not said anything about the music box. He had not mentioned the town. He had only posted the notes."
+                       },
+                       {
+                           "id":  10,
+                           "text":  "[calm] Han read the email again the next morning, with his first coffee, in the quiet of the shop before he opened. Where did you hear that melody? Seven words, no name, no greeting. He had posted the notation on a music forum and nothing else. He had not written the name of the town. He had not mentioned a music box, or a woman, or a porcelain dancer. He had posted six measures of a song. And a stranger had answered."
+                       },
+                       {
+                           "id":  11,
+                           "text":  "[hesitates] Han was a careful man, and a private one. He did not like questions from people he could not see. But he was also, he had to admit, a man who fixed things — and a question with no answer was a kind of broken thing. He thought about it for most of the morning. Then, between two customers, he sat down and wrote a short reply. I repaired a music box. The song was inside it. Who are you?"
+                       },
+                       {
+                           "id":  12,
+                           "text":  "The answer came that evening, just as he was closing the shop. It was as short as the first. I am sorry. I cannot tell you yet. But please do not lose the song. It matters more than you know. Han stood in the doorway of the shop with his phone in his hand and read it three times. The stranger had not threatened him. The stranger had asked him to protect a song. It was the strangest request anyone had ever made of him."
+                       },
+                       {
+                           "id":  13,
+                           "text":  "Han did not reply again that night. Instead, he decided to do the thing he understood best. He would find out what the song was. If he knew the song — its name, its history, where it came from — then perhaps the email would make sense. A repairman does not guess. A repairman opens the thing up and looks inside."
+                       },
+                       {
+                           "id":  14,
+                           "text":  "[calm] He started with the melody itself. He had a simple music app on his phone, with a keyboard on the screen. That evening, after the shop was closed, he sat at his workbench and played the song one note at a time, slowly, until he could play it without looking at his notation. It was a small, sad, gentle tune. It went around twice and then it ended. He played it again and again in the empty shop."
+                       },
+                       {
+                           "id":  15,
+                           "text":  "Then he searched. He posted the notation on three more forums — groups for old music, for folk songs, for collectors. He used a music recognition app, the kind that listens and finds the song. He played the melody into his phone over and over. The app found nothing. The forums were quiet. Days passed, and not one person wrote to say: I know that song."
+                       },
+                       {
+                           "id":  16,
+                           "text":  "[whispers] Then, near the end of the week, a musician came through Fern. She was a violin teacher, traveling between towns, and she stopped at the shop to have the case of her instrument repaired. While Han worked on the clasp, he asked her — carefully, the way you ask a question that matters — if she would listen to something. He played her the melody on his phone."
+                       },
+                       {
+                           "id":  17,
+                           "text":  "The musician listened with her head tilted, the way people do when they are truly paying attention. She asked him to play it twice. Then she shook her head. \"I have never heard it,\" she said, \"and I know a great many songs. But I will tell you something. This is real music. Someone wrote it carefully. It is not an accident, and it is not a children\u0027s tune. Someone meant this. It is simply a song the world was never told about.\""
+                       },
+                       {
+                           "id":  18,
+                           "text":  "[hesitates] After she had gone, Han sat for a long time with what she had said. The song was real, and someone had written it with care, and yet it existed in no book, no forum, no app, no record anywhere. It was a song that had stayed completely private — passed, perhaps, from one person to another, inside a music box, for a hundred years. And then he understood something. One person in the whole world had recognized this song. Only one. The stranger in the email."
+                       },
+                       {
+                           "id":  19,
+                           "text":  "[sigh] Han closed the shop and walked home through the quiet streets of Fern. The song was not in any record because it had never been meant for the records. It had lived its whole life in private hands. And that meant the stranger who knew it was not a stranger to the song at all. The stranger belonged to it somehow. Han took out his phone. He had one thread left to pull, and only one. He began, slowly, to write another email."
+                       },
+                       {
+                           "id":  20,
+                           "text":  "[calm] Han sent his second email, and this time there was no reply. A day passed, then two, then a week. He checked his phone often, more often than he liked to admit. The stranger had gone silent. Han went back to his work — the clocks, the chairs, the broken radios of Fern — and he tried, without much success, to stop thinking about a small, sad song that no one had ever heard."
+                       },
+                       {
+                           "id":  21,
+                           "text":  "Then, on a Thursday afternoon, the bell above the shop door rang, and a man came in. He was older than Han, perhaps sixty, and he carried a wooden box in both hands. Han felt something move in his chest before the man had even spoken. He knew the shape of that box. He had held a box almost exactly like it only a few weeks before."
+                       },
+                       {
+                           "id":  22,
+                           "text":  "[hesitates] \"It was my wife\u0027s,\" the man said. \"She kept it her whole life. It stopped playing years ago, and she always meant to have it fixed, and she never did.\" He set the box gently on the counter. \"She is gone now. I would like to hear it again.\" Han opened the box. Inside was a music box — old, with a small mirror where the other had had a dancer, but built, he could see at once, by the same kind of hand."
+                       },
+                       {
+                           "id":  23,
+                           "text":  "Han carried the box to his workbench and opened the mechanism. The problem was small — a loose part, easy to repair. He worked carefully, and within an hour the box was ready. He set it on the bench under his lamp, and he wound the key, and he waited to hear what song this stranger\u0027s wife had kept for her whole life."
+                       },
+                       {
+                           "id":  24,
+                           "text":  "[whispers] The first note played, and Han went completely still. He knew it. He knew it before the second note came. It was not exactly the same song as the box from before — it was a little higher, a little quicker, in a different key. But underneath, the shape of it was the same. The same rise. The same fall. The same small, sad turn at the end. The two boxes were singing, almost, the same song."
+                       },
+                       {
+                           "id":  25,
+                           "text":  "Han played both melodies that evening — the second box, and the first song on his phone keyboard, one after the other, again and again. There was no doubt. They were two versions of one tune. One had been written for a porcelain dancer and one for a small round mirror, but the song inside them had come from the same place. Someone, long ago, had written this song twice."
+                       },
+                       {
+                           "id":  26,
+                           "text":  "He turned the second box over and looked at the bottom, slowly and carefully, the way his father had taught him to look at things. And there it was — pressed into the wood, almost worn away, a tiny maker\u0027s mark. A small symbol and three letters. Han went to the shelf where he had kept the first box\u0027s notes, and he checked. The first box had carried the same mark. The same workshop had made them both."
+                       },
+                       {
+                           "id":  27,
+                           "text":  "[hesitates] Han sat at his workbench with the two music boxes in front of him. He thought about the two women who had owned them — the woman with the porcelain dancer, and the wife of the man who had come in today. As far as Han knew, the two women had never met. They had lived different lives in different places. But each of them had carried, for her whole life, a box that sang almost the same secret song."
+                       },
+                       {
+                           "id":  28,
+                           "text":  "It was then that Han began to understand the boxes differently. A music box was not only an object. It was a way of keeping something — a way of holding a song safe, and carrying it forward, and handing it, quietly, to whoever came next. The song had not survived by accident. Someone had built these boxes on purpose, so that the song would travel through time in the hands of people who would never know each other\u0027s names."
+                       },
+                       {
+                           "id":  29,
+                           "text":  "[sigh] Han looked at the small maker\u0027s mark again — the symbol, the three worn letters. Both boxes had been made in the same workshop, by the same hands, for a reason he did not yet understand. Somewhere, the people who built them had had a song they needed to send into the future. And one person, today, still knew that song well enough to recognize six measures of it in a message. Han opened his laptop. It was time to find out where these boxes had been made."
+                       }
+                   ]
 }

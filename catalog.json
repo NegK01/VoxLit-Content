@@ -1,34 +1,177 @@
 {
-  "downloadable_stories": [
-    {
-      "id": "story_004",
-      "title": "The Clockmaker's Secret",
-      "level": "B1",
-      "description": "An old clockmaker in Vienna discovers a hidden room inside his own shop after repairing a mysterious pocket watch left by a stranger.",
-      "genre":["mystery", "historical"],
-      "is_premium": false,
-      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-004/story_004.zip",
-      "zip_size_bytes": 4200000
-    },
-    {
-      "id": "story_005",
-      "title": "The Wrong Address",
-      "level": "A2",
-      "description": "A letter arrives at Mia's apartment addressed to someone who hasn't lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
-      "genre": ["mystery", "contemporary"],
-      "is_premium": true,
-      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-005/story_005.zip",
-      "zip_size_bytes": 3800000
-    },
-    {
-      "id": "story_006",
-      "title": "Sunday Soup",
-      "level": "A2",
-      "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
-      "genre": ["slice-of-life", "drama"],
-      "is_premium": false,
-      "zip_url": "https://github.com/negk01/voxlit-content/releases/download/story-006/story_006.zip",
-      "zip_size_bytes": 3800000
-    }
-  ]
+    "downloadable_stories":  [
+                                 {
+                                     "id":  "story_004",
+                                     "title":  "The Clockmaker\u0027s Secret",
+                                     "level":  "B1",
+                                     "author":  "R. Vane",
+                                     "description":  "In a quiet corner of Vienna, Leopold the clockmaker spends his days repairing things that others have given up on. When a young woman arrives with a silver watch that refuses to move, he discovers that some clocks are built to hide more than the time.",
+                                     "genre":  [
+                                                   "mystery",
+                                                   "historical",
+                                                   "drama"
+                                               ],
+                                     "is_premium":  false,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_004/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-004/story_004.zip",
+                                     "zip_size_bytes":  3379645,
+                                     "sha256":  "cfbbe695c62482150e462218444a387eb3b5f29786ff9f226169ff704266aade"
+                                 },
+                                 {
+                                     "id":  "story_005",
+                                     "title":  "The Wrong Address",
+                                     "level":  "A2",
+                                     "author":  "Olivia Blackwood",
+                                     "description":  "A letter arrives at Mia\u0027s apartment addressed to someone who hasn\u0027t lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
+                                     "genre":  [
+                                                   "mystery",
+                                                   "contemporary"
+                                               ],
+                                     "is_premium":  true,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_005/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-005/story_005.zip",
+                                     "zip_size_bytes":  2678595,
+                                     "sha256":  "d3f5da2a95b92142a01ab6124160c68b112b146544c1a1181b03ebdd6f796b77"
+                                 },
+                                 {
+                                     "id":  "story_006",
+                                     "title":  "Sunday Soup",
+                                     "level":  "A2",
+                                     "author":  "Clara Whitmore",
+                                     "description":  "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
+                                     "genre":  [
+                                                   "slice-of-life",
+                                                   "drama"
+                                               ],
+                                     "is_premium":  false,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_006/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-006/story_006.zip",
+                                     "zip_size_bytes":  3993830,
+                                     "sha256":  "349ba830c2fd56405c41f264d977bb1e106b48eff9797f315fc406ec6813361a"
+                                 },
+                                 {
+                                     "id":  "story_007",
+                                     "title":  "The Night Shift",
+                                     "level":  "B1",
+                                     "author":  "James Ashford",
+                                     "description":  "Nora has worked the overnight shift at the hospital for ten years. She knows how to read the quiet. But the patient in room 14 — with no name on his chart — is a kind of quiet she has never encountered before.",
+                                     "genre":  [
+                                                   "thriller",
+                                                   "contemporary",
+                                                   "mystery"
+                                               ],
+                                     "is_premium":  true,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_007/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-007/story_007.zip",
+                                     "zip_size_bytes":  2608146,
+                                     "sha256":  "e316ad089f91c924470ba5fe8f4491bc5c3a386fa404eb6dda1033231acb90b0"
+                                 },
+                                 {
+                                     "id":  "story_008",
+                                     "title":  "Salt and Sea",
+                                     "level":  "A2",
+                                     "author":  "Isla Chen",
+                                     "description":  "Marco is sixteen when his parents separate and he is sent to spend the summer on a Greek island with his grandmother. He brings his anger with him. The island is patient.",
+                                     "genre":  [
+                                                   "coming-of-age",
+                                                   "drama"
+                                               ],
+                                     "is_premium":  false,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_008/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-008/story_008.zip",
+                                     "zip_size_bytes":  3141651,
+                                     "sha256":  "0d6e998eebb43ee20d17cd54d856243be015bd10955f78a2f1fe299b4bdfa535"
+                                 },
+                                 {
+                                     "id":  "story_009",
+                                     "title":  "The Translator",
+                                     "level":  "B1",
+                                     "author":  "Maren Holst",
+                                     "description":  "Yuki works as a simultaneous interpreter at an international conference in Brussels. By the third day, she realizes that what she is hearing in Japanese does not match what the official documents say — and that she is the only person in the room who knows.",
+                                     "genre":  [
+                                                   "drama",
+                                                   "thriller",
+                                                   "contemporary"
+                                               ],
+                                     "is_premium":  true,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_009/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-009/story_009.zip",
+                                     "zip_size_bytes":  2578019,
+                                     "sha256":  "f67ca9c751b128f4b1214b1d762a9fd75a7e5e4e4e419b4328215461b91b858b"
+                                 },
+                                 {
+                                     "id":  "story_010",
+                                     "title":  "Footprints in the Snow",
+                                     "level":  "A2",
+                                     "author":  "Elara Vance",
+                                     "description":  "A mountain village wakes to find a set of footprints in the fresh snow — leading into the forest and stopping completely in the middle of nowhere. Ruth follows them. What she finds changes everything she thought she knew.",
+                                     "genre":  [
+                                                   "mystery",
+                                                   "drama"
+                                               ],
+                                     "is_premium":  false,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_010/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-010/story_010.zip",
+                                     "zip_size_bytes":  2187843,
+                                     "sha256":  "57db4ec28932689e6db133799272b975a5b074d26c4d216916a4c6defad20adc"
+                                 },
+                                 {
+                                     "id":  "story_011",
+                                     "title":  "The Inheritance",
+                                     "level":  "B1",
+                                     "author":  "Jean-Pierre Pingoc",
+                                     "description":  "Clara has met her grandmother five times in her life. When the woman dies, she leaves Clara a house in a village Clara has never visited. Inside the house, on the kitchen table, there is a list — and at the bottom, one word: bakery.",
+                                     "genre":  [
+                                                   "drama",
+                                                   "mystery"
+                                               ],
+                                     "is_premium":  true,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_011/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-011/story_011.zip",
+                                     "zip_size_bytes":  4147057,
+                                     "sha256":  "5dbef6b9c64adb9f7323545bf43b7df389fed6640db205dea100c6a7fcdd9198"
+                                 },
+                                 {
+                                     "id":  "story_012",
+                                     "title":  "The Repair Shop",
+                                     "level":  "A2",
+                                     "author":  "Ben Okoro",
+                                     "description":  "Han fixes things. Chairs, clocks, cameras — everything broken in the small town of Fern eventually arrives at his workbench. One afternoon, a woman brings a music box that plays a song nobody can name.",
+                                     "genre":  [
+                                                   "slice-of-life",
+                                                   "drama"
+                                               ],
+                                     "is_premium":  false,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_012/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-012/story_012.zip",
+                                     "zip_size_bytes":  4176818,
+                                     "sha256":  "600ee9d16517eefd016d110233df554bef9daeb2ac92be64d7a9ca7c21a60392"
+                                 },
+                                 {
+                                     "id":  "story_013",
+                                     "title":  "Red Line",
+                                     "level":  "B1",
+                                     "author":  "A. Kovar",
+                                     "description":  "Every morning, Daniel rides the same metro line to work. Every morning, the same man in a grey coat stands near the second door of Car 3. One morning, the man is not there. Three minutes later, Daniel\u0027s phone buzzes with a message from an unknown number: Get off at the next stop.",
+                                     "genre":  [
+                                                   "thriller",
+                                                   "contemporary"
+                                               ],
+                                     "is_premium":  true,
+                                     "cover_url":  "https://raw.githubusercontent.com/negk01/voxlit-content/main/story_013/cover.webp",
+                                     "version":  1,
+                                     "zip_url":  "https://github.com/negk01/voxlit-content/releases/download/story-013/story_013.zip",
+                                     "zip_size_bytes":  3539290,
+                                     "sha256":  "57519a8426d1d6de8ac3746ff0e0a275abf93ba578bdd81b4bcc80bdf039a5fc"
+                                 }
+                             ]
 }

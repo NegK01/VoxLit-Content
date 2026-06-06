@@ -16,5 +16,14 @@
   "crease": { "ipa": "/kriːs/", "pos": "sustantivo" },
   "steady": { "ipa": "/ˈstɛdi/", "pos": "adjetivo" },
   "precise": { "ipa": "/prɪˈsaɪs/", "pos": "adjetivo" },
-  "shift": { "ipa": "/ʃɪft/", "pos": "sustantivo" }
+  "shift": { "ipa": "/ʃɪft/", "pos": "sustantivo" },
+  "obituary": { "ipa": "/oʊˈbɪtʃueri/", "pos": "sustantivo" },
+  "respected": { "ipa": "/rɪˈspɛktɪd/", "pos": "adjetivo" },
+  "verification": { "ipa": "/ˌvɛrɪfɪˈkeɪʃən/", "pos": "sustantivo" },
+  "corridor": { "ipa": "/ˈkɔːrɪdɔːr/", "pos": "sustantivo" },
+  "departure": { "ipa": "/dɪˈpɑːrtʃər/", "pos": "sustantivo" },
+  "administration": { "ipa": "/ədˌmɪnɪˈstreɪʃən/", "pos": "sustantivo" },
+  "thorough": { "ipa": "/ˈθɜːroʊ/", "pos": "adjetivo" },
+  "deceive": { "ipa": "/dɪˈsiːv/", "pos": "verbo" },
+  "ward": { "ipa": "/wɔːrd/", "pos": "sustantivo" }
 }

@@ -10,5 +10,13 @@
   "seal": { "ipa": "/siːl/", "pos": "verbo" },
   "handwriting": { "ipa": "/ˈhændˌraɪtɪŋ/", "pos": "sustantivo" },
   "album": { "ipa": "/ˈælbəm/", "pos": "sustantivo" },
-  "deliberate": { "ipa": "/dɪˈlɪbərɪt/", "pos": "adjetivo" }
+  "deliberate": { "ipa": "/dɪˈlɪbərɪt/", "pos": "adjetivo" },
+  "acquaintance": { "ipa": "/əˈkweɪntəns/", "pos": "sustantivo" },
+  "certainty": { "ipa": "/ˈsɜːrtənti/", "pos": "sustantivo" },
+  "ruin": { "ipa": "/ˈruːɪn/", "pos": "verbo" },
+  "distant": { "ipa": "/ˈdɪstənt/", "pos": "adjetivo" },
+  "gentleness": { "ipa": "/ˈdʒɛntlnəs/", "pos": "sustantivo" },
+  "forgive": { "ipa": "/fərˈɡɪv/", "pos": "verbo" },
+  "interrupt": { "ipa": "/ˌɪntəˈrʌpt/", "pos": "verbo" },
+  "crowded": { "ipa": "/ˈkraʊdɪd/", "pos": "adjetivo" }
 }

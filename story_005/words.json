@@ -13,5 +13,15 @@
   "brass": { "ipa": "/bræs/", "pos": "sustantivo" },
   "handwriting": { "ipa": "/ˈhændˌraɪtɪŋ/", "pos": "sustantivo" },
   "carpet": { "ipa": "/ˈkɑːrpɪt/", "pos": "sustantivo" },
-  "reveal": { "ipa": "/rɪˈviːl/", "pos": "verbo" }
+  "reveal": { "ipa": "/rɪˈviːl/", "pos": "verbo" },
+  "record": { "ipa": "/ˈrɛkərd/", "pos": "sustantivo" },
+  "folder": { "ipa": "/ˈfoʊldər/", "pos": "sustantivo" },
+  "document": { "ipa": "/ˈdɑːkjumənt/", "pos": "sustantivo" },
+  "owner": { "ipa": "/ˈoʊnər/", "pos": "sustantivo" },
+  "tenant": { "ipa": "/ˈtɛnənt/", "pos": "sustantivo" },
+  "storage": { "ipa": "/ˈstɔːrɪdʒ/", "pos": "sustantivo" },
+  "hallway": { "ipa": "/ˈhɔːlweɪ/", "pos": "sustantivo" },
+  "dust": { "ipa": "/dʌst/", "pos": "sustantivo" },
+  "cardboard": { "ipa": "/ˈkɑːrdbɔːrd/", "pos": "sustantivo" },
+  "clue": { "ipa": "/kluː/", "pos": "sustantivo" }
 }

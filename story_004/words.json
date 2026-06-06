@@ -22,5 +22,14 @@
   "memorize": { "ipa": "/ˈmɛməraɪz/", "pos": "verbo" },
   "workbench": { "ipa": "/ˈwɜːrkbɛntʃ/", "pos": "sustantivo" },
   "repair": { "ipa": "/rɪˈpɛr/", "pos": "verbo" },
-  "inward": { "ipa": "/ˈɪnwərd/", "pos": "adverbio" }
+  "inward": { "ipa": "/ˈɪnwərd/", "pos": "adverbio" },
+  "ledger": { "ipa": "/ˈlɛdʒər/", "pos": "sustantivo" },
+  "debt": { "ipa": "/dɛt/", "pos": "sustantivo" },
+  "apprentice": { "ipa": "/əˈprɛntɪs/", "pos": "sustantivo" },
+  "crease": { "ipa": "/kriːs/", "pos": "sustantivo" },
+  "slanting": { "ipa": "/ˈslæntɪŋ/", "pos": "adjetivo" },
+  "arrangement": { "ipa": "/əˈreɪndʒmənt/", "pos": "sustantivo" },
+  "worn": { "ipa": "/wɔːrn/", "pos": "adjetivo" },
+  "steel": { "ipa": "/stiːl/", "pos": "sustantivo" },
+  "column": { "ipa": "/ˈkɑːləm/", "pos": "sustantivo" }
 }

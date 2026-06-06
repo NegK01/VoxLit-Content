@@ -7,5 +7,14 @@
   "stir": { "ipa": "/stɜːr/", "pos": "verbo" },
   "sympathy": { "ipa": "/ˈsɪmpəθi/", "pos": "sustantivo" },
   "rack": { "ipa": "/ræk/", "pos": "sustantivo" },
-  "appreciate": { "ipa": "/əˈpriːʃieɪt/", "pos": "verbo" }
+  "appreciate": { "ipa": "/əˈpriːʃieɪt/", "pos": "verbo" },
+  "notebook": { "ipa": "/ˈnoʊtbʊk/", "pos": "sustantivo" },
+  "drawer": { "ipa": "/drɔːr/", "pos": "sustantivo" },
+  "scarf": { "ipa": "/skɑːrf/", "pos": "sustantivo" },
+  "cover": { "ipa": "/ˈkʌvər/", "pos": "sustantivo" },
+  "tradition": { "ipa": "/trəˈdɪʃən/", "pos": "sustantivo" },
+  "routine": { "ipa": "/ruːˈtiːn/", "pos": "sustantivo" },
+  "pipe": { "ipa": "/paɪp/", "pos": "sustantivo" },
+  "advice": { "ipa": "/ədˈvaɪs/", "pos": "sustantivo" },
+  "spoon": { "ipa": "/spuːn/", "pos": "sustantivo" }
 }

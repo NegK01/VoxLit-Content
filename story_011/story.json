@@ -1,62 +1,135 @@
 {
-  "id": "story_011",
-  "title": "The Inheritance",
-  "level": "B1",
-  "description": "Clara has met her grandmother five times in her life. When the woman dies, she leaves Clara a house in a village Clara has never visited. Inside the house, on the kitchen table, there is a list — and at the bottom, one word: bakery.",
-  "genre": ["drama", "mystery"],
-  "is_premium": true,
-  "header_scene": "scene_01.webp",
-  "paragraphs": [
-    {
-      "id": 0,
-      "text": "[calm] The solicitor's letter had arrived on a Tuesday. By Thursday, Clara was on a train heading west, with a key in her coat pocket and a single page of instructions she had already read four times. The Cotswolds were grey and green outside the window. She had never been to this part of the country. Her grandmother had never invited her.",
-      "audio_file": "p00.opus"
-    },
-    {
-      "id": 1,
-      "text": "The village was smaller than the map had suggested. She found a room above a pub called The Stag. When she said her grandmother's surname at the front desk, the woman behind it went still for a moment. \"Margaret's granddaughter,\" she said. Not a question. \"I'll give you the room with the garden view,\" she said. She did not say more than that.",
-      "audio_file": "p01.opus"
-    },
-    {
-      "id": 2,
-      "text": "The solicitor met her at the house the next morning. It sat behind an old stone wall at the edge of the village — long and low, with small windows and a garden that had not been tended in some time. He handed her the key, told her the property taxes were paid through the end of the year, and left quickly, as if the house made him uncomfortable.",
-      "audio_file": "p02.opus"
-    },
-    {
-      "id": 3,
-      "text": "[sigh] Inside, the furniture was covered in white sheets. The fireplace was cold and dark. There was a smell of old paper and dried lavender, and something else beneath it that Clara could not name. On the kitchen table, uncovered and clearly placed there deliberately, was a handwritten list. It was her grandmother's writing. She had seen it before on birthday cards. At the bottom of the list, underlined once: bakery.",
-      "audio_file": "p03.opus"
-    },
-    {
-      "id": 4,
-      "text": "She went to the bakery the next morning. It was the second building on the high street — warm and full of people, smelling of bread and coffee. The woman behind the counter was perhaps sixty, with a calm, careful face. When Clara said her grandmother's name, the woman's hands stopped moving over the bread she was wrapping. She looked at Clara for a moment.",
-      "audio_file": "p04.opus"
-    },
-    {
-      "id": 5,
-      "text": "[hesitates] \"She told me you might come someday,\" the woman said. She did not offer her name. She went to the back room and returned with an envelope, yellowed at the edges but still sealed. \"She left this two years ago,\" she said. \"She said to give it to whoever inherited the house. She said they would understand why it had to be that way.\"",
-      "audio_file": "p05.opus"
-    },
-    {
-      "id": 6,
-      "text": "Clara opened the envelope at a table in the corner with a coffee she had not ordered but which had appeared in front of her. Inside: a photograph, black and white. A young woman — not her grandmother, someone younger — standing in front of a house Clara recognized immediately as the house she had just inherited. Visible in the doorway behind her was a man. Clara had seen that man before. In another photograph. In another family's album.",
-      "audio_file": "p06.opus",
-      "scene_image": "scene_02.webp"
-    },
-    {
-      "id": 7,
-      "text": "[quiet] She sat at the table in the corner for a long time after the woman left her. She turned the photograph over. Nothing on the back — no date, no names. The woman in the picture was young, perhaps twenty-five, dressed in the way of the early sixties. She was not her grandmother. Clara was certain of that. But she was standing in front of the house with the stone wall. The house Clara had a key to in her coat pocket.",
-      "audio_file": "p07.opus"
-    },
-    {
-      "id": 8,
-      "text": "It was the man she could not stop looking at. He stood in the doorway behind the young woman, slightly out of focus. She had seen that face before. Not in her grandmother's photographs — Margaret had kept very few. Somewhere else. A friend's house, years ago. A birthday dinner where she had turned the pages of a family album left open on a side table. She could not remember whose album. But she remembered that face.",
-      "audio_file": "p08.opus"
-    },
-    {
-      "id": 9,
-      "text": "[hesitates] She folded the photograph and put it in her coat pocket, next to the key. Outside, the high street was cold and quiet. She stood on the pavement and thought about what she knew: a house, a list, a sealed envelope, a face from someone else's family. She did not yet know what question to ask first. But she understood, standing there, why her grandmother had left everything to someone who had never visited. Someone who would arrive not knowing enough to stop.",
-      "audio_file": "p09.opus"
-    }
-  ]
+    "id":  "story_011",
+    "title":  "The Inheritance",
+    "level":  "B1",
+    "description":  "Clara has met her grandmother five times in her life. When the woman dies, she leaves Clara a house in a village Clara has never visited. Inside the house, on the kitchen table, there is a list — and at the bottom, one word: bakery.",
+    "genre":  [
+                  "drama",
+                  "mystery"
+              ],
+    "is_premium":  true,
+    "header_scene":  "scene_01.webp",
+    "paragraphs":  [
+                       {
+                           "id":  0,
+                           "text":  "[calm] The solicitor\u0027s letter had arrived on a Tuesday. By Thursday, Clara was on a train heading west, with a key in her coat pocket and a single page of instructions she had already read four times. The Cotswolds were grey and green outside the window. She had never been to this part of the country. Her grandmother had never invited her."
+                       },
+                       {
+                           "id":  1,
+                           "text":  "The village was smaller than the map had suggested. She found a room above a pub called The Stag. When she said her grandmother\u0027s surname at the front desk, the woman behind it went still for a moment. \"Margaret\u0027s granddaughter,\" she said. Not a question. \"I\u0027ll give you the room with the garden view,\" she said. She did not say more than that."
+                       },
+                       {
+                           "id":  2,
+                           "text":  "The solicitor met her at the house the next morning. It sat behind an old stone wall at the edge of the village — long and low, with small windows and a garden that had not been tended in some time. He handed her the key, told her the property taxes were paid through the end of the year, and left quickly, as if the house made him uncomfortable."
+                       },
+                       {
+                           "id":  3,
+                           "text":  "[sigh] Inside, the furniture was covered in white sheets. The fireplace was cold and dark. There was a smell of old paper and dried lavender, and something else beneath it that Clara could not name. On the kitchen table, uncovered and clearly placed there deliberately, was a handwritten list. It was her grandmother\u0027s writing. She had seen it before on birthday cards. At the bottom of the list, underlined once: bakery."
+                       },
+                       {
+                           "id":  4,
+                           "text":  "She went to the bakery the next morning. It was the second building on the high street — warm and full of people, smelling of bread and coffee. The woman behind the counter was perhaps sixty, with a calm, careful face. When Clara said her grandmother\u0027s name, the woman\u0027s hands stopped moving over the bread she was wrapping. She looked at Clara for a moment."
+                       },
+                       {
+                           "id":  5,
+                           "text":  "[hesitates] \"She told me you might come someday,\" the woman said. She did not offer her name. She went to the back room and returned with an envelope, yellowed at the edges but still sealed. \"She left this two years ago,\" she said. \"She said to give it to whoever inherited the house. She said they would understand why it had to be that way.\""
+                       },
+                       {
+                           "id":  6,
+                           "text":  "Clara opened the envelope at a table in the corner with a coffee she had not ordered but which had appeared in front of her. Inside: a photograph, black and white. A young woman — not her grandmother, someone younger — standing in front of a house Clara recognized immediately as the house she had just inherited. Visible in the doorway behind her was a man. Clara had seen that man before. In another photograph. In another family\u0027s album.",
+                           "scene_image":  "scene_02.webp"
+                       },
+                       {
+                           "id":  7,
+                           "text":  "[quiet] She sat at the table in the corner for a long time after the woman left her. She turned the photograph over. Nothing on the back — no date, no names. The woman in the picture was young, perhaps twenty-five, dressed in the way of the early sixties. She was not her grandmother. Clara was certain of that. But she was standing in front of the house with the stone wall. The house Clara had a key to in her coat pocket."
+                       },
+                       {
+                           "id":  8,
+                           "text":  "It was the man she could not stop looking at. He stood in the doorway behind the young woman, slightly out of focus. She had seen that face before. Not in her grandmother\u0027s photographs — Margaret had kept very few. Somewhere else. A friend\u0027s house, years ago. A birthday dinner where she had turned the pages of a family album left open on a side table. She could not remember whose album. But she remembered that face."
+                       },
+                       {
+                           "id":  9,
+                           "text":  "[hesitates] She folded the photograph and put it in her coat pocket, next to the key. Outside, the high street was cold and quiet. She stood on the pavement and thought about what she knew: a house, a list, a sealed envelope, a face from someone else\u0027s family. She did not yet know what question to ask first. But she understood, standing there, why her grandmother had left everything to someone who had never visited. Someone who would arrive not knowing enough to stop."
+                       },
+                       {
+                           "id":  10,
+                           "text":  "[calm] Clara spent that night in the room above the pub, and in the morning she went back to the house. She let herself in through the heavy door and walked to the kitchen, where the handwritten list still lay on the table, exactly where her grandmother had left it. She had read the bottom of it already. The word bakery had led her to a sealed envelope and a photograph she could not explain. Now she made herself read the rest."
+                       },
+                       {
+                           "id":  11,
+                           "text":  "The list was eight names long. They were written in Margaret\u0027s careful hand, one beneath the other, with the word bakery added at the very bottom and underlined once. Clara did not recognize any of the eight names. But her grandmother had written them down for a reason, in the last years of her life, and left them on a table for whoever came after her. Clara decided she would find every one."
+                       },
+                       {
+                           "id":  12,
+                           "text":  "[hesitates] It was harder than she had expected, and also easier. The village was small, and in a small village every name has a history that other people are willing to tell. Clara asked at the bakery. She asked at the pub. She learned to mention her grandmother\u0027s name first, because the moment she did, faces changed, and people who had been busy suddenly had time to talk."
+                       },
+                       {
+                           "id":  13,
+                           "text":  "By the end of the second day, she had accounted for most of the list. Four of the eight names belonged to people who had died — one recently, the others long ago. That was not strange in itself; the list was old, and so, she was learning, were most of the people on it. But it meant that four doors were closed before Clara had even found them."
+                       },
+                       {
+                           "id":  14,
+                           "text":  "Three more of the names had simply left. They had moved away from the village years ago — to cities, to other countries, to lives that the people who stayed behind could only guess at. No one had an address. No one had a telephone number. They were names with no place attached to them anymore, and Clara had no way to follow them."
+                       },
+                       {
+                           "id":  15,
+                           "text":  "[calm] That left one name. The eighth, the last on the list, written a little apart from the others, as though Margaret had added it at a different time. When Clara said this name at the bakery, the woman behind the counter did not change the subject, and did not look away. She simply nodded, and pointed through the window, down the high street. \"Three houses past mine,\" she said. \"She is very old now. But her mind is perfectly clear.\""
+                       },
+                       {
+                           "id":  16,
+                           "text":  "The house, when Clara found it, was small and very old, with a low door and a window full of plants. She stood outside it for a moment. She had spent two days reducing a list of eight names down to this one door, and she was aware, suddenly, that she did not know what she was hoping to find behind it. She had no question prepared. She only knew she had to knock."
+                       },
+                       {
+                           "id":  17,
+                           "text":  "[hesitates] The woman who opened the door was the oldest person Clara had seen in the village. She was small and bent, and she held the door frame for balance, but her eyes, when they found Clara\u0027s face, were sharp and quick and entirely awake. She looked at Clara for a long moment without speaking. Then something in her expression changed — softened, opened — as though she were looking not at a stranger but at the answer to a question."
+                       },
+                       {
+                           "id":  18,
+                           "text":  "[whispers] \"You have her face,\" the old woman said. \"Margaret\u0027s face. I wondered if anyone would come.\" She stepped back and let Clara into a warm, crowded room. Clara said her grandmother\u0027s name, and explained about the house, and the list, and — carefully — the photograph. The old woman listened to all of it. When Clara had finished, she was quiet for a moment. Then she said one word, gently, the way you say a name you have not spoken aloud in a long time. \"Ruth.\""
+                       },
+                       {
+                           "id":  19,
+                           "text":  "[sigh] \"Who is Ruth?\" Clara asked. The old woman lowered herself slowly into a chair and gestured for Clara to do the same. \"Ruth,\" she said, \"was your grandmother\u0027s sister. Her younger sister. She lived in this village for almost forty years.\" Clara sat very still. In her whole life, in every conversation, in every family story she had ever been told, no one — not her grandmother, not her mother, not anyone — had ever once said that Margaret had a sister."
+                       },
+                       {
+                           "id":  20,
+                           "text":  "[calm] The old woman told the story slowly, and Clara did not interrupt her once. Her name was Agnes. She had been a girl in this village when Margaret and Ruth were young women, and she had been, for sixty years, the one person who knew the whole of it. \"Margaret asked me to remember it,\" Agnes said. \"She told me that one day someone would come who needed to be told. I believe that someone is you.\""
+                       },
+                       {
+                           "id":  21,
+                           "text":  "Margaret and Ruth had grown up together in the house with the stone wall — the house, Agnes said, that Clara now held a key to. They were close in the way that sisters can be when there are only two of them. Margaret was the older. Ruth was the younger, the braver, the one who laughed more easily. And then, in the spring of 1962, something happened to Ruth that the village of that time would not have forgiven."
+                       },
+                       {
+                           "id":  22,
+                           "text":  "[hesitates] \"Ruth was going to have a child,\" Agnes said simply. \"And she was not married. You are young, and the world has changed, and I am glad of it — but you must understand what that meant here, sixty years ago. It would have followed Ruth for the rest of her life. It would have closed every door in this village to her. People were not cruel, exactly. They were only certain. And their certainty could ruin a person completely.\""
+                       },
+                       {
+                           "id":  23,
+                           "text":  "Agnes was quiet for a moment, and Clara waited. Outside, the village light was beginning to fade, and the plants in the window had become dark shapes against the glass. \"So Margaret made a decision,\" Agnes went on. \"Margaret was older. She was already married, and already living in another town, where no one knew the family. She came back to the village quietly. And when the child was born, she took it home with her, and she raised it as her own.\""
+                       },
+                       {
+                           "id":  24,
+                           "text":  "The child grew up never knowing. Ruth stayed in the village. Margaret stayed away. And the two sisters, who had loved each other their whole lives, agreed to do the hardest thing either of them had ever done — they agreed to live as though they were barely sisters at all. They wrote no letters. They did not visit. If they passed in a city street, Agnes said, they would have nodded like distant acquaintances and walked on."
+                       },
+                       {
+                           "id":  25,
+                           "text":  "[whispers] \"Why?\" Clara asked. Her voice was very quiet. \"Because a secret is only safe if there is nothing to connect its two halves,\" Agnes said. \"If Margaret and Ruth had stayed close, someone, someday, would have counted the years. Someone would have looked at Margaret\u0027s child and looked at Ruth and understood. So they gave each other up. They spent forty years apart, on purpose, so that the child would never have to carry the truth. That was the price. They both paid it, every single day.\""
+                       },
+                       {
+                           "id":  26,
+                           "text":  "Clara thought about her grandmother — Margaret — and the careful, distant woman she had met only five times in her life. She had always believed that distance was simply Margaret\u0027s nature. A cold woman, the family had said, kindly enough, but cold. Now Clara understood that the distance had not been coldness at all. It had been the most expensive thing Margaret ever did, and she had done it for love, and she had never once explained it to anyone."
+                       },
+                       {
+                           "id":  27,
+                           "text":  "[hesitates] \"The child,\" Clara said slowly. She found that the words were difficult to say. \"The child that Margaret raised as her own. What happened to that child?\" Agnes looked at her with great gentleness, and Clara realized, in the silence before the answer, that she already knew it. She had known it, perhaps, since Agnes said the word Ruth in the doorway an hour ago. She had simply not let herself arrive at it until now."
+                       },
+                       {
+                           "id":  28,
+                           "text":  "\"That child,\" Agnes said gently, \"grew up, and married, and had a daughter of her own. That daughter is you, Clara.\" The room was very quiet. \"Margaret raised your mother. She was the grandmother you knew, and she loved you truly. But the blood — the blood comes from Ruth. The sister no one ever told you about was your grandmother by birth.\""
+                       },
+                       {
+                           "id":  29,
+                           "text":  "[sigh] Clara did not go up to her room that night. She stood for a long time at the low stone wall of the house she had inherited — Ruth\u0027s house, she understood now, the house where two sisters had grown up, and where one of them had stayed behind, alone, for forty quiet years. Margaret had not left the house to a stranger. She had left it to Ruth\u0027s granddaughter. After a lifetime of keeping Clara away from this place, she had found, at the very end, the one way to bring her home."
+                       }
+                   ]
 }

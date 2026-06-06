@@ -1,62 +1,135 @@
 {
-  "id": "story_008",
-  "title": "Salt and Sea",
-  "level": "A2",
-  "description": "Marco is sixteen when his parents separate and he is sent to spend the summer on a Greek island with his grandmother. He brings his anger with him. The island is patient.",
-  "genre": ["coming-of-age", "drama"],
-  "is_premium": false,
-  "header_scene": "scene_01.webp",
-  "paragraphs": [
-    {
-      "id": 0,
-      "text": "[calm] The ferry arrived at the island just before noon. Marco stood on the deck with his backpack between his feet and watched the island get larger. It was smaller than he had expected — a few white buildings on a hill, some fishing boats below, rocks that went straight down into the water. He had spent the night on the ferry, and he had not slept.",
-      "audio_file": "p00.opus"
-    },
-    {
-      "id": 1,
-      "text": "His grandmother was waiting at the dock. She was smaller than he remembered from photographs — a short woman with grey hair and dark, careful eyes. She did not hug him. She looked at him for a moment, then picked up his bag without asking. \"Come,\" she said. That was all. She walked and he followed.",
-      "audio_file": "p01.opus"
-    },
-    {
-      "id": 2,
-      "text": "The house was old and close to the water. You could hear the sea from every room. The kitchen smelled of salt and oil and something else — something that Marco did not have a word for, but that made him think of old wood and warmth. Elena showed him his room. A bed, a window, a chair. She left him to unpack.",
-      "audio_file": "p02.opus"
-    },
-    {
-      "id": 3,
-      "text": "[sigh] That afternoon, Marco sat on the small terrace and looked at his phone. No signal. He put it down. He looked at the sea instead. It was very blue and very still and completely uninterested in him. He was here because his parents could not agree on anything except that he should not be in the middle of their summer. He was angry at everyone, including the sea.",
-      "audio_file": "p03.opus"
-    },
-    {
-      "id": 4,
-      "text": "Elena brought him tea without asking. No sugar. No milk. She set it on the small table beside him and went back inside. She did not ask how he was feeling. She did not say it would be okay. He picked up the tea and drank it. It was strong and a little bitter and exactly what he needed, though he would not have said so.",
-      "audio_file": "p04.opus"
-    },
-    {
-      "id": 5,
-      "text": "The mornings started early in the house. Elena was always up before him — he could hear her in the kitchen before six, moving slowly, doing things. He did not come down the first morning. Or the second. On the third morning, he came down. She was making bread. She handed him a piece without looking up.",
-      "audio_file": "p05.opus"
-    },
-    {
-      "id": 6,
-      "text": "[calm] After breakfast, she asked him to come to the dock with her — just to help carry a rope, she said. The boat was small and old and smelled strongly of fish. He stepped in carefully. She untied it from the dock. She did not explain where they were going. She rowed and he sat in the front and watched the water.",
-      "audio_file": "p06.opus",
-      "scene_image": "scene_02.webp"
-    },
-    {
-      "id": 7,
-      "text": "They went far enough that the dock was small behind them. She stopped rowing and let the boat drift. The sea was quiet. A bird flew over them once and disappeared. Marco looked into the water and could see deep down — dark shapes, rocks, something he could not name. He had never been this far from land on a boat this small.",
-      "audio_file": "p07.opus"
-    },
-    {
-      "id": 8,
-      "text": "After a while, Elena said, \"Your grandfather and I used to argue about whether this view was better in the morning or in the evening. He always said morning. I always said evening.\" She looked at the water. \"He was wrong. But I miss the argument.\" She picked up the oars again. \"Hold the rope on your side.\"",
-      "audio_file": "p08.opus"
-    },
-    {
-      "id": 9,
-      "text": "[light chuckle] Marco laughed. It was quick and quiet, but it was real. Elena did not smile. She just kept rowing. But something in the way she held the oars changed, just slightly. After a moment she said, \"Your grandfather kept a notebook. He always brought it on the boat. It should still be in there.\" She nodded toward the small compartment at the bow. Marco leaned over and opened it. A rain jacket. A coil of rope. A rusted tin. No notebook. He looked up. Elena was watching him. \"Strange,\" she said quietly, and kept rowing. Marco sat back and looked at the water. The anger in his chest was a little lighter. But something else had taken up the space.",
-      "audio_file": "p09.opus"
-    }
-  ]
+    "id":  "story_008",
+    "title":  "Salt and Sea",
+    "level":  "A2",
+    "description":  "Marco is sixteen when his parents separate and he is sent to spend the summer on a Greek island with his grandmother. He brings his anger with him. The island is patient.",
+    "genre":  [
+                  "coming-of-age",
+                  "drama"
+              ],
+    "is_premium":  false,
+    "header_scene":  "scene_01.webp",
+    "paragraphs":  [
+                       {
+                           "id":  0,
+                           "text":  "[calm] The ferry arrived at the island just before noon. Marco stood on the deck with his backpack between his feet and watched the island get larger. It was smaller than he had expected — a few white buildings on a hill, some fishing boats below, rocks that went straight down into the water. He had spent the night on the ferry, and he had not slept."
+                       },
+                       {
+                           "id":  1,
+                           "text":  "His grandmother was waiting at the dock. She was smaller than he remembered from photographs — a short woman with grey hair and dark, careful eyes. She did not hug him. She looked at him for a moment, then picked up his bag without asking. \"Come,\" she said. That was all. She walked and he followed."
+                       },
+                       {
+                           "id":  2,
+                           "text":  "The house was old and close to the water. You could hear the sea from every room. The kitchen smelled of salt and oil and something else — something that Marco did not have a word for, but that made him think of old wood and warmth. Elena showed him his room. A bed, a window, a chair. She left him to unpack."
+                       },
+                       {
+                           "id":  3,
+                           "text":  "[sigh] That afternoon, Marco sat on the small terrace and looked at his phone. No signal. He put it down. He looked at the sea instead. It was very blue and very still and completely uninterested in him. He was here because his parents could not agree on anything except that he should not be in the middle of their summer. He was angry at everyone, including the sea."
+                       },
+                       {
+                           "id":  4,
+                           "text":  "Elena brought him tea without asking. No sugar. No milk. She set it on the small table beside him and went back inside. She did not ask how he was feeling. She did not say it would be okay. He picked up the tea and drank it. It was strong and a little bitter and exactly what he needed, though he would not have said so."
+                       },
+                       {
+                           "id":  5,
+                           "text":  "The mornings started early in the house. Elena was always up before him — he could hear her in the kitchen before six, moving slowly, doing things. He did not come down the first morning. Or the second. On the third morning, he came down. She was making bread. She handed him a piece without looking up."
+                       },
+                       {
+                           "id":  6,
+                           "text":  "[calm] After breakfast, she asked him to come to the dock with her — just to help carry a rope, she said. The boat was small and old and smelled strongly of fish. He stepped in carefully. She untied it from the dock. She did not explain where they were going. She rowed and he sat in the front and watched the water.",
+                           "scene_image":  "scene_02.webp"
+                       },
+                       {
+                           "id":  7,
+                           "text":  "They went far enough that the dock was small behind them. She stopped rowing and let the boat drift. The sea was quiet. A bird flew over them once and disappeared. Marco looked into the water and could see deep down — dark shapes, rocks, something he could not name. He had never been this far from land on a boat this small."
+                       },
+                       {
+                           "id":  8,
+                           "text":  "After a while, Elena said, \"Your grandfather and I used to argue about whether this view was better in the morning or in the evening. He always said morning. I always said evening.\" She looked at the water. \"He was wrong. But I miss the argument.\" She picked up the oars again. \"Hold the rope on your side.\""
+                       },
+                       {
+                           "id":  9,
+                           "text":  "[light chuckle] Marco laughed. It was quick and quiet, but it was real. Elena did not smile. She just kept rowing. But something in the way she held the oars changed, just slightly. After a moment she said, \"Your grandfather kept a notebook. He always brought it on the boat. It should still be in there.\" She nodded toward the small compartment at the bow. Marco leaned over and opened it. A rain jacket. A coil of rope. A rusted tin. No notebook. He looked up. Elena was watching him. \"Strange,\" she said quietly, and kept rowing. Marco sat back and looked at the water. The anger in his chest was a little lighter. But something else had taken up the space."
+                       },
+                       {
+                           "id":  10,
+                           "text":  "[calm] After that first morning on the boat, something in Marco changed, though he could not have explained it. He began to wake early. The house was always quiet then — Elena was in the kitchen, or in the garden, moving slowly through her own morning. Marco would go down to the water alone, before the sun was high, and sit by the boat where it rested against the dock."
+                       },
+                       {
+                           "id":  11,
+                           "text":  "He did not take the boat out. He only sat near it, his feet hanging over the edge of the dock, and watched the sea. The water was different every morning — sometimes flat and silver, sometimes moving. He still had no phone signal. He found, after a while, that he did not look for it as often as he had. The mornings were simply quiet, and the quiet was enough."
+                       },
+                       {
+                           "id":  12,
+                           "text":  "He kept thinking about the notebook. Elena had said it would be in the boat — under the seat at the front, in the small compartment. It had not been there. She had said \"strange,\" and then she had said nothing else, and Marco had not asked. But the word stayed with him. People did not say \"strange\" about a thing unless the thing mattered."
+                       },
+                       {
+                           "id":  13,
+                           "text":  "[hesitates] One morning, instead of only sitting, Marco climbed into the boat. It moved gently under him. He opened the small compartment at the bow again — the rain jacket, the coil of rope, the rusted tin. Still no notebook. But this time he did not stop there. He ran his hand along the inside of the boat, under the wooden seats, into the corners his eyes could not reach."
+                       },
+                       {
+                           "id":  14,
+                           "text":  "Under the middle seat, pressed flat against the wood where the seat met the side of the boat, his fingers touched something. It was wrapped in a piece of oilcloth, to keep the water out. Marco worked it free with both hands. It was a notebook — small, dark green, soft at the corners. His grandfather had not kept it in the obvious place. He had hidden it."
+                       },
+                       {
+                           "id":  15,
+                           "text":  "Marco sat down on the seat and unwrapped the oilcloth. The notebook was full — almost every page had writing on it. But Marco could not read a single word of it. It was written in Greek. His grandfather had been Greek; his mother had grown up speaking it; but no one had ever taught Marco, and the letters on the page meant nothing to him at all."
+                       },
+                       {
+                           "id":  16,
+                           "text":  "[calm] He turned the pages slowly anyway. He could not read the words, but he could read other things. He could see that the handwriting was small and careful. He could see the dates at the top of the entries — those, at least, used numbers he knew. The notebook went back many years. His grandfather had been writing in it for a long time."
+                       },
+                       {
+                           "id":  17,
+                           "text":  "Between some of the pages there were drawings. Small ones, done in pencil — the shape of the coast, a particular rock, the curve of a bay. Marco recognized one of them. It was the place Elena had rowed him to on his first morning, the place where she had stopped the boat and let it drift. His grandfather had drawn it, years ago, and sat in this same boat to do it."
+                       },
+                       {
+                           "id":  18,
+                           "text":  "[hesitates] Marco held the notebook and understood his problem clearly. Here, in his hands, was something his grandfather had hidden, written, and cared about for years. And he could not read one line of it. There was exactly one person on the island who could. Elena could read it. Elena could tell him everything the notebook said."
+                       },
+                       {
+                           "id":  19,
+                           "text":  "[sigh] But asking Elena meant talking to Elena — really talking, not the few words they traded over breakfast. In three weeks on the island, they had not had a single long conversation. Marco wrapped the notebook back in its oilcloth and held it on his knees, looking at the water. He wanted to know what it said. To find out, he would have to do the one thing he had been avoiding since the day he arrived."
+                       },
+                       {
+                           "id":  20,
+                           "text":  "[calm] Marco waited until the evening. Elena cooked, the way she always did, and the kitchen filled with the smell of fish and oil and lemon. They ate mostly in silence, as they always did. But when the plates were clear, Marco did not get up from the table. He went to his room, came back with the notebook still wrapped in its oilcloth, and put it down in front of Elena."
+                       },
+                       {
+                           "id":  21,
+                           "text":  "Elena looked at the oilcloth for a long moment before she touched it. Then she unwrapped it slowly, the way you unwrap something you already know the shape of. \"You found it,\" she said. \"In the boat,\" Marco said. \"Under the middle seat. It was hidden.\" Elena nodded slowly. \"He always hid it,\" she said. \"He did not like the rain to reach it.\""
+                       },
+                       {
+                           "id":  22,
+                           "text":  "[hesitates] \"You said it would be in the front,\" Marco said. \"You said \u0027strange\u0027 when it wasn\u0027t there.\" It was almost the longest thing he had said to her since he arrived. Elena was quiet for a moment. \"I thought he had stopped writing in it, near the end,\" she said. \"I did not know he had only moved it to a safer place.\" She put her hand flat on the cover. \"He was always doing that. Keeping things safe, and not telling anyone where.\""
+                       },
+                       {
+                           "id":  23,
+                           "text":  "Elena opened the notebook and turned the pages until she found an early one. She began to read, turning the Greek into English slowly, a sentence at a time. Marco leaned forward to listen. Outside, the evening was growing dark. The only light in the room was the lamp above the table, warm and yellow, and the notebook lay open beneath it."
+                       },
+                       {
+                           "id":  24,
+                           "text":  "Most of the entries were small and ordinary. His grandfather had written about the weather, and the fish, and the state of the boat. He had written which days the sea was kind and which days it was not. He had written down the price of bread, and the names of other fishermen, and once, simply, a good day, nothing happened. Marco found that he wanted to hear every word."
+                       },
+                       {
+                           "id":  25,
+                           "text":  "[calm] Then Elena turned a page and went quiet. \"This one is about your mother,\" she said. She read it carefully. His grandfather had written about a summer when Marco\u0027s mother was a girl — how she had been afraid of the deep water, and how he had taught her, slowly, over many mornings, not to be. Marco sat very still. He had never once thought of his mother as a child who was afraid of anything."
+                       },
+                       {
+                           "id":  26,
+                           "text":  "After that, the talking became easier. Marco asked questions, and Elena answered them, and somehow one question led to another. He asked about his grandfather. He asked what he had been like. Elena told him — not in a long speech, but in small pieces, the way she did everything. They sat at the table for over an hour. It was the longest they had ever spoken."
+                       },
+                       {
+                           "id":  27,
+                           "text":  "[hesitates] At last Elena turned to the final page that had writing on it. She looked at the date for a moment before she read it. \"This is the last thing he wrote,\" she said quietly. \"Three days before he died.\" Marco did not say anything. He waited. The kitchen was very still, and the sea outside made its low and steady sound."
+                       },
+                       {
+                           "id":  28,
+                           "text":  "Elena read the last entry slowly. It was short. His grandfather had written that he had watched the sun set over the bay that evening, from the boat, alone. And he had written that he had been wrong, all these years, about the morning light. The evening, he wrote, was better. He had simply been too proud, for too long, to say so. Elena closed the notebook. Her eyes were bright, but she did not cry."
+                       },
+                       {
+                           "id":  29,
+                           "text":  "[sigh] Marco remembered the first morning on the boat — Elena saying his grandfather had always chosen the morning, and that she missed the argument. He thought about telling her what the last entry meant: that she had won, in the end, and that her husband had known it. But he looked at her face and understood that she already knew. \"Will you read me more of it?\" he asked instead. \"Tomorrow?\" Elena looked at him for a long moment. \"Yes,\" she said. \"Tomorrow.\""
+                       }
+                   ]
 }

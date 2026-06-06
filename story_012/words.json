@@ -12,5 +12,14 @@
   "arrangement": { "ipa": "/əˈreɪndʒmənt/", "pos": "sustantivo" },
   "replacement": { "ipa": "/rɪˈpleɪsmənt/", "pos": "sustantivo" },
   "measure": { "ipa": "/ˈmɛʒər/", "pos": "sustantivo" },
-  "upload": { "ipa": "/ˈʌpˌloʊd/", "pos": "verbo" }
+  "upload": { "ipa": "/ˈʌpˌloʊd/", "pos": "verbo" },
+  "greeting": { "ipa": "/ˈɡriːtɪŋ/", "pos": "sustantivo" },
+  "tune": { "ipa": "/tuːn/", "pos": "sustantivo" },
+  "violin": { "ipa": "/ˌvaɪəˈlɪn/", "pos": "sustantivo" },
+  "clasp": { "ipa": "/klæsp/", "pos": "sustantivo" },
+  "instrument": { "ipa": "/ˈɪnstrumənt/", "pos": "sustantivo" },
+  "mirror": { "ipa": "/ˈmɪrər/", "pos": "sustantivo" },
+  "loose": { "ipa": "/luːs/", "pos": "adjetivo" },
+  "symbol": { "ipa": "/ˈsɪmbəl/", "pos": "sustantivo" },
+  "private": { "ipa": "/ˈpraɪvɪt/", "pos": "adjetivo" }
 }

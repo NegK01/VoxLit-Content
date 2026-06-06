@@ -8,5 +8,13 @@
   "soften": { "ipa": "/ˈsɒfən/", "pos": "verbo" },
   "measurement": { "ipa": "/ˈmɛʒərmənt/", "pos": "sustantivo" },
   "resident": { "ipa": "/ˈrɛzɪdənt/", "pos": "sustantivo" },
-  "treeline": { "ipa": "/ˈtriːlaɪn/", "pos": "sustantivo" }
+  "treeline": { "ipa": "/ˈtriːlaɪn/", "pos": "sustantivo" },
+  "lantern": { "ipa": "/ˈlæntərn/", "pos": "sustantivo" },
+  "shadow": { "ipa": "/ˈʃædoʊ/", "pos": "sustantivo" },
+  "arrow": { "ipa": "/ˈæroʊ/", "pos": "sustantivo" },
+  "cabin": { "ipa": "/ˈkæbɪn/", "pos": "sustantivo" },
+  "stiff": { "ipa": "/stɪf/", "pos": "adjetivo" },
+  "accusation": { "ipa": "/ˌækjuˈzeɪʃən/", "pos": "sustantivo" },
+  "confused": { "ipa": "/kənˈfjuːzd/", "pos": "adjetivo" },
+  "surface": { "ipa": "/ˈsɜːrfɪs/", "pos": "sustantivo" }
 }

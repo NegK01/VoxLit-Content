@@ -1,62 +1,135 @@
 {
-  "id": "story_005",
-  "title": "The Wrong Address",
-  "level": "A2",
-  "description": "A letter arrives at Mia's apartment addressed to someone who hasn't lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
-  "genre": ["mystery", "contemporary"],
-  "is_premium": true,
-  "header_scene": "scene_01.webp",
-  "paragraphs": [
-    {
-      "id": 0,
-      "text": "[calm] The apartment was on the fourth floor of a building that smelled like old carpet and something Mia could not identify. She moved in on a Saturday in March, with three boxes and a lamp she had carried on the metro. The rooms were small and quiet. The walls were white. She stood in the middle of the living room for a moment, listening to nothing, and decided it would be fine.",
-      "audio_file": "p00.opus"
-    },
-    {
-      "id": 1,
-      "text": "The mailbox in the lobby had her name on a small paper label, written by the landlord in blue pen. Below it, someone had taped a piece of card — older, yellowed at the edges — with another name already there: MR. JOHN SMITH, APT. D. She pulled it off and left it on the front table. She would throw it away later.",
-      "audio_file": "p01.opus"
-    },
-    {
-      "id": 2,
-      "text": "Two days after she moved in, a letter appeared in the mailbox. The envelope was old and slightly bent, as if it had been carried a long distance. The address on the front was hers — Apartment D — but the name above it was Mr. John Smith. There was no return address. No stamp. Someone had put it there by hand.",
-      "audio_file": "p02.opus"
-    },
-    {
-      "id": 3,
-      "text": "[hesitates] She asked the building manager about John Smith. He was a man who had lived in the building before the renovation, he said. Twenty, maybe thirty years ago. He didn't know much more. Nobody had mentioned that name in a long time. \"Are you sure it's the right apartment?\" she asked. He nodded. \"Apartment D has always been Apartment D,\" he said.",
-      "audio_file": "p03.opus"
-    },
-    {
-      "id": 4,
-      "text": "That evening, Mia sat at her kitchen table with the letter in front of her. She should return it. Or throw it away. There was no one to return it to. She turned the envelope over in her hands. Whatever was inside was light — paper, maybe. She opened it.",
-      "audio_file": "p04.opus"
-    },
-    {
-      "id": 5,
-      "text": "[nervous] Inside was a single sheet of paper, folded once. On it, someone had drawn a map. A small, careful drawing of a bathroom — with measurements marked in pencil. The third tile from the left on the back wall was marked with an X. Below the drawing, a sentence in careful handwriting: If you found this, you know what to do.",
-      "audio_file": "p05.opus"
-    },
-    {
-      "id": 6,
-      "text": "She sat with the paper for a long time. She thought about calling her sister. She thought about calling the landlord. She did neither. She picked up the paper and walked to the bathroom. She stood in front of the back wall and counted the tiles from left to right. One. Two. Three.",
-      "audio_file": "p06.opus"
-    },
-    {
-      "id": 7,
-      "text": "[whispers] She pressed the third tile. It moved. Not much — just a small shift, like a breath. She pressed harder. The tile swung inward on a thin hinge, revealing a space behind the wall, no larger than a shoe box. Inside was a small tin box, green with age.",
-      "audio_file": "p07.opus",
-      "scene_image": "scene_02.webp"
-    },
-    {
-      "id": 8,
-      "text": "She opened the tin. Inside: a brass key, old and heavy. And a folded note, newer than the letter in the mailbox. She unfolded it. Four words, written in the same handwriting: The lock is not here.",
-      "audio_file": "p08.opus"
-    },
-    {
-      "id": 9,
-      "text": "[sigh] Mia sat on the bathroom floor with the key in her hand. The apartment was quiet around her. Outside, the city made its usual sounds — a car, someone's television, the wind. She closed her fingers around the key. It was cold and heavier than it looked. She did not sleep well that night.",
-      "audio_file": "p09.opus"
-    }
-  ]
+    "id":  "story_005",
+    "title":  "The Wrong Address",
+    "level":  "A2",
+    "description":  "A letter arrives at Mia\u0027s apartment addressed to someone who hasn\u0027t lived there in thirty years. Instead of returning it, she opens it — and finds a map to something hidden inside her own walls.",
+    "genre":  [
+                  "mystery",
+                  "contemporary"
+              ],
+    "is_premium":  true,
+    "header_scene":  "scene_01.webp",
+    "paragraphs":  [
+                       {
+                           "id":  0,
+                           "text":  "[calm] The apartment was on the fourth floor of a building that smelled like old carpet and something Mia could not identify. She moved in on a Saturday in March, with three boxes and a lamp she had carried on the metro. The rooms were small and quiet. The walls were white. She stood in the middle of the living room for a moment, listening to nothing, and decided it would be fine."
+                       },
+                       {
+                           "id":  1,
+                           "text":  "The mailbox in the lobby had her name on a small paper label, written by the landlord in blue pen. Below it, someone had taped a piece of card — older, yellowed at the edges — with another name already there: MR. JOHN SMITH, APT. D. She pulled it off and left it on the front table. She would throw it away later."
+                       },
+                       {
+                           "id":  2,
+                           "text":  "Two days after she moved in, a letter appeared in the mailbox. The envelope was old and slightly bent, as if it had been carried a long distance. The address on the front was hers — Apartment D — but the name above it was Mr. John Smith. There was no return address. No stamp. Someone had put it there by hand."
+                       },
+                       {
+                           "id":  3,
+                           "text":  "[hesitates] She asked the building manager about John Smith. He was a man who had lived in the building before the renovation, he said. Twenty, maybe thirty years ago. He didn\u0027t know much more. Nobody had mentioned that name in a long time. \"Are you sure it\u0027s the right apartment?\" she asked. He nodded. \"Apartment D has always been Apartment D,\" he said."
+                       },
+                       {
+                           "id":  4,
+                           "text":  "That evening, Mia sat at her kitchen table with the letter in front of her. She should return it. Or throw it away. There was no one to return it to. She turned the envelope over in her hands. Whatever was inside was light — paper, maybe. She opened it."
+                       },
+                       {
+                           "id":  5,
+                           "text":  "[nervous] Inside was a single sheet of paper, folded once. On it, someone had drawn a map. A small, careful drawing of a bathroom — with measurements marked in pencil. The third tile from the left on the back wall was marked with an X. Below the drawing, a sentence in careful handwriting: If you found this, you know what to do."
+                       },
+                       {
+                           "id":  6,
+                           "text":  "She sat with the paper for a long time. She thought about calling her sister. She thought about calling the landlord. She did neither. She picked up the paper and walked to the bathroom. She stood in front of the back wall and counted the tiles from left to right. One. Two. Three."
+                       },
+                       {
+                           "id":  7,
+                           "text":  "[whispers] She pressed the third tile. It moved. Not much — just a small shift, like a breath. She pressed harder. The tile swung inward on a thin hinge, revealing a space behind the wall, no larger than a shoe box. Inside was a small tin box, green with age.",
+                           "scene_image":  "scene_02.webp"
+                       },
+                       {
+                           "id":  8,
+                           "text":  "She opened the tin. Inside: a brass key, old and heavy. And a folded note, newer than the letter in the mailbox. She unfolded it. Four words, written in the same handwriting: The lock is not here."
+                       },
+                       {
+                           "id":  9,
+                           "text":  "[sigh] Mia sat on the bathroom floor with the key in her hand. The apartment was quiet around her. Outside, the city made its usual sounds — a car, someone\u0027s television, the wind. She closed her fingers around the key. It was cold and heavier than it looked. She did not sleep well that night."
+                       },
+                       {
+                           "id":  10,
+                           "text":  "[calm] In the morning, Mia made coffee and put the brass key on the table in front of her. It was an ordinary key, heavy and old. It did not look special. But someone had hidden it inside a wall, and someone had drawn a map so that she would find it. She decided she could not simply throw it away. First, she wanted to know who John Smith was."
+                       },
+                       {
+                           "id":  11,
+                           "text":  "She went down to the lobby and knocked on the manager\u0027s door. He remembered her question from before. \"John Smith,\" he said. \"I told you. He lived here a long time ago.\" Mia asked if there were any old papers about the building. The manager thought for a moment. \"The city keeps records,\" he said. \"Old sales, old owners. You could look there.\""
+                       },
+                       {
+                           "id":  12,
+                           "text":  "[hesitates] The city records office was a small, gray building near the train station. A tired woman behind the desk gave Mia a form to fill in. Then she brought out three heavy boxes of papers and put them on a table. \"Everything for that street is in here,\" she said. \"Take your time. We close at five.\" Mia looked at the boxes and sat down."
+                       },
+                       {
+                           "id":  13,
+                           "text":  "The papers were old and the writing was small. Many of them had nothing to do with her building. Mia read slowly, page by page, putting each one back in order. An hour passed. Then another. Her eyes were tired and her coffee was cold. She almost stopped. But then she found a folder with her own street name on it."
+                       },
+                       {
+                           "id":  14,
+                           "text":  "[calm] The folder held the history of her building, year by year. Mia turned the pages carefully. There were old photographs — the same building, but younger, with different cars in front of it. There were lists of names. Owners, repairs, sales. She moved her finger down the lists until she reached the year she was looking for: 1991. That was the year the building had last been sold."
+                       },
+                       {
+                           "id":  15,
+                           "text":  "The sale paper from 1991 was still there, folded inside the folder. Mia opened it and read it slowly. The building had been sold by one person to a company. The company still owned it today. And the name of the person who had sold it — the name written at the top, in old typed letters — was John Smith."
+                       },
+                       {
+                           "id":  16,
+                           "text":  "[whispers] Mia sat very still. She had thought John Smith was a tenant — a man who had rented an apartment and then moved away, like so many people do. But that was wrong. John Smith had not rented Apartment D. He had owned the whole building. He had owned it for years, and then, in 1991, he had sold all of it and disappeared."
+                       },
+                       {
+                           "id":  17,
+                           "text":  "It changed everything she had imagined. A tenant might leave something small behind by accident. But John Smith had owned the building. He had known every wall of it. And before he sold it and went away, he had taken the time to hide a key in Apartment D and to write a map so that someone, one day, would find it."
+                       },
+                       {
+                           "id":  18,
+                           "text":  "[hesitates] Mia read the sale paper again, looking for anything else. At the bottom there was a date — the exact day the sale was finished. Beside it, someone had added one short line by hand, in pen, not in typed letters. It said: new address not provided. John Smith had sold his building, signed his name, and left no way for anyone to find him afterward."
+                       },
+                       {
+                           "id":  19,
+                           "text":  "[sigh] Mia put the papers back in their boxes and thanked the tired woman at the desk. Outside, it was almost evening. She walked home with the key in her pocket and a name in her head that meant more now than it had that morning. John Smith had hidden a key and hidden himself. The note had told her the lock was not in the apartment. So now she had to find where it was."
+                       },
+                       {
+                           "id":  20,
+                           "text":  "[calm] That night, Mia read the note from the tin box again. The lock is not here. If the lock was not in her apartment, then it was somewhere else — somewhere John Smith had wanted her to go. She looked at the brass key on the table. A key was made for one lock and one lock only. The key itself, she thought, had to be the next clue."
+                       },
+                       {
+                           "id":  21,
+                           "text":  "She picked it up and turned it under the lamp. It was old but well made. On one side, near the top, there were marks she had not seen before — small letters and a number, pressed into the metal a long time ago. She found her phone and took a photograph, then made the picture larger on the screen until she could read it clearly."
+                       },
+                       {
+                           "id":  22,
+                           "text":  "[hesitates] The marks said: GRANGE ST. — UNIT 12. Mia knew Grange Street. It was close — two streets away from her own building, a short walk. She had passed it many times without looking at it. She did not know what \"Unit 12\" was. But the key had been made to open Unit 12, and now she knew where to take it."
+                       },
+                       {
+                           "id":  23,
+                           "text":  "She did not sleep much. In the morning she ate quickly, put the key in her coat pocket, and walked to Grange Street. The day was cold and bright. She tried to feel calm. She was only going to look at a door, she told herself. She did not have to open anything she did not want to open."
+                       },
+                       {
+                           "id":  24,
+                           "text":  "[nervous] The building on Grange Street was old and low and quiet. A faded sign by the entrance said STORAGE. Inside, there was a long hallway with many small doors, each one painted gray, each one with a number. The air smelled of dust and cold metal. Mia walked slowly down the hallway, reading the numbers, until she reached the door marked 12."
+                       },
+                       {
+                           "id":  25,
+                           "text":  "She stood in front of Unit 12 for a moment. It looked exactly like all the other doors — gray, plain, old. But there was one difference. Above the number, someone had written a name on a small card, the way people do to mark what is theirs. The card was yellow with age. The name on it was J. SMITH."
+                       },
+                       {
+                           "id":  26,
+                           "text":  "[whispers] Mia took the key from her pocket. Her hand was not quite steady. She put the key into the lock of Unit 12 and turned it. For a moment nothing happened, and she thought the key was wrong after all. Then the lock gave way with a slow, heavy sound, and the door opened a few centimeters into the dark."
+                       },
+                       {
+                           "id":  27,
+                           "text":  "Mia pushed the door open and found the light switch. The room was small — about the size of her bathroom. It was not empty. Along one wall there was a shelf, and on the shelf there were boxes. Cardboard boxes, old but dry, each one closed and each one neatly marked. Someone had kept this room with great care."
+                       },
+                       {
+                           "id":  28,
+                           "text":  "[hesitates] Mia opened the nearest box. Inside were files — papers in folders, sorted and ordered, the way a careful person sorts important things. She lifted out the first folder and opened it. It was full of documents she did not understand yet: letters, lists, copies of old papers. But every page had one thing in common. Every page was about the families who had lived in her building."
+                       },
+                       {
+                           "id":  29,
+                           "text":  "[sigh] Mia sat down on the cold floor of Unit 12 with the folder open on her knees. John Smith had not left this room for just anyone. He had left it for the people of Apartment D — for whoever came after him. She turned to the next folder, and the next. And then she stopped. On one of the folders, in old ink, there was a family name she knew very well. It was her own."
+                       }
+                   ]
 }
