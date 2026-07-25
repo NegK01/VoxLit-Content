@@ -1,135 +1,134 @@
 {
-    "id":  "story_006",
-    "title":  "Sunday Soup",
-    "level":  "A2",
-    "description":  "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
-    "genre":  [
-                  "slice-of-life",
-                  "drama"
-              ],
-    "is_premium":  false,
-    "header_scene":  "scene_01.webp",
-    "paragraphs":  [
-                       {
-                           "id":  0,
-                           "text":  "[calm] Oscar\u0027s Sundays always began the same way. He woke up at seven, made coffee in the small silver pot his wife had used for forty years, and sat at the kitchen table to listen to the radio for a while. Then he started the soup. The soup was the most important part. It always had been."
-                       },
-                       {
-                           "id":  1,
-                           "text":  "His wife, Marta, had taught him to make it. Not by writing anything down — she never wrote recipes down — but by showing him, step by step, in this same kitchen, twenty years ago. He had paid close attention. She had not expected him to remember. He had remembered everything."
-                       },
-                       {
-                           "id":  2,
-                           "text":  "He was adding the onion when he heard the knock. It was just past eleven — not an hour for visitors. He set down his knife and went to the door. A young woman stood in the hallway. She had short dark hair and paint on her fingers. He had seen her twice before in the elevator. She had just moved in."
-                       },
-                       {
-                           "id":  3,
-                           "text":  "\"I\u0027m sorry to bother you,\" she said. \"I\u0027m Lena. From number seven. I\u0027m making pasta and I have no salt. I know it\u0027s a strange thing to ask.\" She looked slightly embarrassed. Oscar stepped back and opened the door wider. \"Come in,\" he said. \"I have salt.\""
-                       },
-                       {
-                           "id":  4,
-                           "text":  "[light chuckle] She stepped into the kitchen, saw the pot on the stove, and stopped. \"That smells incredible,\" she said. \"What is it?\" Oscar handed her the salt. \"Soup,\" he said simply. She looked at him, then at the pot, then back at him. \"Just soup?\" \"Yes,\" he said. \"Just soup.\""
-                       },
-                       {
-                           "id":  5,
-                           "text":  "She asked how he made it. He was not sure why he answered in detail — he usually did not talk much about it. But he told her: the order of the vegetables, the time for each one, why the heat had to be low, why you never stirred it too much. She listened carefully, the salt container still in her hand."
-                       },
-                       {
-                           "id":  6,
-                           "text":  "[calm] She put the salt down on the counter and started helping without being asked. He showed her when to add the herbs. She added them. For a while, they worked in the kitchen without talking. Outside, the Sunday light came through the window and sat on the floor between them."
-                       },
-                       {
-                           "id":  7,
-                           "text":  "They ate at the small table by the window. She told him she had moved because of a relationship that had ended. She said it simply, without asking for sympathy. He did not offer any. He listened. It seemed to be what she needed.",
-                           "scene_image":  "scene_02.webp"
-                       },
-                       {
-                           "id":  8,
-                           "text":  "He told her about Marta. Not much — just that she had been the one who cooked on Sundays for most of their life together, and that after she died, he had learned to do it himself, because Sundays without soup seemed wrong. Lena nodded. She did not say she was sorry. He appreciated that."
-                       },
-                       {
-                           "id":  9,
-                           "text":  "[sigh] After Lena left, Oscar stood at the sink and washed two bowls. He had not washed two bowls on a Sunday in three years. He set them on the drying rack side by side. He looked at them for a moment. Then he went to turn off the radio, which had been playing quietly the whole afternoon."
-                       },
-                       {
-                           "id":  10,
-                           "text":  "[calm] The next Sunday began like every other Sunday. Oscar woke at seven and made his coffee in the small silver pot. He sat at the kitchen table and listened to the radio. But that morning, before he started the soup, he did something he had not done in three years. He stood up, went to the bedroom, and opened the drawer where Marta\u0027s things were kept."
-                       },
-                       {
-                           "id":  11,
-                           "text":  "Inside the drawer, under a folded scarf, was Marta\u0027s notebook. It was small, with a soft brown cover, and the corners were worn from years of use. Marta had carried it everywhere. Oscar had seen it a thousand times. But he had never once opened it — not while she was alive, because it was hers, and not after she died, because he was afraid."
-                       },
-                       {
-                           "id":  12,
-                           "text":  "[hesitates] He carried the notebook to the kitchen and put it on the table, near the window. Then he looked at it for a while and did not touch it again. Instead, he started the soup. He cut the onion. He warmed the oil. He told himself he would open the notebook later, when the soup was cooking, when he had time. He had been telling himself \"later\" for three years."
-                       },
-                       {
-                           "id":  13,
-                           "text":  "The knock came just past eleven, the way it had the Sunday before. Oscar opened the door. Lena stood in the hallway, and this time she was not holding an empty cup. She was holding a small bag of fresh bread. \"I\u0027m not here for salt,\" she said. \"I just thought — well. It\u0027s Sunday.\" Oscar stepped back and let her in."
-                       },
-                       {
-                           "id":  14,
-                           "text":  "[light chuckle] \"The soup again?\" Lena said, when she saw the pot. \"The soup again,\" Oscar agreed. She put the bread on the counter and washed her hands without being asked, the way she had the week before. It was strange, Oscar thought, how quickly a thing could become a habit. One Sunday was an accident. Two Sundays, and it was almost a tradition."
-                       },
-                       {
-                           "id":  15,
-                           "text":  "They worked together for a while, easy and quiet. Then Lena went to the table to move a chair, and she saw the notebook lying there in the light from the window. She did not pick it up. But she looked at it, and then she looked at Oscar. \"What\u0027s that?\" she asked. \"It looks old.\""
-                       },
-                       {
-                           "id":  16,
-                           "text":  "[hesitates] \"It was Marta\u0027s,\" Oscar said. He dried his hands on a cloth. \"Her notebook. She kept it with her always.\" Lena waited, the way she did — without filling the silence. \"I have never opened it,\" Oscar said. The words sounded strange out loud. \"Three years, and I have never opened it. I think I have been afraid of what is inside. And afraid of what is not.\""
-                       },
-                       {
-                           "id":  17,
-                           "text":  "Lena did not tell him he should open it. She did not tell him he should not. She finished cutting the bread and set the table, two plates, the way they had done it before. \"It\u0027s yours now,\" she said simply. \"You can open it today, or in another three years. It will wait for you. It already has.\""
-                       },
-                       {
-                           "id":  18,
-                           "text":  "[calm] After they had eaten, and after Lena had gone home, Oscar sat alone at the table with the notebook in front of him. The kitchen was warm and quiet. He put his hand flat on the soft brown cover for a moment. Then, slowly, he opened it. He had expected recipes. Marta had never written her recipes down — but he had expected them anyway, because that was the easy thing to expect."
-                       },
-                       {
-                           "id":  19,
-                           "text":  "[sigh] There were no recipes. The notebook was full of small, ordinary lines, written in Marta\u0027s round handwriting, each one marked with a date. Bought new shoes today. Oscar burned the rice and we laughed. The garden is doing well this year. It was not a book of cooking. It was a book of days — quiet, small, ordinary days. Oscar read three pages, then closed it gently. It was enough for one Sunday. But he knew, now, that he would open it again."
-                       },
-                       {
-                           "id":  20,
-                           "text":  "[calm] By the fourth Sunday, no one knocked anymore. Lena simply came at eleven, and Oscar simply left the door unlocked for her. They had found a quiet way of being together — cooking, talking a little, eating, washing the bowls side by side. Oscar had not had a routine with another person in it for three years. He had forgotten how much weight a small routine could carry."
-                       },
-                       {
-                           "id":  21,
-                           "text":  "That Sunday, while the soup cooked, Oscar showed her a page from Marta\u0027s notebook. It was a line about a winter long ago, when the pipes had frozen and they had carried water from a neighbor\u0027s house. \"She wrote down the small things,\" Oscar said. \"Not the big ones. I think the small things were the ones she wanted to keep.\" Lena read the line twice."
-                       },
-                       {
-                           "id":  22,
-                           "text":  "[hesitates] After that, Lena grew quiet. It was not an unhappy quiet, but Oscar noticed it. He had spent forty years with a woman who went quiet before she said something difficult, and he knew the shape of it. He did not ask her what was wrong. He stirred the soup, lowered the heat, and waited, the way she had once waited for him."
-                       },
-                       {
-                           "id":  23,
-                           "text":  "\"I told you I moved here because of a relationship,\" Lena said at last. She was looking at the table, not at him. \"That was true. But it was not the whole reason.\" Oscar said nothing. He sat down across from her. He let the kitchen be quiet, so that there would be room for whatever she needed to say."
-                       },
-                       {
-                           "id":  24,
-                           "text":  "\"Before the relationship ended, my mother was sick for a long time,\" Lena said. \"Years. I took care of her. I was glad to do it — I want to say that clearly. But when she died, I had nothing left. Not for the relationship, not for my friends, not for myself. Everyone at home looked at me and saw a sad story. I moved here because here, nobody knows the story.\""
-                       },
-                       {
-                           "id":  25,
-                           "text":  "Oscar listened. He did not say that he understood, although he did. He did not say that it would get easier, although perhaps it would. He had learned, in three years without Marta, that those words were for the person who said them, not for the person who heard them. So he simply listened, and let her talk, and did not look away from her face."
-                       },
-                       {
-                           "id":  26,
-                           "text":  "[calm] When Lena finished, the kitchen was quiet. The soup made its low, soft sound on the stove. The afternoon light lay on the floor between them, the way it had on that first Sunday. Oscar did not offer her advice. He had no advice to offer. He only knew that she had carried something heavy into his kitchen, and that, for a little while, she had been able to set it down."
-                       },
-                       {
-                           "id":  27,
-                           "text":  "After a moment, Oscar said only one thing. \"Marta used to say that the soup is always better on the second day.\" Lena looked up at him. \"She was right,\" he said. \"Some things need a day to become themselves. I think people are the same. You do not have to be better today.\" It was not advice. It was just something true, said gently."
-                       },
-                       {
-                           "id":  28,
-                           "text":  "[hesitates] Lena did not cry, and Oscar was glad of that — not because tears would have been wrong, but because she had cried enough, in another town, in another kitchen. Instead she smiled, a small and tired and real smile, and picked up her spoon. They ate the soup together. It was, as it always was, quiet and warm and enough."
-                       },
-                       {
-                           "id":  29,
-                           "text":  "[sigh] When Lena left that evening, she stopped at the door. \"Next Sunday,\" she said, \"I want to make the soup. You can watch. You can tell me everything I do wrong.\" Oscar said that he would like that very much. After she had gone, he washed the two bowls and set them on the rack to dry. Then he sat down with Marta\u0027s notebook and opened it to a new page, and read about another small, ordinary, happy day."
-                       }
-                   ]
+  "id": "story_006",
+  "title": "Sunday Soup",
+  "level": "A2",
+  "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
+  "genre": ["slice-of-life", "drama"],
+  "is_premium": false,
+  "header_scene": "scene_01.webp",
+  "paragraphs": [
+    {
+      "id": 0,
+      "text": "[calm] Oscar\u0027s Sundays always began the same way. He woke up at seven, made coffee in the small silver pot his wife had used for forty years, and sat at the kitchen table to listen to the radio for a while. Then he started the soup. The soup was the most important part. It always had been."
+    },
+    {
+      "id": 1,
+      "text": "His wife, Marta, had taught him to make it. Not by writing anything down — she never wrote recipes down — but by showing him, step by step, in this same kitchen, twenty years ago. He had paid close attention. She had not expected him to remember. He had remembered everything."
+    },
+    {
+      "id": 2,
+      "text": "He was adding the onion when he heard the knock. It was just past eleven — not an hour for visitors. He set down his knife and went to the door. A young woman stood in the hallway. She had short dark hair and paint on her fingers. He had seen her twice before in the elevator. She had just moved in."
+    },
+    {
+      "id": 3,
+      "text": "\"I\u0027m sorry to bother you,\" she said. \"I\u0027m Lena. From number seven. I\u0027m making pasta and I have no salt. I know it\u0027s a strange thing to ask.\" She looked slightly embarrassed. Oscar stepped back and opened the door wider. \"Come in,\" he said. \"I have salt.\""
+    },
+    {
+      "id": 4,
+      "text": "[light chuckle] She stepped into the kitchen, saw the pot on the stove, and stopped. \"That smells incredible,\" she said. \"What is it?\" Oscar handed her the salt. \"Soup,\" he said simply. She looked at him, then at the pot, then back at him. \"Just soup?\" \"Yes,\" he said. \"Just soup.\""
+    },
+    {
+      "id": 5,
+      "text": "She asked how he made it. He was not sure why he answered in detail — he usually did not talk much about it. But he told her: the order of the vegetables, the time for each one, why the heat had to be low, why you never stirred it too much. She listened carefully, the salt container still in her hand."
+    },
+    {
+      "id": 6,
+      "text": "[calm] She put the salt down on the counter and started helping without being asked. He showed her when to add the herbs. She added them. For a while, they worked in the kitchen without talking. Outside, the Sunday light came through the window and sat on the floor between them."
+    },
+    {
+      "id": 7,
+      "text": "They ate at the small table by the window. She told him she had moved because of a relationship that had ended. She said it simply, without asking for sympathy. He did not offer any. He listened. It seemed to be what she needed.",
+      "scene_image": "scene_02.webp"
+    },
+    {
+      "id": 8,
+      "text": "He told her about Marta. Not much — just that she had been the one who cooked on Sundays for most of their life together, and that after she died, he had learned to do it himself, because Sundays without soup seemed wrong. Lena nodded. She did not say she was sorry. He appreciated that."
+    },
+    {
+      "id": 9,
+      "text": "[sigh] After Lena left, Oscar stood at the sink and washed two bowls. He had not washed two bowls on a Sunday in three years. He set them on the drying rack side by side. He looked at them for a moment. Then he went to turn off the radio, which had been playing quietly the whole afternoon."
+    },
+    {
+      "id": 10,
+      "text": "[calm] The next Sunday began like every other Sunday. Oscar woke at seven and made his coffee in the small silver pot. He sat at the kitchen table and listened to the radio. But that morning, before he started the soup, he did something he had not done in three years. He stood up, went to the bedroom, and opened the drawer where Marta\u0027s things were kept."
+    },
+    {
+      "id": 11,
+      "text": "Inside the drawer, under a folded scarf, was Marta\u0027s notebook. It was small, with a soft brown cover, and the corners were worn from years of use. Marta had carried it everywhere. Oscar had seen it a thousand times. But he had never once opened it — not while she was alive, because it was hers, and not after she died, because he was afraid.",
+      "scene_image": "scene_03.webp"
+    },
+    {
+      "id": 12,
+      "text": "[hesitates] He carried the notebook to the kitchen and put it on the table, near the window. Then he looked at it for a while and did not touch it again. Instead, he started the soup. He cut the onion. He warmed the oil. He told himself he would open the notebook later, when the soup was cooking, when he had time. He had been telling himself \"later\" for three years."
+    },
+    {
+      "id": 13,
+      "text": "The knock came just past eleven, the way it had the Sunday before. Oscar opened the door. Lena stood in the hallway, and this time she was not holding an empty cup. She was holding a small bag of fresh bread. \"I\u0027m not here for salt,\" she said. \"I just thought — well. It\u0027s Sunday.\" Oscar stepped back and let her in."
+    },
+    {
+      "id": 14,
+      "text": "[light chuckle] \"The soup again?\" Lena said, when she saw the pot. \"The soup again,\" Oscar agreed. She put the bread on the counter and washed her hands without being asked, the way she had the week before. It was strange, Oscar thought, how quickly a thing could become a habit. One Sunday was an accident. Two Sundays, and it was almost a tradition."
+    },
+    {
+      "id": 15,
+      "text": "They worked together for a while, easy and quiet. Then Lena went to the table to move a chair, and she saw the notebook lying there in the light from the window. She did not pick it up. But she looked at it, and then she looked at Oscar. \"What\u0027s that?\" she asked. \"It looks old.\""
+    },
+    {
+      "id": 16,
+      "text": "[hesitates] \"It was Marta\u0027s,\" Oscar said. He dried his hands on a cloth. \"Her notebook. She kept it with her always.\" Lena waited, the way she did — without filling the silence. \"I have never opened it,\" Oscar said. The words sounded strange out loud. \"Three years, and I have never opened it. I think I have been afraid of what is inside. And afraid of what is not.\""
+    },
+    {
+      "id": 17,
+      "text": "Lena did not tell him he should open it. She did not tell him he should not. She finished cutting the bread and set the table, two plates, the way they had done it before. \"It\u0027s yours now,\" she said simply. \"You can open it today, or in another three years. It will wait for you. It already has.\""
+    },
+    {
+      "id": 18,
+      "text": "[calm] After they had eaten, and after Lena had gone home, Oscar sat alone at the table with the notebook in front of him. The kitchen was warm and quiet. He put his hand flat on the soft brown cover for a moment. Then, slowly, he opened it. He had expected recipes. Marta had never written her recipes down — but he had expected them anyway, because that was the easy thing to expect.",
+      "scene_image": "scene_04.webp"
+    },
+    {
+      "id": 19,
+      "text": "[sigh] There were no recipes. The notebook was full of small, ordinary lines, written in Marta\u0027s round handwriting, each one marked with a date. Bought new shoes today. Oscar burned the rice and we laughed. The garden is doing well this year. It was not a book of cooking. It was a book of days — quiet, small, ordinary days. Oscar read three pages, then closed it gently. It was enough for one Sunday. But he knew, now, that he would open it again."
+    },
+    {
+      "id": 20,
+      "text": "[calm] By the fourth Sunday, no one knocked anymore. Lena simply came at eleven, and Oscar simply left the door unlocked for her. They had found a quiet way of being together — cooking, talking a little, eating, washing the bowls side by side. Oscar had not had a routine with another person in it for three years. He had forgotten how much weight a small routine could carry."
+    },
+    {
+      "id": 21,
+      "text": "That Sunday, while the soup cooked, Oscar showed her a page from Marta\u0027s notebook. It was a line about a winter long ago, when the pipes had frozen and they had carried water from a neighbor\u0027s house. \"She wrote down the small things,\" Oscar said. \"Not the big ones. I think the small things were the ones she wanted to keep.\" Lena read the line twice."
+    },
+    {
+      "id": 22,
+      "text": "[hesitates] After that, Lena grew quiet. It was not an unhappy quiet, but Oscar noticed it. He had spent forty years with a woman who went quiet before she said something difficult, and he knew the shape of it. He did not ask her what was wrong. He stirred the soup, lowered the heat, and waited, the way she had once waited for him."
+    },
+    {
+      "id": 23,
+      "text": "\"I told you I moved here because of a relationship,\" Lena said at last. She was looking at the table, not at him. \"That was true. But it was not the whole reason.\" Oscar said nothing. He sat down across from her. He let the kitchen be quiet, so that there would be room for whatever she needed to say."
+    },
+    {
+      "id": 24,
+      "text": "\"Before the relationship ended, my mother was sick for a long time,\" Lena said. \"Years. I took care of her. I was glad to do it — I want to say that clearly. But when she died, I had nothing left. Not for the relationship, not for my friends, not for myself. Everyone at home looked at me and saw a sad story. I moved here because here, nobody knows the story.\""
+    },
+    {
+      "id": 25,
+      "text": "Oscar listened. He did not say that he understood, although he did. He did not say that it would get easier, although perhaps it would. He had learned, in three years without Marta, that those words were for the person who said them, not for the person who heard them. So he simply listened, and let her talk, and did not look away from her face."
+    },
+    {
+      "id": 26,
+      "text": "[calm] When Lena finished, the kitchen was quiet. The soup made its low, soft sound on the stove. The afternoon light lay on the floor between them, the way it had on that first Sunday. Oscar did not offer her advice. He had no advice to offer. He only knew that she had carried something heavy into his kitchen, and that, for a little while, she had been able to set it down."
+    },
+    {
+      "id": 27,
+      "text": "After a moment, Oscar said only one thing. \"Marta used to say that the soup is always better on the second day.\" Lena looked up at him. \"She was right,\" he said. \"Some things need a day to become themselves. I think people are the same. You do not have to be better today.\" It was not advice. It was just something true, said gently."
+    },
+    {
+      "id": 28,
+      "text": "[hesitates] Lena did not cry, and Oscar was glad of that — not because tears would have been wrong, but because she had cried enough, in another town, in another kitchen. Instead she smiled, a small and tired and real smile, and picked up her spoon. They ate the soup together. It was, as it always was, quiet and warm and enough."
+    },
+    {
+      "id": 29,
+      "text": "[sigh] When Lena left that evening, she stopped at the door. \"Next Sunday,\" she said, \"I want to make the soup. You can watch. You can tell me everything I do wrong.\" Oscar said that he would like that very much. After she had gone, he washed the two bowls and set them on the rack to dry. Then he sat down with Marta\u0027s notebook and opened it to a new page, and read about another small, ordinary, happy day."
+    }
+  ]
 }
