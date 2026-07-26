@@ -13,8 +13,7 @@ Each story is a short, level-tagged chapter (~600–900 words) in English, writt
 ```
 voxlit-content/
 ├── catalog.json          ← index of all downloadable stories
-├── story_004/            ← The Clockmaker's Secret (B1)
-├── story_005/            ← The Last Train (A2)
+├── story_005/            ← The Wrong Address (A2)
 ├── story_006/            ← Sunday Soup (A2)
 ├── story_007/            ← The Night Shift (B1)
 ├── story_008/            ← Salt and Sea (A2)
@@ -26,11 +25,12 @@ voxlit-content/
 ```
 
 Each story folder contains:
-- `story.json` — paragraphs, metadata, audio file references
-- `dictionary.json` — word list with Spanish translations used by the in-app tap-to-translate feature
+- `audio.opus` — full narrated audio for the entire chapter
 - `cover.webp` — library card image (720×960)
+- `dictionary.json` — word list with Spanish translations used by the in-app tap-to-translate feature
 - `scene_XX.webp` — in-reader illustrations (1280×640)
-- `p00.opus`, `p01.opus`... — narration audio, one file per paragraph
+- `story.json` — paragraphs, metadata, audio file references
+- `timestamps.json` — word-level timing data for synchronized highlighting
 
 The app fetches `catalog.json` on every session and downloads individual story ZIPs from GitHub Releases on demand — no APK update needed to add new stories.
 
@@ -49,18 +49,32 @@ Levels follow the CEFR scale used by most language learning platforms.
 
 ## How the app uses this repo
 
-```
-App launch
-  └─ fetches catalog.json
-       ├─ success → shows available stories, marks new ones
-       └─ fail    → uses last cached version
+VoxLit uses a hybrid architecture to keep the app installation small while allowing the library to grow indefinitely without requiring updates from the Google Play Store.
 
-User taps Download on a story
-  └─ fetches story_XXX.zip from GitHub Releases
-       └─ extracts to device storage → story available offline
+**The Hybrid Catalog**
+To make sure users never see an empty screen, the app uses a smart fallback system:
+1. **Live Catalog**: When the app opens with internet access, it quietly downloads `catalog.json` from this repository and saves it locally.
+2. **Offline Fallback**: If it's the user's very first time opening the app and they have no internet, VoxLit uses a pre-packaged, basic catalog included in the app itself.
+
+**User Flow**
+```text
+App launch (Online)
+  └─ Fetches catalog.json in the background
+       ├─ If there are updates → Refreshes the library to show new stories
+       └─ If nothing changed → Uses the saved catalog to save data
+
+User browses the library
+  └─ Cover art and background images for remote books are downloaded on-the-fly.
+
+User taps "Download" on a story
+  └─ Fetches story_XXX.zip from GitHub Releases
+       └─ Extracts everything to the device → Story becomes permanently available offline
 ```
 
-Stories bundled inside the APK (story_001 to story_003) are not in this repo — they ship with the app.
+**Offline Resilience**
+Once the app has fetched the catalog at least once, the user will always be able to browse the titles, descriptions, and levels of all available stories—even if they lose their internet connection. The core reading experience is designed to never break.
+
+*(Note: Stories 001 to 004 are fully bundled inside the app to guarantee a rich Day-1 experience even without internet, so they are not tracked in this repository).*
 
 ---
 
