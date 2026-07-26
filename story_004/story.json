@@ -78,7 +78,8 @@
                        },
                        {
                            "id":  16,
-                           "text":  "[calm] Leopold kept records. His father had kept them before him, and his father\u0027s habit had become his own — every repair, every customer, every watch that had passed across the long wooden table, written down in heavy ledgers and shelved by year. The ledgers filled an entire wall of the back room. If Albrecht Voss had ever brought a watch to this shop, there would be a line of ink somewhere with his name on it."
+                           "text":  "[calm] Leopold kept records. His father had kept them before him, and his father\u0027s habit had become his own — every repair, every customer, every watch that had passed across the long wooden table, written down in heavy ledgers and shelved by year. The ledgers filled an entire wall of the back room. If Albrecht Voss had ever brought a watch to this shop, there would be a line of ink somewhere with his name on it.",
+                           "scene_image":  "scene_03.webp"
                        },
                        {
                            "id":  17,
@@ -86,7 +87,7 @@
                        },
                        {
                            "id":  18,
-                           "text":  "[hesitates] Leopold knew his father\u0027s ledgers the way other men know their own faces. In sixty years of entries, he had never once seen those two words. His father had been a kind man, but he had also been a careful one — and a clockmaker who works for no charge is a clockmaker paying a debt of a different kind. Beside the line, very faint, his father had drawn a small mark: a circle with a single dot at its center."
+                           "text":  "[hesitates] Leopold knew his father\u0027s ledgers the way other men know their own faces. In sixty years of entries, he had never once seen those two words. His father had been a kind man, but he had also been a careful one — and a clockmaker who works for no charge is a clockmaker paying a debt of a different kind. Beside the line, very faint, his father had drawn a small mark: a circle with a single dot on its edge, at the three o'clock position.."
                        },
                        {
                            "id":  19,
@@ -94,7 +95,7 @@
                        },
                        {
                            "id":  20,
-                           "text":  "[calm] Clara\u0027s silver watch had carried a hidden compartment. Leopold had found it by accident, with a magnifying lamp and thirty years of practice in his fingers. Now he went back to the twelve watches in the hidden room and searched each one the way he should have searched them first — slowly, pressing every edge, listening for the small click of a mechanism that wished to remain closed."
+                           "text":  "[calm] Clara's silver watch had carried a hidden compartment. Leopold had found it by accident, with a magnifying lamp and thirty years of practice in his fingers. Now he returned to the twelve watches and searched each one the way he should have searched them first — slowly, pressing every edge, listening for the small click of a mechanism that wished to remain closed."
                        },
                        {
                            "id":  21,
