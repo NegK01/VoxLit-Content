@@ -6,6 +6,7 @@
   "genre": ["mystery", "contemporary"],
   "is_premium": true,
   "header_scene": "scene_01.webp",
+  "audio_file" : "",
   "paragraphs": [
     {
       "id": 0,
@@ -129,5 +130,6 @@
       "id": 29,
       "text": "[sigh] Mia sat down on the cold floor of Unit 12 with the folder open on her knees. John Smith had not left this room for just anyone. He had left it for the people of Apartment D — for whoever came after him. She turned to the next folder, and the next. And then she stopped. On one of the folders, in old ink, there was a family name she knew very well. It was her own."
     }
-  ]
+  ],
+  "quizzes" : []
 }

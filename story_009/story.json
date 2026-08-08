@@ -1,136 +1,138 @@
 {
-    "id":  "story_009",
-    "title":  "The Translator",
-    "level":  "B1",
-    "description":  "Yuki works as a simultaneous interpreter at an international conference in Brussels. By the third day, she realizes that what she is hearing in Japanese does not match what the official documents say — and that she is the only person in the room who knows.",
-    "genre":  [
-                  "drama",
-                  "thriller",
-                  "contemporary"
-              ],
-    "is_premium":  true,
-    "header_scene":  "scene_01.webp",
-    "paragraphs":  [
-                       {
-                           "id":  0,
-                           "text":  "[calm] The interpreter\u0027s booth was a glass box on the second floor, overlooking the main conference room. Yuki had worked in rooms like this for six years — the same low hum of air conditioning, the same view of delegates who never looked up, the same feeling of being completely present and completely invisible at the same time. She put on her headset. The morning session was beginning."
-                       },
-                       {
-                           "id":  1,
-                           "text":  "She was covering Japanese to English for the eastern trade delegation. The first day was straightforward — opening statements, procedural language, introductions. Delegate Ishida spoke slowly and precisely, as if every sentence had been prepared twice. She translated everything correctly, completely, without pause. She was good at this. She had learned to disappear into the words."
-                       },
-                       {
-                           "id":  2,
-                           "text":  "On the second day, during the afternoon break, she left her headset on by mistake. She was reviewing notes when she heard Delegate Ishida speaking to someone in the corridor below — a private conversation, not meant for the conference. In Japanese, quiet but clear: \u0027It has to be before Thursday. Not after.\u0027 She turned off the headset. She told herself it was nothing."
-                       },
-                       {
-                           "id":  3,
-                           "text":  "[hesitates] On the third morning, Delegate Ishida delivered his prepared statement on sustainable trade agreements. She had the official Japanese document open in front of her, cross-referencing as he spoke. The word he used in the spoken version for \u0027agreement\u0027 — he used a different word than the document. In writing: \u0027mutual agreement.\u0027 In speech: a word that meant something closer to \u0027forced compliance.\u0027 The distinction was small. The meaning was not."
-                       },
-                       {
-                           "id":  4,
-                           "text":  "She translated what the document said. Nobody in the room would know otherwise — she was the only one with the Japanese feed. She kept her voice steady. She finished the session. During the break, she sat in the booth alone and looked at her notes. She had noticed four more instances that morning."
-                       },
-                       {
-                           "id":  5,
-                           "text":  "[nervous] By the end of the day, she had counted eleven divergences. None of them were accidental — the differences were too consistent, too carefully placed. In each case, the spoken Japanese undermined what the written text promised. Delegate Ishida was saying one thing officially and something different where only the interpreter could hear."
-                       },
-                       {
-                           "id":  6,
-                           "text":  "She called her supervisor from the hotel room that evening. He did not answer. She wrote an email, read it back, and deleted it. She did not know how to explain something she could not prove without her recordings, and she was not certain what she would be accusing anyone of, or why."
-                       },
-                       {
-                           "id":  7,
-                           "text":  "[whispers] She played back the day\u0027s recordings three times. Each time, the divergences were there — clear, consistent, deliberate. She made a document with timestamps and the two versions of each phrase side by side. She saved it in two places. Then she sat at the edge of the hotel bed and looked at her phone and did not know what to do next.",
-                           "scene_image":  "scene_02.webp"
-                       },
-                       {
-                           "id":  8,
-                           "text":  "She went to sleep just before midnight. At two in the morning, her phone lit up. A message from a number she did not recognize. She read it once, then again, then a third time: We know you noticed. Please do not say anything. We will explain."
-                       },
-                       {
-                           "id":  9,
-                           "text":  "[sigh] She sat up in the dark with the phone in her hand. The room was quiet. The conference would begin again in six hours. She looked at the message for a long time. Then she opened her recordings file and made sure it had uploaded to the cloud. She put the phone face-down on the pillow beside her. She did not sleep again."
-                       },
-                       {
-                           "id":  10,
-                           "text":  "[calm] Yuki worked the fourth day of the conference exactly as she had worked the first three. She sat in the glass booth, put on her headset, and turned Delegate Ishida\u0027s careful Japanese into careful English for a room full of people who never looked up. Her voice did not shake. Her hands were steady on the desk. But all morning, beneath the work, one question turned slowly in her mind: who had sent the message, and how had they known."
-                       },
-                       {
-                           "id":  11,
-                           "text":  "[hesitates] The message had asked her to say nothing and promised an explanation. By the lunch break, Yuki had decided. An explanation she did not control was worth very little to her. If someone wished to explain something, she would prefer to ask the questions herself, in a place of her own choosing, where she could watch their faces while they spoke. She took out her phone and typed a reply."
-                       },
-                       {
-                           "id":  12,
-                           "text":  "She wrote four words: Then explain. Public place. She did not sign it. The answer came within a minute, as though someone had been holding the phone, waiting. A café near the old station, it said. Four o\u0027clock. There will be two of us. We will sit where you can see the door. Yuki read it twice and put the phone away. They had understood her without being told. That, in its own way, was an answer."
-                       },
-                       {
-                           "id":  13,
-                           "text":  "[nervous] The café was small and bright and half empty. Yuki saw them as soon as she came in — a man and a woman, sitting at a table against the back wall, with a clear view of the door, exactly as they had promised. They had chosen the table for her comfort, not theirs. She crossed the room, sat down opposite them, and waited. She had decided she would not speak first."
-                       },
-                       {
-                           "id":  14,
-                           "text":  "The woman spoke first. She was a journalist, she said, and she gave a name, and the name of a newspaper Yuki knew and trusted. The man was quieter. He was, he explained, a junior official with one of the smaller delegations at the conference — not Ishida\u0027s, another one. Both of them, he said, had been watching Delegate Ishida for longer than the three days Yuki had."
-                       },
-                       {
-                           "id":  15,
-                           "text":  "\"You noticed the divergences,\" the journalist said. It was not a question. \"Between what he reads aloud and what the documents say. We could not prove them. We do not speak Japanese — not the way you do, not well enough to stand behind it. You are the first person in that building who can actually hear what Delegate Ishida is doing.\""
-                       },
-                       {
-                           "id":  16,
-                           "text":  "[whispers] The man leaned forward. \"Ishida is signing trade agreements,\" he said quietly. \"That part is real. The signatures are real. But read carefully, and the agreements are not between two governments. They are between one government and an organization. A trading body. It has a name, and an address, and a great deal of money. And as far as anyone has been able to discover, it does not exist.\""
-                       },
-                       {
-                           "id":  17,
-                           "text":  "\"It exists on paper,\" the journalist said. \"It exists in the documents Ishida is signing this week. Once the agreements are signed and approved, it will be very difficult to prove that it was ever empty. Money will move. Decisions will be made in its name. By the time anyone asks the right question, the answer will no longer matter. That is why it has to happen before Thursday. After Thursday, the conference closes, and the documents become final.\""
-                       },
-                       {
-                           "id":  18,
-                           "text":  "[hesitates] Yuki sat with her coffee untouched and understood, finally, the exact shape of her position. She was not a witness to a crime that had already happened. She was the only witness, alive, to a crime that was still happening — that would finish itself, quietly and legally, in three days. The journalist had words and no proof. The official had suspicion and no language. Yuki had both. Yuki had the one thing the whole thing turned on."
-                       },
-                       {
-                           "id":  19,
-                           "text":  "[sigh] \"What do you want from me?\" Yuki asked. It was the first thing she had said since she sat down. \"What you already have,\" the journalist said. \"The recordings. The two versions, side by side. With those, this becomes something we can publish — something a court can read.\" Yuki thought of the file, saved in two places, sitting quietly in the cloud. Thursday was three days away. She had until then to decide whether she was a person who stayed invisible, or a person who did not."
-                       },
-                       {
-                           "id":  20,
-                           "text":  "[calm] For three days, Yuki did her job and carried her decision with her like a stone in her coat. She translated the morning sessions and the afternoon sessions. She was, as always, accurate, complete, and invisible. No one in the glass booth or the room below had any idea that the quiet woman with the headset was holding, in a file saved in two places, the only proof of what was about to happen."
-                       },
-                       {
-                           "id":  21,
-                           "text":  "[hesitates] She understood clearly what speaking would cost her. An interpreter\u0027s whole value was her invisibility. She was trusted because she disappeared — because words went in one language and came out in another, and nothing of Yuki touched them on the way. The moment she became a person who had used what she heard, that trust was gone. Her career was built on silence. And silence was exactly what she was deciding to break."
-                       },
-                       {
-                           "id":  22,
-                           "text":  "But she also let herself imagine the other choice. She imagined translating the final documents on Thursday, going home to her own city, and reading, a year from now, about money that had vanished into an organization that had never existed. She imagined knowing — for the rest of her life — that she had sat in the only seat in the building from which the truth could be heard, and had chosen to hear nothing. That, she found, she could not imagine living with."
-                       },
-                       {
-                           "id":  23,
-                           "text":  "[nervous] Thursday came. The final session of the conference was the largest — the room was full, the documents were stacked in their folders, and there was the particular bright, heavy mood of an important thing about to be completed. Yuki took her place in the booth and put on her headset. Below her, Delegate Ishida sat at the long table, calm and precise, his pen resting beside the papers he had come to Brussels to sign."
-                       },
-                       {
-                           "id":  24,
-                           "text":  "Ishida delivered his closing statement, and Yuki translated it. She translated it perfectly. She gave the room the official version — the careful, written, public words — exactly as she had every day, because that was still, until the last possible moment, her job. Her voice in three hundred headsets was even and clear. Inside the booth, her heart was not."
-                       },
-                       {
-                           "id":  25,
-                           "text":  "[whispers] Then the signing began. One document after another was opened, read, and signed. Yuki watched Ishida\u0027s hand move across each page. She watched the small organization that did not exist become, with every signature, a little more real, a little harder to question. When the last page was signed, there was quiet applause. The conference was, officially, a success. The official version was now the only version that existed on paper."
-                       },
-                       {
-                           "id":  26,
-                           "text":  "But it was not the only version that existed. Yuki still had the other one — the spoken words, recorded, with their times and their true meanings set down beside the written lies. The signing had not destroyed her file. It had only made it more important. A signed document is very difficult to undo. But a signed document built on something that was never true is not strong. It is only large."
-                       },
-                       {
-                           "id":  27,
-                           "text":  "[hesitates] That evening, alone in her hotel room, Yuki made her decision. She would not give the file to the journalist — not first, and not only. A story in a newspaper could be argued with, delayed, buried under other stories, denied by people with more practice at denial than Yuki would ever have. She wanted something harder to ignore. She wanted the file to land somewhere that was required, by law, to answer it."
-                       },
-                       {
-                           "id":  28,
-                           "text":  "So she made copies. She sent the file, with a calm and careful letter, to the office that reviewed the conference\u0027s agreements — the one body that could not simply look away. And she sent a second copy to the journalist, with one line: Not yet. Wait for the review. If it is buried, publish everything. The journalist, Yuki thought, would understand. People who waited for messages at two in the morning understood patience."
-                       },
-                       {
-                           "id":  29,
-                           "text":  "[sigh] Then there was nothing more to do. Yuki packed her suitcase, returned her headset, and flew home the next morning. She went back to other rooms, other booths, other delegates — back to being the quiet woman who turned one language into another and added nothing of herself. But something had changed, and only she knew it. Once, in a glass booth in Brussels, she had heard something no one else could hear — and this time, she had not stayed silent. Now she could only wait, and see what one honest act was worth."
-                       }
-                   ]
+    "id": "story_009",
+    "title": "The Translator",
+    "level": "B1",
+    "description": "Yuki works as a simultaneous interpreter at an international conference in Brussels. By the third day, she realizes that what she is hearing in Japanese does not match what the official documents say — and that she is the only person in the room who knows.",
+    "genre": [
+        "drama",
+        "thriller",
+        "contemporary"
+    ],
+    "is_premium": true,
+    "header_scene": "scene_01.webp",
+    "audio_file": "",
+    "paragraphs": [
+        {
+            "id": 0,
+            "text": "[calm] The interpreter\u0027s booth was a glass box on the second floor, overlooking the main conference room. Yuki had worked in rooms like this for six years — the same low hum of air conditioning, the same view of delegates who never looked up, the same feeling of being completely present and completely invisible at the same time. She put on her headset. The morning session was beginning."
+        },
+        {
+            "id": 1,
+            "text": "She was covering Japanese to English for the eastern trade delegation. The first day was straightforward — opening statements, procedural language, introductions. Delegate Ishida spoke slowly and precisely, as if every sentence had been prepared twice. She translated everything correctly, completely, without pause. She was good at this. She had learned to disappear into the words."
+        },
+        {
+            "id": 2,
+            "text": "On the second day, during the afternoon break, she left her headset on by mistake. She was reviewing notes when she heard Delegate Ishida speaking to someone in the corridor below — a private conversation, not meant for the conference. In Japanese, quiet but clear: \u0027It has to be before Thursday. Not after.\u0027 She turned off the headset. She told herself it was nothing."
+        },
+        {
+            "id": 3,
+            "text": "[hesitates] On the third morning, Delegate Ishida delivered his prepared statement on sustainable trade agreements. She had the official Japanese document open in front of her, cross-referencing as he spoke. The word he used in the spoken version for \u0027agreement\u0027 — he used a different word than the document. In writing: \u0027mutual agreement.\u0027 In speech: a word that meant something closer to \u0027forced compliance.\u0027 The distinction was small. The meaning was not."
+        },
+        {
+            "id": 4,
+            "text": "She translated what the document said. Nobody in the room would know otherwise — she was the only one with the Japanese feed. She kept her voice steady. She finished the session. During the break, she sat in the booth alone and looked at her notes. She had noticed four more instances that morning."
+        },
+        {
+            "id": 5,
+            "text": "[nervous] By the end of the day, she had counted eleven divergences. None of them were accidental — the differences were too consistent, too carefully placed. In each case, the spoken Japanese undermined what the written text promised. Delegate Ishida was saying one thing officially and something different where only the interpreter could hear."
+        },
+        {
+            "id": 6,
+            "text": "She called her supervisor from the hotel room that evening. He did not answer. She wrote an email, read it back, and deleted it. She did not know how to explain something she could not prove without her recordings, and she was not certain what she would be accusing anyone of, or why."
+        },
+        {
+            "id": 7,
+            "text": "[whispers] She played back the day\u0027s recordings three times. Each time, the divergences were there — clear, consistent, deliberate. She made a document with timestamps and the two versions of each phrase side by side. She saved it in two places. Then she sat at the edge of the hotel bed and looked at her phone and did not know what to do next.",
+            "scene_image": "scene_02.webp"
+        },
+        {
+            "id": 8,
+            "text": "She went to sleep just before midnight. At two in the morning, her phone lit up. A message from a number she did not recognize. She read it once, then again, then a third time: We know you noticed. Please do not say anything. We will explain."
+        },
+        {
+            "id": 9,
+            "text": "[sigh] She sat up in the dark with the phone in her hand. The room was quiet. The conference would begin again in six hours. She looked at the message for a long time. Then she opened her recordings file and made sure it had uploaded to the cloud. She put the phone face-down on the pillow beside her. She did not sleep again."
+        },
+        {
+            "id": 10,
+            "text": "[calm] Yuki worked the fourth day of the conference exactly as she had worked the first three. She sat in the glass booth, put on her headset, and turned Delegate Ishida\u0027s careful Japanese into careful English for a room full of people who never looked up. Her voice did not shake. Her hands were steady on the desk. But all morning, beneath the work, one question turned slowly in her mind: who had sent the message, and how had they known."
+        },
+        {
+            "id": 11,
+            "text": "[hesitates] The message had asked her to say nothing and promised an explanation. By the lunch break, Yuki had decided. An explanation she did not control was worth very little to her. If someone wished to explain something, she would prefer to ask the questions herself, in a place of her own choosing, where she could watch their faces while they spoke. She took out her phone and typed a reply."
+        },
+        {
+            "id": 12,
+            "text": "She wrote four words: Then explain. Public place. She did not sign it. The answer came within a minute, as though someone had been holding the phone, waiting. A café near the old station, it said. Four o\u0027clock. There will be two of us. We will sit where you can see the door. Yuki read it twice and put the phone away. They had understood her without being told. That, in its own way, was an answer."
+        },
+        {
+            "id": 13,
+            "text": "[nervous] The café was small and bright and half empty. Yuki saw them as soon as she came in — a man and a woman, sitting at a table against the back wall, with a clear view of the door, exactly as they had promised. They had chosen the table for her comfort, not theirs. She crossed the room, sat down opposite them, and waited. She had decided she would not speak first."
+        },
+        {
+            "id": 14,
+            "text": "The woman spoke first. She was a journalist, she said, and she gave a name, and the name of a newspaper Yuki knew and trusted. The man was quieter. He was, he explained, a junior official with one of the smaller delegations at the conference — not Ishida\u0027s, another one. Both of them, he said, had been watching Delegate Ishida for longer than the three days Yuki had."
+        },
+        {
+            "id": 15,
+            "text": "\"You noticed the divergences,\" the journalist said. It was not a question. \"Between what he reads aloud and what the documents say. We could not prove them. We do not speak Japanese — not the way you do, not well enough to stand behind it. You are the first person in that building who can actually hear what Delegate Ishida is doing.\""
+        },
+        {
+            "id": 16,
+            "text": "[whispers] The man leaned forward. \"Ishida is signing trade agreements,\" he said quietly. \"That part is real. The signatures are real. But read carefully, and the agreements are not between two governments. They are between one government and an organization. A trading body. It has a name, and an address, and a great deal of money. And as far as anyone has been able to discover, it does not exist.\""
+        },
+        {
+            "id": 17,
+            "text": "\"It exists on paper,\" the journalist said. \"It exists in the documents Ishida is signing this week. Once the agreements are signed and approved, it will be very difficult to prove that it was ever empty. Money will move. Decisions will be made in its name. By the time anyone asks the right question, the answer will no longer matter. That is why it has to happen before Thursday. After Thursday, the conference closes, and the documents become final.\""
+        },
+        {
+            "id": 18,
+            "text": "[hesitates] Yuki sat with her coffee untouched and understood, finally, the exact shape of her position. She was not a witness to a crime that had already happened. She was the only witness, alive, to a crime that was still happening — that would finish itself, quietly and legally, in three days. The journalist had words and no proof. The official had suspicion and no language. Yuki had both. Yuki had the one thing the whole thing turned on."
+        },
+        {
+            "id": 19,
+            "text": "[sigh] \"What do you want from me?\" Yuki asked. It was the first thing she had said since she sat down. \"What you already have,\" the journalist said. \"The recordings. The two versions, side by side. With those, this becomes something we can publish — something a court can read.\" Yuki thought of the file, saved in two places, sitting quietly in the cloud. Thursday was three days away. She had until then to decide whether she was a person who stayed invisible, or a person who did not."
+        },
+        {
+            "id": 20,
+            "text": "[calm] For three days, Yuki did her job and carried her decision with her like a stone in her coat. She translated the morning sessions and the afternoon sessions. She was, as always, accurate, complete, and invisible. No one in the glass booth or the room below had any idea that the quiet woman with the headset was holding, in a file saved in two places, the only proof of what was about to happen."
+        },
+        {
+            "id": 21,
+            "text": "[hesitates] She understood clearly what speaking would cost her. An interpreter\u0027s whole value was her invisibility. She was trusted because she disappeared — because words went in one language and came out in another, and nothing of Yuki touched them on the way. The moment she became a person who had used what she heard, that trust was gone. Her career was built on silence. And silence was exactly what she was deciding to break."
+        },
+        {
+            "id": 22,
+            "text": "But she also let herself imagine the other choice. She imagined translating the final documents on Thursday, going home to her own city, and reading, a year from now, about money that had vanished into an organization that had never existed. She imagined knowing — for the rest of her life — that she had sat in the only seat in the building from which the truth could be heard, and had chosen to hear nothing. That, she found, she could not imagine living with."
+        },
+        {
+            "id": 23,
+            "text": "[nervous] Thursday came. The final session of the conference was the largest — the room was full, the documents were stacked in their folders, and there was the particular bright, heavy mood of an important thing about to be completed. Yuki took her place in the booth and put on her headset. Below her, Delegate Ishida sat at the long table, calm and precise, his pen resting beside the papers he had come to Brussels to sign."
+        },
+        {
+            "id": 24,
+            "text": "Ishida delivered his closing statement, and Yuki translated it. She translated it perfectly. She gave the room the official version — the careful, written, public words — exactly as she had every day, because that was still, until the last possible moment, her job. Her voice in three hundred headsets was even and clear. Inside the booth, her heart was not."
+        },
+        {
+            "id": 25,
+            "text": "[whispers] Then the signing began. One document after another was opened, read, and signed. Yuki watched Ishida\u0027s hand move across each page. She watched the small organization that did not exist become, with every signature, a little more real, a little harder to question. When the last page was signed, there was quiet applause. The conference was, officially, a success. The official version was now the only version that existed on paper."
+        },
+        {
+            "id": 26,
+            "text": "But it was not the only version that existed. Yuki still had the other one — the spoken words, recorded, with their times and their true meanings set down beside the written lies. The signing had not destroyed her file. It had only made it more important. A signed document is very difficult to undo. But a signed document built on something that was never true is not strong. It is only large."
+        },
+        {
+            "id": 27,
+            "text": "[hesitates] That evening, alone in her hotel room, Yuki made her decision. She would not give the file to the journalist — not first, and not only. A story in a newspaper could be argued with, delayed, buried under other stories, denied by people with more practice at denial than Yuki would ever have. She wanted something harder to ignore. She wanted the file to land somewhere that was required, by law, to answer it."
+        },
+        {
+            "id": 28,
+            "text": "So she made copies. She sent the file, with a calm and careful letter, to the office that reviewed the conference\u0027s agreements — the one body that could not simply look away. And she sent a second copy to the journalist, with one line: Not yet. Wait for the review. If it is buried, publish everything. The journalist, Yuki thought, would understand. People who waited for messages at two in the morning understood patience."
+        },
+        {
+            "id": 29,
+            "text": "[sigh] Then there was nothing more to do. Yuki packed her suitcase, returned her headset, and flew home the next morning. She went back to other rooms, other booths, other delegates — back to being the quiet woman who turned one language into another and added nothing of herself. But something had changed, and only she knew it. Once, in a glass booth in Brussels, she had heard something no one else could hear — and this time, she had not stayed silent. Now she could only wait, and see what one honest act was worth."
+        }
+    ],
+    "quizzes": []
 }

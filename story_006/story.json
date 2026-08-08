@@ -6,6 +6,7 @@
   "genre": ["slice-of-life", "drama"],
   "is_premium": false,
   "header_scene": "scene_01.webp",
+  "audio_file": "",
   "paragraphs": [
     {
       "id": 0,
@@ -130,5 +131,6 @@
       "id": 29,
       "text": "[sigh] When Lena left that evening, she stopped at the door. \"Next Sunday,\" she said, \"I want to make the soup. You can watch. You can tell me everything I do wrong.\" Oscar said that he would like that very much. After she had gone, he washed the two bowls and set them on the rack to dry. Then he sat down with Marta\u0027s notebook and opened it to a new page, and read about another small, ordinary, happy day."
     }
-  ]
+  ],
+  "quizzes": []
 }
