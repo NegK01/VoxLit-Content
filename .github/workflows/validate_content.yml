@@ -1,4 +1,4 @@
-name: Validar Contenido de Historias y Catálogo
+name: Validate Stories & Catalog Content
 
 on:
   push:
@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del código fuente
+      - name: Checkout repository code
         uses: actions/checkout@v4
 
-      - name: Configurar entorno Python 3.11
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Ejecutar script de auditoría de historias
+      - name: Run story content audit script
         run: |
           python scripts/validate_content.py
