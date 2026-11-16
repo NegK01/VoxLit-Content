@@ -1,135 +1,141 @@
 {
   "id": "story_005",
-  "title": "The Wrong Address",
-  "level": "A2",
-  "description": "A forgotten letter. A name from the past. As Mia begins searching for answers, she discovers that some places never truly let go of their secrets.",
-  "genre": ["mystery", "contemporary"],
-  "is_premium": true,
   "header_scene": "scene_01.webp",
-  "audio_file" : "",
   "paragraphs": [
     {
       "id": 0,
-      "text": "[calm] The apartment was on the fourth floor of a building that smelled like old carpet and something Mia could not identify. She moved in on a Saturday in March, with three boxes and a lamp she had carried on the metro. The rooms were small and quiet. The walls were white. She stood in the middle of the living room for a moment, listening to nothing, and decided it would be fine."
+      "text": "[calm] True! — nervous — very, very dreadfully nervous I had been and am. But why do you say that I am mad? The disease had sharpened my senses. It had dulled none of them. Above all, my hearing had become acute. I heard everything in heaven and on earth. I heard many things in hell. How, then, am I mad? Hearken! See how calmly I can tell you the whole story."
     },
     {
       "id": 1,
-      "text": "The mailbox in the lobby had her name on a small paper label, written by the landlord in blue pen. Below it, someone had taped a piece of card — older, yellowed at the edges — with another name already there: MR. JOHN SMITH, APT. D. She pulled it off and left it on the front table. She would throw it away later."
+      "text": "It is impossible to say how the idea first entered my head. But once it had entered, it haunted me day and night. I loved the old man. He had never wronged me. He had never insulted me. I had no desire for his gold. I think it was his eye — yes, it was this! He had the eye of a vulture — a pale blue eye, with a film over it. Whenever it fell upon me, my blood ran cold. Little by little, I made up my mind to kill the old man and rid myself of that eye forever."
     },
     {
       "id": 2,
-      "text": "Two days after she moved in, a letter appeared in the mailbox. The envelope was old and slightly bent, as if it had been carried a long distance. The address on the front was hers — Apartment D — but the name above it was Mr. John Smith. There was no return address. No stamp. Someone had put it there by hand."
+      "text": "[nervous] You should have seen how wisely I went about it — with what caution, what foresight, what dissimulation! I was never kinder to the old man than during the whole week before I killed him. Every night, about midnight, I turned the latch of his door and opened it — oh, so gently! When there was room for my head, I put in a lantern, closed, closed, so that no light shone out. Then I put in my head. It took me an hour to get my whole head inside and see him on the bed. Would a madman have been so wise?"
     },
     {
       "id": 3,
-      "text": "[hesitates] She asked the building manager about John Smith. He was a man who had lived in the building before the renovation, he said. Twenty, maybe thirty years ago. He didn\u0027t know much more. Nobody had mentioned that name in a long time. \"Are you sure it\u0027s the right apartment?\" she asked. He nodded. \"Apartment D has always been Apartment D,\" he said."
-    },
-    {
-      "id": 4,
-      "text": "That evening, Mia sat at her kitchen table with the letter in front of her. She should return it. Or throw it away. There was no one to return it to. She turned the envelope over in her hands. Whatever was inside was light — paper, maybe. She opened it."
-    },
-    {
-      "id": 5,
-      "text": "[nervous] Inside was a single sheet of paper, folded once. On it, someone had drawn a map. A small, careful drawing of a bathroom — with measurements marked in pencil. The third tile from the left on the back wall was marked with an X. Below the drawing, a sentence in careful handwriting: If you found this, you know what to do."
-    },
-    {
-      "id": 6,
-      "text": "She sat with the paper for a long time. She thought about calling her sister. She thought about calling the landlord. She did neither. She picked up the paper and walked to the bathroom. She stood in front of the back wall and counted the tiles from left to right. One. Two. Three."
-    },
-    {
-      "id": 7,
-      "text": "[whispers] She pressed the third tile. It moved. Not much — just a small shift, like a breath. She pressed harder. The tile swung inward on a thin hinge, revealing a space behind the wall, no larger than a shoe box. Inside was a small tin box, green with age.",
+      "text": "Once my head was inside, I opened the lantern just enough for a single thin ray to fall on his eye. For seven nights — every night at midnight — I looked in on him as he slept. But the eye was always closed, and so I could not do it. His Evil Eye alone vexed me. I had nothing against the old man himself. Every morning I greeted him warmly by name and asked how he had slept.",
       "scene_image": "scene_02.webp"
     },
     {
+      "id": 4,
+      "text": "On the eighth night I was more cautious than ever. The minute hand of a watch moved faster than my hand on the door. Never before had I felt so sure of my own powers — my sagacity. I could scarcely contain my triumph. To think that I was opening his door little by little and he had no idea what I was doing! I chuckled, and perhaps he heard me, for he stirred in bed. The shutters were fastened and the room was pitch-dark. He could not see the door move, so I kept pushing it open. I had my head inside and was about to open the lantern when my thumb slipped on the metal fastening. The old man sat up in bed. \"Who's there?\" he cried."
+    },
+    {
+      "id": 5,
+      "text": "[whispers] For a whole hour I stood still, without a word. I never heard him lie down. Then came a quiet groan. I knew it for the sound of terror. I had made that sound myself often enough, listening to noises in the wall at midnight. I pitied him, though I laughed to myself. I imagined him telling himself it was only the wind, or a mouse crossing the floor. Still he listened. Death's shadow had reached him. He could neither see nor hear me, yet he felt I was there. At last I opened a little — a very, very little crevice in the lantern. A ray as thin as a spider's thread fell straight on the vulture eye. It was open — wide, wide open. Fury seized me. I could see only that dull blue eye, with its hideous veil. The rest of his face was lost in darkness."
+    },
+    {
+      "id": 6,
+      "text": "And have I not told you that you mistake the sharpness of my senses for madness? Now, I say, I heard a low, dull, quick sound, like a watch wrapped in cotton. I knew that sound well. It was the beating of the old man's heart. It drove me into a fury. But I kept still. I scarcely breathed. I held the lantern steady as the beating grew quicker and louder. In the silence of that house, the sound began to terrify me. For several more minutes I stood there. Louder, louder! I thought the heart would burst. Then a new fear seized me. What if a neighbor heard it through the wall?"
+    },
+    {
+      "id": 7,
+      "text": "[gasp] I flung the lantern open and leaped into the room with a yell. The old man shrieked once. I dragged him to the floor and pulled the heavy bed over him. I smiled, sure that the worst was over. For minutes I could still hear the muffled beating. Then it stopped. I pulled the bed away. I laid my hand on his chest and felt no pulse. He was dead. His eye would trouble me no more. I dismembered the body and hid it beneath three floorboards. I replaced the planks so neatly that no human eye — not even his — could have seen anything wrong."
+    },
+    {
       "id": 8,
-      "text": "She opened the tin. Inside: a brass key, old and heavy. And a folded note, newer than the letter in the mailbox. She unfolded it. Four words, written in the same handwriting: The lock is not here."
-    },
-    {
-      "id": 9,
-      "text": "[sigh] Mia sat on the bathroom floor with the key in her hand. The apartment was quiet around her. Outside, the city made its usual sounds — a car, someone\u0027s television, the wind. She closed her fingers around the key. It was cold and heavier than it looked. She did not sleep well that night."
-    },
-    {
-      "id": 10,
-      "text": "[calm] In the morning, Mia made coffee and put the brass key on the table in front of her. It was an ordinary key, heavy and old. It did not look special. But someone had hidden it inside a wall, and someone had drawn a map so that she would find it. She decided she could not simply throw it away. First, she wanted to know who John Smith was."
-    },
-    {
-      "id": 11,
-      "text": "She went down to the lobby and knocked on the manager\u0027s door. He remembered her question from before. \"John Smith,\" he said. \"I told you. He lived here a long time ago.\" Mia asked if there were any old papers about the building. The manager thought for a moment. \"The city keeps records,\" he said. \"Old sales, old owners. You could look there.\""
-    },
-    {
-      "id": 12,
-      "text": "[hesitates] The city records office was a small, gray building near the train station. A tired woman behind the desk gave Mia a form to fill in. Then she brought out three heavy boxes of papers and put them on a table. \"Everything for that street is in here,\" she said. \"Take your time. We close at five.\" Mia looked at the boxes and sat down."
-    },
-    {
-      "id": 13,
-      "text": "The papers were old and the writing was small. Many of them had nothing to do with her building. Mia read slowly, page by page, putting each one back in order. An hour passed. Then another. Her eyes were tired and her coffee was cold. She almost stopped. But then she found a folder with her own street name on it."
-    },
-    {
-      "id": 14,
-      "text": "[calm] The folder held the history of her building, year by year. Mia turned the pages carefully. There were old photographs — the same building, but younger, with different cars in front of it. There were lists of names. Owners, repairs, sales. She moved her finger down the lists until she reached the year she was looking for: 1991. That was the year the building had last been sold."
-    },
-    {
-      "id": 15,
-      "text": "The sale paper from 1991 was still there, folded inside the folder. Mia opened it and read it slowly. The building had been sold by one person to a company. The company still owned it today. And the name of the person who had sold it — the name written at the top, in old typed letters — was John Smith."
-    },
-    {
-      "id": 16,
-      "text": "[whispers] Mia sat very still. She had thought John Smith was a tenant — a man who had rented an apartment and then moved away, like so many people do. But that was wrong. John Smith had not rented Apartment D. He had owned the whole building. He had owned it for years, and then, in 1991, he had sold all of it and disappeared."
-    },
-    {
-      "id": 17,
-      "text": "It changed everything she had imagined. A tenant might leave something small behind by accident. But John Smith had owned the building. He had known every wall of it. And before he sold it and went away, he had taken the time to hide a key in Apartment D and to write a map so that someone, one day, would find it."
-    },
-    {
-      "id": 18,
-      "text": "[hesitates] Mia read the sale paper again, looking for anything else. At the bottom there was a date — the exact day the sale was finished. Beside it, someone had added one short line by hand, in pen, not in typed letters. It said: new address not provided. John Smith had sold his building, signed his name, and left no way for anyone to find him afterward."
-    },
-    {
-      "id": 19,
-      "text": "[sigh] Mia put the papers back in their boxes and thanked the tired woman at the desk. Outside, it was almost evening. She walked home with the key in her pocket and a name in her head that meant more now than it had that morning. John Smith had hidden a key and hidden himself. The note had told her the lock was not in the apartment. So now she had to find where it was."
-    },
-    {
-      "id": 20,
-      "text": "[calm] That night, Mia read the note from the tin box again. The lock is not here. If the lock was not in her apartment, then it was somewhere else — somewhere John Smith had wanted her to go. She looked at the brass key on the table. A key was made for one lock and one lock only. The key itself, she thought, had to be the next clue."
-    },
-    {
-      "id": 21,
-      "text": "She picked it up and turned it under the lamp. It was old but well made. On one side, near the top, there were marks she had not seen before — small letters and a number, pressed into the metal a long time ago. She found her phone and took a photograph, then made the picture larger on the screen until she could read it clearly."
-    },
-    {
-      "id": 22,
-      "text": "[hesitates] The marks said: GRANGE ST. — UNIT 12. Mia knew Grange Street. It was close — two streets away from her own building, a short walk. She had passed it many times without looking at it. She did not know what \"Unit 12\" was. But the key had been made to open Unit 12, and now she knew where to take it."
-    },
-    {
-      "id": 23,
-      "text": "She did not sleep much. In the morning she ate quickly, put the key in her coat pocket, and walked to Grange Street. The day was cold and bright. She tried to feel calm. She was only going to look at a door, she told herself. She did not have to open anything she did not want to open."
-    },
-    {
-      "id": 24,
-      "text": "[nervous] The building on Grange Street was old and low and quiet. A faded sign by the entrance said STORAGE. Inside, there was a long hallway with many small doors, each one painted gray, each one with a number. The air smelled of dust and cold metal. Mia walked slowly down the hallway, reading the numbers, until she reached the door marked 12.",
+      "text": "About four o'clock in the morning, a knock sounded at the door. Three police officers had come to search the house. A neighbor had reported a shriek in the night. I smiled. What had I to fear? I told them I had cried out in a dream and that the old man was away in the country. I led them through the house and urged them to search every room. In his bedroom I showed them that all his valuables were untouched.",
       "scene_image": "scene_03.webp"
     },
     {
-      "id": 25,
-      "text": "She stood in front of Unit 12 for a moment. It looked exactly like all the other doors — gray, plain, old. But there was one difference. Above the number, someone had written a name on a small card, the way people do to mark what is theirs. The card was yellow with age. The name on it was J. SMITH."
+      "id": 9,
+      "text": "[sigh] I brought chairs into the room and invited the officers to rest. I set my own chair directly over the spot where the body lay and sat down. The officers seemed satisfied. They chatted about ordinary things and I answered cheerfully. Before long I felt myself growing pale. My head ached, and I thought I heard a ringing in my ears. I talked louder to drown it out. The sound grew clearer and clearer, until it seemed to come from somewhere beyond my ears. It was that low, dull, quick sound again, like a watch wrapped in cotton."
     },
     {
-      "id": 26,
-      "text": "[whispers] Mia took the key from her pocket. Her hand was not quite steady. She put the key into the lock of Unit 12 and turned it. For a moment nothing happened, and she thought the key was wrong after all. Then the lock gave way with a slow, heavy sound, and the door opened a few centimeters into the dark."
+      "id": 10,
+      "text": "[nervous] I jumped up and argued about trifles, raising my voice and waving my arms. Yet the sound kept growing louder. Why would they not go? I paced the floor. I foamed — I raved — I swore! I scraped my chair across the boards, but even that could not drown it out. Still the officers chatted and smiled. Was it possible they could not hear it? Almighty God — no, no! They heard — they suspected — they knew! They were making a mockery of my horror. I thought so then, and I think so now.",
+      "scene_image": "scene_04.webp"
     },
     {
-      "id": 27,
-      "text": "Mia pushed the door open and found the light switch. The room was small — about the size of her bathroom. It was not empty. Along one wall there was a shelf, and on the shelf there were boxes. Cardboard boxes, old but dry, each one closed and each one neatly marked. Someone had kept this room with great care."
-    },
-    {
-      "id": 28,
-      "text": "[hesitates] Mia opened the nearest box. Inside were files — papers in folders, sorted and ordered, the way a careful person sorts important things. She lifted out the first folder and opened it. It was full of documents she did not understand yet: letters, lists, copies of old papers. But every page had one thing in common. Every page was about the families who had lived in her building."
-    },
-    {
-      "id": 29,
-      "text": "[sigh] Mia sat down on the cold floor of Unit 12 with the folder open on her knees. John Smith had not left this room for just anyone. He had left it for the people of Apartment D — for whoever came after him. She turned to the next folder, and the next. And then she stopped. On one of the folders, in old ink, there was a family name she knew very well. It was her own."
+      "id": 11,
+      "text": "[tense silence] I could bear those smiles no longer. I had to scream or die. And now — again — hark! Louder! Louder! Louder! \"Villains!\" I shrieked. \"Dissemble no more! I admit the deed! Tear up the planks — here, here! It is the beating of his hideous heart!\""
     }
   ],
-  "quizzes" : []
+  "quizzes": [
+    {
+      "id": "q_005_eye",
+      "type": "comprehension",
+      "after_paragraph_id": 1,
+      "question": "What does the narrator think first made him want to kill the old man?",
+      "options": [
+        "The old man's pale, clouded eye frightened him.",
+        "The old man had stolen his money.",
+        "The old man insulted him in front of others."
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": "q_005_caution",
+      "type": "translation",
+      "after_paragraph_id": 2,
+      "word": "caution",
+      "correct": "precaución / cuidado",
+      "options": [
+        "precaución / cuidado",
+        "valor / coraje",
+        "velocidad"
+      ]
+    },
+    {
+      "id": "q_005_obsession_words",
+      "type": "matching",
+      "after_paragraph_id": 7,
+      "pairs": [
+        {
+          "en": "vulture",
+          "es": "buitre"
+        },
+        {
+          "en": "hideous",
+          "es": "horrendo / repulsivo"
+        },
+        {
+          "en": "crevice",
+          "es": "abertura estrecha"
+        },
+        {
+          "en": "veil",
+          "es": "velo / capa que cubre"
+        }
+      ]
+    },
+    {
+      "id": "q_005_heart",
+      "type": "comprehension",
+      "after_paragraph_id": 9,
+      "question": "How does the sound seem to change while the officers chat?",
+      "options": [
+        "At first it seems to come from the officers' conversation, then from the street.",
+        "At first it seems to ring in his ears, then it seems to come from outside them.",
+        "At first it reminds him of a ticking watch, then it seems to ring in his ears."
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "q_005_final_words",
+      "type": "matching",
+      "after_paragraph_id": 11,
+      "pairs": [
+        {
+          "en": "planks",
+          "es": "tablones del suelo"
+        },
+        {
+          "en": "shrieked",
+          "es": "grité / chillé"
+        },
+        {
+          "en": "dissemble",
+          "es": "disimular / fingir"
+        },
+        {
+          "en": "raved",
+          "es": "desvarié / deliré"
+        }
+      ]
+    }
+  ]
 }

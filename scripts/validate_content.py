@@ -1,363 +1,278 @@
 #!/usr/bin/env python3
-"""
-Content and Story Validator for VoxLit-Content.
-Executed by GitHub Actions on every Push and Pull Request.
+"""Validate the catalog and story sources. Optionally check locally built ZIPs."""
 
-VALIDATION RULES:
-1. catalog.json: Every object in 'downloadable_stories' must contain 12 mandatory properties:
-   id, title, level, author, description, genre, is_premium, cover_url, version, zip_url, zip_size_bytes, sha256.
-   - UNIQUENESS RULE: No story 'id' can be duplicated in catalog.json.
-2. Catalog vs Disk Comparison (X/Y):
-   - X = Stories registered in catalog.json.
-   - Y = story_XXX directories present in repository root.
-   - Unregistered directories are treated as 'Work In Progress / Draft' (non-blocking WARN/INFO).
-3. Files in story_XXX directory:
-   - Mandatory (ERROR if missing): cover.webp, story.json, and the header_scene (e.g., scene_01.webp).
-   - Audio Pair: audio.opus and timestamps.json are optional, but IF ONE EXISTS, THE OTHER MUST ALSO EXIST (ERROR if only one is present).
-   - Optional: dictionary.json.
-4. Mandatory properties in story.json:
-   id, title, level, description, genre, is_premium, header_scene, audio_file, paragraphs, quizzes.
-   - ID MATCHING RULE: Internal 'id' in story.json MUST match directory name.
-"""
+from __future__ import annotations
 
+import argparse
+import hashlib
 import json
+import re
 import sys
+import zipfile
 from pathlib import Path
 
-# Configure stdout for UTF-8 compatibility on Windows and Linux runners
-if hasattr(sys.stdout, "reconfigure"):
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RAW_BASE = "https://raw.githubusercontent.com/negk01/voxlit-content/main"
+RELEASE_BASE = "https://github.com/negk01/voxlit-content/releases/download"
+METADATA_KEYS = ("title", "level", "author", "description", "genre", "is_premium")
+QUIZ_TYPES = ("translation", "matching", "comprehension")
+LEXICON_FIELDS = {"ipa", "pos", "translationEs"}
+COMMON_LEXICON_SECTIONS = {"articles", "pronouns", "connectors", "prepositions", "other"}
+
+
+def package_name(entry: dict) -> str:
+    story_id, version = entry["id"], entry["version"]
+    if not isinstance(story_id, str) or re.fullmatch(r"story_\d{3}", story_id) is None:
+        raise ValueError("Invalid catalog story ID")
+    if type(version) is not int or version < 1:
+        raise ValueError(f"{story_id}: version must be a positive integer")
+    return f"{story_id}_v{version}.zip"
+
+
+def release_url(entry: dict) -> str:
+    name = package_name(entry)
+    tag = entry["id"]
+    return f"{RELEASE_BASE}/{tag}/{name}"
+
+
+def story_files(story_dir: Path) -> dict[str, Path]:
+    if story_dir.is_symlink() or not story_dir.is_dir():
+        raise ValueError(f"Invalid story directory: {story_dir}")
+    files = {}
+    for path in sorted(story_dir.rglob("*")):
+        if path.is_symlink():
+            raise ValueError(f"Story contains a symbolic link: {path}")
+        if path.is_file():
+            files[path.relative_to(story_dir).as_posix()] = path
+    return files
+
+
+def require(condition: bool, message: str) -> None:
+    if not condition:
+        raise ValueError(message)
+
+
+def read_json(path: Path) -> object:
     try:
-        sys.stdout.reconfigure(encoding="utf-8")
-    except Exception:
-        pass
-
-# Root directory of VoxLit-Content repository
-REPO_ROOT = Path(__file__).resolve().parent.parent
-
-# Mandatory properties in catalog.json objects
-MANDATORY_CATALOG_KEYS = [
-    "id",
-    "title",
-    "level",
-    "author",
-    "description",
-    "genre",
-    "is_premium",
-    "cover_url",
-    "version",
-    "zip_url",
-    "zip_size_bytes",
-    "sha256",
-]
-
-# Mandatory properties in story.json root
-MANDATORY_STORY_JSON_KEYS = [
-    "id",
-    "title",
-    "level",
-    "description",
-    "genre",
-    "is_premium",
-    "header_scene",
-    "audio_file",
-    "paragraphs",
-    "quizzes",
-]
+        return json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=unique_json_object)
+    except ValueError as error:
+        raise ValueError(f"{path.name}: {error}") from error
 
 
-def print_separator(title: str = "", tag: str = "STORY"):
-    divider = "-" * 65
-    if title:
-        print(f"\n{divider}\n[{tag}] {title}\n{divider}")
-    else:
-        print(f"\n{divider}")
+def unique_json_object(pairs: list[tuple[str, object]]) -> dict[str, object]:
+    result = {}
+    for key, value in pairs:
+        require(key not in result, f"Duplicate JSON key: {key!r}")
+        result[key] = value
+    return result
 
 
-def log_success(msg: str):
-    print(f"  [OK]    {msg}")
-
-
-def log_error(msg: str):
-    print(f"  [ERROR] {msg}")
-
-
-def log_warning(msg: str):
-    print(f"  [WARN]  {msg}")
-
-
-def log_info(msg: str):
-    print(f"  [INFO]  {msg}")
-
-
-def validate_catalog() -> tuple[bool, list[dict], set[str]]:
-    print("=" * 65)
-    print("CATALOG AUDIT (catalog.json)")
-    print("=" * 65)
-
-    catalog_file = REPO_ROOT / "catalog.json"
-    if not catalog_file.exists():
-        log_error("catalog.json file does not exist in repository root.")
-        return False, [], set()
-
+def validate_lexicon(path: Path, *, common: bool = False) -> None:
+    data = read_json(path)
     try:
-        with open(catalog_file, "r", encoding="utf-8") as f:
-            catalog_data = json.load(f)
-    except json.JSONDecodeError as e:
-        log_error(f"catalog.json contains invalid JSON syntax: {e}")
-        return False, [], set()
+        if common:
+            require(isinstance(data, dict) and data.keys() == COMMON_LEXICON_SECTIONS, "Invalid common lexicon sections")
+        forms = set()
+        for entries in data.values() if common else (data,):
+            require(isinstance(entries, dict), "Lexicon must be an object")
+            for form, entry in entries.items():
+                require_string(form, "Lexicon form")
+                key = form.strip().lower()
+                require(key not in forms, f"Duplicate lexicon form: {form!r}")
+                forms.add(key)
+                require(isinstance(entry, dict) and bool(entry) and entry.keys() <= LEXICON_FIELDS, f"Invalid lexicon entry: {form!r}")
+                for field, value in entry.items():
+                    require_string(value, f"Lexicon field {form!r}.{field}")
+    except ValueError as error:
+        raise ValueError(f"{path.name}: {error}") from error
 
-    if isinstance(catalog_data, dict):
-        if "downloadable_stories" in catalog_data:
-            stories = catalog_data["downloadable_stories"]
-        elif "stories" in catalog_data:
-            stories = catalog_data["stories"]
+
+def valid_relative(name: object) -> str:
+    require(isinstance(name, str) and bool(name.strip()), "Empty or invalid file path")
+    require(not name.startswith(("/", "\\")) and "\\" not in name, f"Unsafe path: {name}")
+    require(re.match(r"^[A-Za-z]:", name) is None, f"Absolute path: {name}")
+    require(all(part not in ("", ".", "..") for part in name.split("/")), f"Unsafe path: {name}")
+    return name
+
+
+def require_string(value: object, label: str) -> None:
+    require(isinstance(value, str) and bool(value.strip()), f"{label} must be a nonempty string")
+
+
+def require_integer(value: object, label: str, minimum: int = 0) -> None:
+    require(type(value) is int and value >= minimum, f"{label} must be an integer >= {minimum}")
+
+
+def check_media(story_dir: Path, reference: object) -> None:
+    if reference is None:
+        return
+    require(isinstance(reference, str), "Media reference must be a string or null")
+    if not reference.strip():
+        return
+    path = story_dir / valid_relative(reference)
+    require(path.resolve().is_relative_to(story_dir.resolve()), f"Media escapes story directory: {reference}")
+    require(path.is_file() and path.stat().st_size > 0, f"Missing or empty media: {reference}")
+
+
+def validate_quizzes(quizzes: object, paragraph_ids: list[int]) -> None:
+    require(isinstance(quizzes, list), "quizzes must be an array")
+    quiz_ids = set()
+    for quiz in quizzes:
+        require(isinstance(quiz, dict), "Quiz must be an object")
+        require_string(quiz.get("id"), "Quiz id")
+        require(quiz["id"] not in quiz_ids, f"Duplicate quiz ID: {quiz['id']}")
+        quiz_ids.add(quiz["id"])
+        require_integer(quiz.get("after_paragraph_id"), "Quiz paragraph reference")
+        require(quiz["after_paragraph_id"] in paragraph_ids, f"Quiz {quiz['id']} references an unknown paragraph")
+        quiz_type = quiz.get("type")
+        require(quiz_type in QUIZ_TYPES, f"Unsupported quiz type: {quiz_type}")
+        if quiz_type == "matching":
+            pairs = quiz.get("pairs")
+            require(isinstance(pairs, list) and bool(pairs), "Matching quiz requires pairs")
+            labels_by_language = {"en": set(), "es": set()}
+            for pair in pairs:
+                require(isinstance(pair, dict), "Matching pair must be an object")
+                for language, labels in labels_by_language.items():
+                    label = pair.get(language)
+                    require_string(label, f"Matching pair {language}")
+                    require(label not in labels, f"Matching quiz {quiz['id']} repeats {language} label: {label!r}")
+                    labels.add(label)
         else:
-            log_error("catalog.json must contain 'downloadable_stories' or 'stories' key.")
-            return False, [], set()
-    elif isinstance(catalog_data, list):
-        stories = catalog_data
-    else:
-        log_error("catalog.json must be a JSON array or object.")
-        return False, [], set()
-
-    catalog_story_ids = set()
-    errors = 0
-
-    for idx, story in enumerate(stories):
-        story_id = story.get("id", f"Entry #{idx + 1}")
-
-        # Duplicate ID check
-        if "id" in story and isinstance(story["id"], str):
-            if story["id"] in catalog_story_ids:
-                log_error(f"Catalog: Duplicate story ID '{story['id']}' found in catalog.json.")
-                errors += 1
+            options = quiz.get("options")
+            require(isinstance(options, list) and len(options) >= 2, "Quiz requires at least two options")
+            for option in options:
+                require_string(option, "Quiz option")
+            require(len(set(options)) == len(options), "Quiz options must be unique")
+            if quiz_type == "translation":
+                require_string(quiz.get("word"), "Translation word")
+                require_string(quiz.get("correct"), "Translation correct answer")
+                require(quiz["correct"] in options, "Translation answer is absent from options")
             else:
-                catalog_story_ids.add(story["id"])
-
-        # Mandatory fields check
-        for key in MANDATORY_CATALOG_KEYS:
-            if key not in story or story[key] is None:
-                log_error(f"Catalog [{story_id}]: Missing mandatory property '{key}'.")
-                errors += 1
-
-        # Type checks
-        if "genre" in story and not isinstance(story["genre"], list):
-            log_error(f"Catalog [{story_id}]: 'genre' must be an array/list.")
-            errors += 1
-        if "is_premium" in story and not isinstance(story["is_premium"], bool):
-            log_error(f"Catalog [{story_id}]: 'is_premium' must be a boolean.")
-            errors += 1
-        if "version" in story and not isinstance(story["version"], int):
-            log_error(f"Catalog [{story_id}]: 'version' must be an integer.")
-            errors += 1
-        if "zip_size_bytes" in story and not isinstance(story["zip_size_bytes"], int):
-            log_error(f"Catalog [{story_id}]: 'zip_size_bytes' must be an integer.")
-            errors += 1
-
-    if errors == 0:
-        log_success(f"catalog.json loaded successfully ({len(catalog_story_ids)} unique & valid IDs).")
-
-    return errors == 0, stories, catalog_story_ids
+                require_string(quiz.get("question"), "Comprehension question")
+                require_integer(quiz.get("correct_index"), "Comprehension correct_index")
+                require(quiz["correct_index"] < len(options), "Comprehension answer index is outside options")
 
 
-def validate_quizzes(story_id: str, quizzes: list) -> int:
+def validate_optional_json(story_dir: Path, paragraph_ids: list[int]) -> None:
+    for name in ("dictionary.json", "words.json"):
+        require(not (story_dir / name).exists(), f"Legacy lexicon file remains in sources: {name}")
+    lexicon = story_dir / "lexicon.json"
+    if lexicon.exists():
+        validate_lexicon(lexicon)
+    timestamps = story_dir / "timestamps.json"
+    if timestamps.exists():
+        data = read_json(timestamps)
+        require(isinstance(data, list), "timestamps.json must be an array")
+        for timestamp in data:
+            require(isinstance(timestamp, dict), "Timestamp must be an object")
+            for key in ("p", "w", "ms"):
+                require_integer(timestamp.get(key), f"Timestamp {key}")
+            require(timestamp["p"] in paragraph_ids, "Timestamp references an unknown paragraph")
+            require(isinstance(timestamp.get("t"), str), "Timestamp t must be a string")
+
+
+def validate_story(story_dir: Path, entry: dict) -> None:
+    story_files(story_dir)
+    story = read_json(story_dir / "story.json")
+    require(isinstance(story, dict), "story.json must be an object")
+    require(story.get("id") == story_dir.name, "story.json ID does not match its directory")
+    require(story.get("id") == entry["id"], "story.json ID does not match catalog")
+    for key in METADATA_KEYS:
+        require(key not in story, f"Metadata belongs in catalog.json, not story.json: {key}")
+    paragraphs = story.get("paragraphs", [])
+    require(isinstance(paragraphs, list) and bool(paragraphs), "Story requires paragraphs")
+    ids = []
+    for paragraph in paragraphs:
+        require(isinstance(paragraph, dict), "Paragraph must be an object")
+        require_integer(paragraph.get("id"), "Paragraph ID")
+        require(isinstance(paragraph.get("text"), str), "Paragraph text must be a string")
+        ids.append(paragraph["id"])
+        if paragraph.get("start_ms") is not None:
+            require_integer(paragraph["start_ms"], "Paragraph start_ms")
+        check_media(story_dir, paragraph.get("audio_file"))
+        check_media(story_dir, paragraph.get("scene_image"))
+    require(ids == list(range(len(ids))), "Paragraph IDs must be continuous and ordered from zero")
+    require(any(paragraph["text"].strip() for paragraph in paragraphs), "Story has no readable paragraphs")
+    validate_quizzes(story.get("quizzes", []), ids)
+    check_media(story_dir, "cover.webp")
+    check_media(story_dir, story.get("header_scene"))
+    check_media(story_dir, story.get("audio_file"))
+    validate_optional_json(story_dir, ids)
+    print(f"[OK] {story_dir.name}: {len(ids)} paragraphs, {len(story.get('quizzes', []))} quizzes")
+
+
+def validate_catalog(root: Path) -> list[dict]:
+    catalog = read_json(root / "catalog.json")
+    require(isinstance(catalog, dict), "catalog.json must be an object")
+    entries = catalog.get("downloadable_stories")
+    require(isinstance(entries, list) and bool(entries), "Catalog requires downloadable_stories")
+    ids = set()
+    for entry in entries:
+        require(isinstance(entry, dict), "Catalog entry must be an object")
+        expected_zip_url = release_url(entry)
+        require(entry["id"] not in ids, f"Duplicate catalog ID: {entry['id']}")
+        ids.add(entry["id"])
+        for field in ("id", "title", "level", "author", "description"):
+            require_string(entry.get(field), f"Catalog {field}")
+        require(type(entry.get("is_premium")) is bool, "is_premium must be a boolean")
+        require(isinstance(entry.get("genre"), list), "genre must be an array")
+        for genre in entry["genre"]:
+            require_string(genre, "Genre")
+        require_integer(entry.get("zip_size_bytes"), "ZIP size", minimum=1)
+        require(isinstance(entry.get("sha256"), str) and re.fullmatch(r"[0-9a-f]{64}", entry["sha256"]) is not None, "Invalid SHA256")
+        require(entry.get("zip_url") == expected_zip_url, "ZIP URL does not match versioned package")
+        require(entry.get("cover_url") == f"{RAW_BASE}/{entry['id']}/cover.webp", "Cover URL does not match story directory")
+    directories = {path.name for path in root.glob("story_*") if path.is_dir()}
+    require(directories == ids, f"Catalog/directory mismatch: catalog={sorted(ids)}, disk={sorted(directories)}")
+    return entries
+
+
+def validate_package(root: Path, entry: dict) -> None:
+    archive_path = root / "packages" / package_name(entry)
+    data = archive_path.read_bytes()
+    require(len(data) == entry["zip_size_bytes"], "ZIP byte size differs from catalog")
+    require(hashlib.sha256(data).hexdigest() == entry["sha256"], "ZIP SHA256 differs from catalog")
+    sources = story_files(root / entry["id"])
+    with zipfile.ZipFile(archive_path) as archive:
+        infos = archive.infolist()
+        require(bool(infos), "ZIP is empty")
+        names = [valid_relative(info.filename) for info in infos]
+        require(len(names) == len(set(names)), "ZIP contains duplicate paths")
+        require(set(names) == set(sources), "ZIP contents differ from story directory")
+        require(sum(info.file_size for info in infos) <= max(len(data) * 10, 50 * 1024 * 1024), "ZIP exceeds app extraction limit")
+        require(archive.testzip() is None, "ZIP contains a damaged entry")
+        for info in infos:
+            require(not info.is_dir(), "ZIP must contain files directly, without a story wrapper directory")
+            require(archive.read(info) == sources[info.filename].read_bytes(), f"ZIP payload differs: {info.filename}")
+    print(f"[OK] {archive_path.name}: integrity and payload match")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument("--sources-only", action="store_true", help="Validate only the catalog and story sources (default).")
+    modes.add_argument("--check-packages", action="store_true", help="Also check ZIPs in packages/ against the catalog and sources.")
+    args = parser.parse_args()
     errors = 0
-    if not isinstance(quizzes, list):
-        log_error("story.json: 'quizzes' must be an array/list.")
-        return 1
-
-    for q_idx, quiz in enumerate(quizzes):
-        if not isinstance(quiz, dict):
-            log_error(f"story.json: Quiz #{q_idx + 1} is not a valid JSON object.")
-            errors += 1
-            continue
-
-        q_type = quiz.get("type")
-        if not q_type:
-            log_error(f"story.json: Quiz #{q_idx + 1} is missing 'type' field.")
-            errors += 1
-            continue
-
-        if "id" not in quiz or "after_paragraph_id" not in quiz:
-            log_error(f"story.json: Quiz #{q_idx + 1} ({q_type}) must contain 'id' and 'after_paragraph_id'.")
-            errors += 1
-
-        # Quiz type schema checks
-        if q_type == "translation":
-            req_fields = ["word", "correct", "options"]
-            for field in req_fields:
-                if field not in quiz:
-                    log_error(f"story.json: Translation quiz ({quiz.get('id')}) missing field '{field}'.")
-                    errors += 1
-            if "options" in quiz and not isinstance(quiz["options"], list):
-                log_error(f"story.json: Translation quiz ({quiz.get('id')}) 'options' must be an array.")
-                errors += 1
-
-        elif q_type == "matching":
-            if "pairs" not in quiz or not isinstance(quiz["pairs"], list):
-                log_error(f"story.json: Matching quiz ({quiz.get('id')}) requires a 'pairs' array.")
-                errors += 1
-            else:
-                for p_idx, pair in enumerate(quiz["pairs"]):
-                    if not isinstance(pair, dict) or "en" not in pair or "es" not in pair:
-                        log_error(f"story.json: Matching quiz ({quiz.get('id')}) pair #{p_idx + 1} must contain 'en' and 'es'.")
-                        errors += 1
-
-        elif q_type == "comprehension":
-            req_fields = ["question", "options", "correct_index"]
-            for field in req_fields:
-                if field not in quiz:
-                    log_error(f"story.json: Comprehension quiz ({quiz.get('id')}) missing field '{field}'.")
-                    errors += 1
-            if "options" in quiz and not isinstance(quiz["options"], list):
-                log_error(f"story.json: Comprehension quiz ({quiz.get('id')}) 'options' must be an array.")
-                errors += 1
-            if "correct_index" in quiz and not isinstance(quiz["correct_index"], int):
-                log_error(f"story.json: Comprehension quiz ({quiz.get('id')}) 'correct_index' must be an integer.")
-                errors += 1
-        else:
-            log_warning(f"story.json: Quiz #{q_idx + 1} has unknown type '{q_type}'.")
-
-    return errors
-
-
-def validate_story_directory(story_dir: Path, is_in_catalog: bool) -> bool:
-    story_id = story_dir.name
-    tag = "REGISTERED STORY" if is_in_catalog else "DRAFT / WORK IN PROGRESS"
-    print_separator(story_id, tag=tag)
-
-    if not is_in_catalog:
-        log_warning("This story directory exists on disk but is NOT registered in catalog.json yet.")
-
-    errors = 0
-    story_json_path = story_dir / "story.json"
-    header_scene_file = "scene_01.webp"
-
-    # 1. Validate mandatory existence of story.json
-    if not story_json_path.exists():
-        log_error("Missing mandatory file 'story.json'.")
-        return False
-    elif story_json_path.stat().st_size == 0:
-        log_error("File 'story.json' is empty (0 bytes).")
-        return False
-
-    # Read story.json for schema data
     try:
-        with open(story_json_path, "r", encoding="utf-8") as f:
-            story_data = json.load(f)
-
-        header_scene_file = story_data.get("header_scene", "scene_01.webp")
-
-        # Internal ID matching folder name check
-        internal_id = story_data.get("id")
-        if internal_id != story_id:
-            log_error(f"story.json: Internal ID ('{internal_id}') does NOT match directory name ('{story_id}').")
-            errors += 1
-
-        # Root mandatory keys check
-        for key in MANDATORY_STORY_JSON_KEYS:
-            if key not in story_data or story_data[key] is None:
-                log_error(f"story.json: Missing mandatory property '{key}'.")
-                errors += 1
-
-        # Paragraphs check
-        paragraphs = story_data.get("paragraphs")
-        if not isinstance(paragraphs, list) or len(paragraphs) == 0:
-            log_error("story.json: 'paragraphs' must be a list containing at least 1 paragraph.")
-            errors += 1
-
-        # Quizzes check
-        quizzes = story_data.get("quizzes", [])
-        errors += validate_quizzes(story_id, quizzes)
-
-    except json.JSONDecodeError as e:
-        log_error(f"story.json: Invalid JSON syntax: {e}")
-        return False
-
-    # 2. Validate mandatory image assets (cover.webp and header_scene)
-    cover_path = story_dir / "cover.webp"
-    if not cover_path.exists():
-        log_error("Missing mandatory image 'cover.webp'.")
-        errors += 1
-    elif cover_path.stat().st_size == 0:
-        log_error("Image 'cover.webp' is empty (0 bytes).")
-        errors += 1
-
-    scene_path = story_dir / header_scene_file
-    if not scene_path.exists():
-        log_error(f"Missing mandatory scene image '{header_scene_file}'.")
-        errors += 1
-    elif scene_path.stat().st_size == 0:
-        log_error(f"Scene image '{header_scene_file}' is empty (0 bytes).")
-        errors += 1
-
-    # 3. Audio Pair Rule (audio.opus <-> timestamps.json)
-    audio_path = story_dir / "audio.opus"
-    timestamps_path = story_dir / "timestamps.json"
-
-    has_audio = audio_path.exists() and audio_path.stat().st_size > 0
-    has_timestamps = timestamps_path.exists() and timestamps_path.stat().st_size > 0
-
-    if has_audio and not has_timestamps:
-        log_error("Contains 'audio.opus' but is missing mandatory pair 'timestamps.json'.")
-        errors += 1
-    elif has_timestamps and not has_audio:
-        log_error("Contains 'timestamps.json' but is missing mandatory pair 'audio.opus'.")
-        errors += 1
-    elif not has_audio and not has_timestamps:
-        log_warning("Story has no audio (does not contain audio.opus or timestamps.json).")
-
-    # 4. Optional dictionary.json check
-    dict_path = story_dir / "dictionary.json"
-    if dict_path.exists():
-        if dict_path.stat().st_size == 0:
-            log_error("'dictionary.json' is empty (0 bytes).")
-            errors += 1
-        else:
-            try:
-                with open(dict_path, "r", encoding="utf-8") as f:
-                    dict_data = json.load(f)
-                if not isinstance(dict_data, (dict, list)):
-                    log_error("dictionary.json: Must be a valid JSON object or list.")
-                    errors += 1
-            except json.JSONDecodeError as e:
-                log_error(f"dictionary.json: Invalid JSON syntax: {e}")
-                errors += 1
-
-    if errors == 0:
-        log_success("All files and schemas are valid.")
-
-    return errors == 0
-
-
-def main():
-    catalog_ok, catalog_stories, catalog_ids = validate_catalog()
-    if not catalog_ok:
-        log_error("catalog.json validation failed.")
+        entries = validate_catalog(REPO_ROOT)
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        print(f"[ERROR] Catalog: {error}")
         sys.exit(1)
-
-    story_dirs = [d for d in REPO_ROOT.iterdir() if d.is_dir() and d.name.startswith("story_")]
-    x_catalog = len(catalog_ids)
-    y_disk = len(story_dirs)
-
-    log_info(f"Stories Overview: ({x_catalog}/{y_disk}) -> {x_catalog} registered in catalog / {y_disk} directories on disk.")
-
-    total_errors = 0
-    for story_dir in sorted(story_dirs):
-        is_in_catalog = story_dir.name in catalog_ids
-        if not validate_story_directory(story_dir, is_in_catalog=is_in_catalog):
-            total_errors += 1
-
-    print("=" * 65)
-    print("FINAL AUDIT SUMMARY")
-    print("=" * 65)
-    print(f"  [INFO]  Metrics: ({x_catalog}/{y_disk}) catalog stories vs disk directories.")
-    if total_errors > 0:
-        print(f"  [ERROR] Audit failed for {total_errors} story directory/directories.")
+    for entry in entries:
+        try:
+            validate_story(REPO_ROOT / entry["id"], entry)
+            if args.check_packages:
+                validate_package(REPO_ROOT, entry)
+        except (OSError, ValueError, KeyError, TypeError, zipfile.BadZipFile) as error:
+            print(f"[ERROR] {entry['id']}: {error}")
+            errors += 1
+    if errors:
         sys.exit(1)
+    if args.check_packages:
+        print(f"[OK] Catalog, sources and all {len(entries)} local ZIPs are valid")
     else:
-        print("  [OK] All stories and catalog are 100% valid!")
-        sys.exit(0)
+        print(f"[OK] Catalog and all {len(entries)} story sources are valid")
 
 
 if __name__ == "__main__":

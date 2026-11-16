@@ -1,0 +1,624 @@
+{
+  "at his heels": {
+    "translationEs": "pegado a sus talones; siguiéndolo muy de cerca"
+  },
+  "awkward": {
+    "translationEs": "torpe; difícil de manejar con comodidad",
+    "ipa": "/ˈɑkwərd/",
+    "pos": "adjetivo"
+  },
+  "bank": {
+    "translationEs": "talud / orilla elevada",
+    "ipa": "/bæŋk/",
+    "pos": "sustantivo"
+  },
+  "banks": {
+    "translationEs": "orillas o taludes del arroyo",
+    "ipa": "/bæŋks/",
+    "pos": "sustantivo"
+  },
+  "bark": {
+    "translationEs": "corteza",
+    "ipa": "/bɑrk/",
+    "pos": "sustantivo"
+  },
+  "beat": {
+    "ipa": "/biːt/",
+    "pos": "verbo"
+  },
+  "beating": {
+    "ipa": "/ˈbitɪŋ/",
+    "pos": "verbo"
+  },
+  "beneath": {
+    "ipa": "/bɪˈniθ/",
+    "pos": "preposición"
+  },
+  "betrayed": {
+    "translationEs": "delatadas",
+    "ipa": "/bɪˈtreɪd/",
+    "pos": "verbo"
+  },
+  "birch bark": {
+    "translationEs": "corteza de abedul",
+    "ipa": "/bɝtʃ bɑrk/",
+    "pos": "sustantivo"
+  },
+  "biscuits": {
+    "translationEs": "panecillos",
+    "ipa": "/ˈbɪskɪts/",
+    "pos": "sustantivo"
+  },
+  "blizzard": {
+    "translationEs": "ventisca",
+    "ipa": "/ˈblɪzɚd/",
+    "pos": "sustantivo"
+  },
+  "bundle": {
+    "translationEs": "manojo",
+    "ipa": "/ˈbʌndəl/",
+    "pos": "sustantivo"
+  },
+  "burst": {
+    "ipa": "/bɝst/"
+  },
+  "burst into flame": {
+    "translationEs": "se prendieron de golpe"
+  },
+  "catch his breath": {
+    "translationEs": "recobrar el aliento"
+  },
+  "caught his breath": {
+    "translationEs": "recobró el aliento"
+  },
+  "cautious": {
+    "translationEs": "prudente; que evita riesgos",
+    "ipa": "/ˈkɔʃəs/",
+    "pos": "adjetivo"
+  },
+  "cheekbones": {
+    "translationEs": "pómulos",
+    "ipa": "/ˈtʃiːkboʊnz/",
+    "pos": "sustantivo"
+  },
+  "claim": {
+    "translationEs": "concesión minera",
+    "ipa": "/kleɪm/",
+    "pos": "sustantivo"
+  },
+  "clothes": {
+    "ipa": "/kloʊðz/",
+    "pos": "sustantivo",
+    "translationEs": "ropa"
+  },
+  "clumsy": {
+    "translationEs": "torpe; con poco control de los movimientos",
+    "ipa": "/ˈklʌmzi/",
+    "pos": "adjetivo"
+  },
+  "clung": {
+    "translationEs": "se aferraron / se quedaron pegados",
+    "ipa": "/klʌŋ/",
+    "pos": "verbo"
+  },
+  "collapsed": {
+    "translationEs": "se desplomó",
+    "ipa": "/kəˈlæpst/",
+    "pos": "verbo"
+  },
+  "companion": {
+    "translationEs": "compañero de viaje",
+    "ipa": "/kəmˈpænjən/",
+    "pos": "sustantivo"
+  },
+  "companions": {
+    "translationEs": "compañeros de viaje",
+    "ipa": "/kəmˈpænjənz/",
+    "pos": "sustantivo"
+  },
+  "coughed": {
+    "ipa": "/kɔːft/",
+    "pos": "verbo",
+    "translationEs": "tosió"
+  },
+  "covering": {
+    "translationEs": "capa que cubre",
+    "ipa": "/ˈkʌvərɪŋ/",
+    "pos": "sustantivo"
+  },
+  "creek": {
+    "translationEs": "arroyo",
+    "ipa": "/krik/",
+    "pos": "sustantivo"
+  },
+  "crept": {
+    "translationEs": "se acercó con sigilo",
+    "ipa": "/krɛpt/",
+    "pos": "verbo"
+  },
+  "crouching": {
+    "translationEs": "agachado; con el cuerpo bajo y las rodillas flexionadas",
+    "ipa": "/ˈkraʊtʃɪŋ/",
+    "pos": "verbo"
+  },
+  "curl up": {
+    "translationEs": "acurrucarse"
+  },
+  "curled": {
+    "ipa": "/kɝld/",
+    "pos": "verbo"
+  },
+  "cursed": {
+    "ipa": "/kɝst/",
+    "pos": "verbo"
+  },
+  "damp": {
+    "translationEs": "húmedo",
+    "ipa": "/dæmp/",
+    "pos": "adjetivo"
+  },
+  "doubtful": {
+    "ipa": "/ˈdaʊtfəl/",
+    "pos": "adjetivo"
+  },
+  "drifted": {
+    "ipa": "/ˈdrɪftɪd/",
+    "pos": "verbo"
+  },
+  "drove": {
+    "ipa": "/droʊv/",
+    "pos": "verbo"
+  },
+  "dull": {
+    "ipa": "/dʌl/",
+    "pos": "adjetivo"
+  },
+  "eyelashes": {
+    "translationEs": "pestañas",
+    "ipa": "/ˈaɪlæʃɪz/",
+    "pos": "sustantivo"
+  },
+  "faint": {
+    "translationEs": "tenue; difícil de distinguir",
+    "ipa": "/feɪnt/",
+    "pos": "adjetivo"
+  },
+  "fork": {
+    "translationEs": "bifurcación del arroyo",
+    "ipa": "/fɔrk/",
+    "pos": "sustantivo"
+  },
+  "forks": {
+    "translationEs": "bifurcaciones del arroyo",
+    "ipa": "/fɔːrks/",
+    "pos": "sustantivo"
+  },
+  "freeze": {
+    "ipa": "/friːz/",
+    "pos": "verbo"
+  },
+  "freezing": {
+    "ipa": "/ˈfriːzɪŋ/"
+  },
+  "frightened": {
+    "ipa": "/ˈfraɪtənd/",
+    "pos": "adjetivo"
+  },
+  "frost": {
+    "translationEs": "escarcha",
+    "ipa": "/frɑst/",
+    "pos": "sustantivo"
+  },
+  "frostbite": {
+    "translationEs": "lesión de la piel causada por el frío extremo",
+    "ipa": "/ˈfrɑstˌbaɪt/",
+    "pos": "sustantivo"
+  },
+  "froze": {
+    "ipa": "/froʊz/",
+    "pos": "verbo"
+  },
+  "frozen": {
+    "translationEs": "congelado",
+    "ipa": "/ˈfroʊzən/",
+    "pos": "adjetivo"
+  },
+  "fumes": {
+    "translationEs": "vapores fuertes o irritantes",
+    "ipa": "/fjuːmz/",
+    "pos": "sustantivo"
+  },
+  "fur": {
+    "ipa": "/fɝ/",
+    "pos": "sustantivo"
+  },
+  "gave off": {
+    "translationEs": "desprendieron"
+  },
+  "glanced": {
+    "ipa": "/ɡlænst/",
+    "pos": "verbo"
+  },
+  "go out": {
+    "translationEs": "apagarse"
+  },
+  "grass": {
+    "translationEs": "hierba",
+    "ipa": "/ɡræs/",
+    "pos": "sustantivo"
+  },
+  "grip": {
+    "translationEs": "agarrar con firmeza",
+    "ipa": "/ɡrɪp/",
+    "pos": "verbo"
+  },
+  "growled": {
+    "translationEs": "gruñó",
+    "ipa": "/ɡraʊld/",
+    "pos": "verbo"
+  },
+  "handfuls": {
+    "translationEs": "puñados",
+    "ipa": "/ˈhændfʊlz/",
+    "pos": "sustantivo"
+  },
+  "harsh": {
+    "translationEs": "duro; severo",
+    "ipa": "/hɑrʃ/",
+    "pos": "adjetivo"
+  },
+  "heap": {
+    "translationEs": "montón",
+    "ipa": "/hiːp/",
+    "pos": "sustantivo"
+  },
+  "held": {
+    "translationEs": "sostuvo / mantuvo",
+    "ipa": "/hɛld/",
+    "pos": "verbo"
+  },
+  "held on": {
+    "translationEs": "aguantó",
+    "ipa": "/hɛld ɑn/",
+    "pos": "verbo frasal"
+  },
+  "hid": {
+    "ipa": "/hɪd/",
+    "pos": "verbo"
+  },
+  "hillsides": {
+    "translationEs": "laderas",
+    "ipa": "/ˈhɪlsaɪdz/",
+    "pos": "sustantivo"
+  },
+  "his": {
+    "translationEs": "su / sus"
+  },
+  "hiss": {
+    "translationEs": "siseo",
+    "ipa": "/hɪs/",
+    "pos": "sustantivo"
+  },
+  "howling": {
+    "ipa": "/ˈhaʊlɪŋ/",
+    "pos": "verbo",
+    "translationEs": "aullando"
+  },
+  "husky": {
+    "translationEs": "perro husky, de pelaje espeso y usado para tirar de trineos",
+    "ipa": "/ˈhʌski/",
+    "pos": "sustantivo"
+  },
+  "instinct": {
+    "translationEs": "instinto",
+    "ipa": "/ˈɪnstɪŋkt/",
+    "pos": "sustantivo"
+  },
+  "it caught": {
+    "translationEs": "prendió"
+  },
+  "laces": {
+    "translationEs": "cordones",
+    "ipa": "/ˈleɪsɪz/",
+    "pos": "sustantivo"
+  },
+  "lap": {
+    "translationEs": "regazo",
+    "ipa": "/læp/",
+    "pos": "sustantivo"
+  },
+  "load": {
+    "translationEs": "carga; cantidad transportada o sostenida",
+    "ipa": "/loʊd/",
+    "pos": "sustantivo"
+  },
+  "log": {
+    "translationEs": "tronco",
+    "ipa": "/lɑɡ/",
+    "pos": "sustantivo"
+  },
+  "lower": {
+    "translationEs": "inferior; situado más abajo",
+    "ipa": "/ˈloʊɚ/",
+    "pos": "adjetivo"
+  },
+  "match": {
+    "ipa": "/mætʃ/",
+    "pos": "sustantivo",
+    "translationEs": "fósforo"
+  },
+  "matches": {
+    "ipa": "/ˈmætʃɪz/",
+    "pos": "sustantivo",
+    "translationEs": "fósforos"
+  },
+  "mining": {
+    "translationEs": "minero",
+    "ipa": "/ˈmaɪnɪŋ/",
+    "pos": "sustantivo"
+  },
+  "mittens": {
+    "translationEs": "manoplas",
+    "ipa": "/ˈmɪtənz/",
+    "pos": "sustantivo"
+  },
+  "moisture": {
+    "translationEs": "humedad",
+    "ipa": "/ˈmɔɪstʃər/",
+    "pos": "sustantivo"
+  },
+  "moss": {
+    "translationEs": "musgo",
+    "ipa": "/mɑs/",
+    "pos": "sustantivo"
+  },
+  "mumbled": {
+    "ipa": "/ˈmʌmbəld/",
+    "pos": "verbo"
+  },
+  "muzzle": {
+    "translationEs": "hocico",
+    "ipa": "/ˈmʌzəl/",
+    "pos": "sustantivo"
+  },
+  "numb": {
+    "translationEs": "entumecido; sin sensibilidad",
+    "ipa": "/nʌm/",
+    "pos": "adjetivo"
+  },
+  "numbness": {
+    "translationEs": "entumecimiento; pérdida de sensibilidad",
+    "ipa": "/ˈnʌmnəs/",
+    "pos": "sustantivo"
+  },
+  "pace": {
+    "ipa": "/peɪs/",
+    "pos": "sustantivo"
+  },
+  "patch": {
+    "translationEs": "tramo o zona pequeña de una superficie",
+    "ipa": "/pætʃ/",
+    "pos": "sustantivo"
+  },
+  "paw": {
+    "ipa": "/pɔː/",
+    "pos": "sustantivo",
+    "translationEs": "pata"
+  },
+  "paws": {
+    "translationEs": "patas del perro",
+    "ipa": "/pɔːz/",
+    "pos": "sustantivo"
+  },
+  "pointed forward": {
+    "translationEs": "orientadas hacia adelante"
+  },
+  "pools": {
+    "translationEs": "pozas de agua",
+    "ipa": "/puːlz/",
+    "pos": "sustantivo"
+  },
+  "remained": {
+    "translationEs": "permaneció; siguió en un lugar o estado",
+    "ipa": "/rɪˈmeɪnd/",
+    "pos": "verbo"
+  },
+  "resembled": {
+    "ipa": "/rɪˈzɛmbəld/",
+    "pos": "verbo"
+  },
+  "rotten": {
+    "translationEs": "podrido",
+    "ipa": "/ˈrɑtən/",
+    "pos": "adjetivo"
+  },
+  "rustle": {
+    "translationEs": "crujir suavemente",
+    "ipa": "/ˈrʌsəl/",
+    "pos": "verbo"
+  },
+  "scooped": {
+    "translationEs": "recogió a puñados",
+    "ipa": "/skuːpt/",
+    "pos": "verbo"
+  },
+  "scratched": {
+    "ipa": "/skrætʃt/",
+    "pos": "verbo"
+  },
+  "settlements": {
+    "translationEs": "poblados",
+    "ipa": "/ˈsɛtəlmənts/",
+    "pos": "sustantivo"
+  },
+  "shallow": {
+    "translationEs": "poco profundo",
+    "ipa": "/ˈʃæloʊ/",
+    "pos": "adjetivo"
+  },
+  "shiver": {
+    "ipa": "/ˈʃɪvər/"
+  },
+  "shivering": {
+    "ipa": "/ˈʃɪvərɪŋ/"
+  },
+  "sink": {
+    "ipa": "/sɪŋk/",
+    "pos": "verbo"
+  },
+  "sled": {
+    "translationEs": "trineo",
+    "ipa": "/slɛd/",
+    "pos": "sustantivo"
+  },
+  "soak": {
+    "ipa": "/soʊk/",
+    "pos": "verbo"
+  },
+  "sore": {
+    "ipa": "/sɔr/",
+    "pos": "adjetivo"
+  },
+  "spat": {
+    "translationEs": "escupió",
+    "ipa": "/spæt/",
+    "pos": "verbo"
+  },
+  "springs": {
+    "translationEs": "manantiales"
+  },
+  "spruce": {
+    "translationEs": "pícea",
+    "ipa": "/sprus/",
+    "pos": "sustantivo"
+  },
+  "stamped": {
+    "ipa": "/stæmpt/",
+    "pos": "verbo"
+  },
+  "stiff": {
+    "translationEs": "rígido",
+    "ipa": "/stɪf/",
+    "pos": "adjetivo"
+  },
+  "strengthened": {
+    "ipa": "/ˈstrɛŋθənd/",
+    "pos": "verbo"
+  },
+  "struck": {
+    "ipa": "/strʌk/",
+    "pos": "verbo"
+  },
+  "stumbled": {
+    "translationEs": "tropezó",
+    "ipa": "/ˈstʌmbəld/",
+    "pos": "verbo"
+  },
+  "stumbling": {
+    "ipa": "/ˈstʌmbəlɪŋ/",
+    "pos": "verbo"
+  },
+  "stung": {
+    "translationEs": "escocieron",
+    "ipa": "/stʌŋ/",
+    "pos": "verbo"
+  },
+  "sunken": {
+    "translationEs": "hundida",
+    "ipa": "/ˈsʌŋkən/",
+    "pos": "adjetivo"
+  },
+  "suspiciously": {
+    "translationEs": "con desconfianza",
+    "ipa": "/səˈspɪʃəsli/",
+    "pos": "adverbio"
+  },
+  "swung": {
+    "ipa": "/swʌŋ/",
+    "pos": "verbo"
+  },
+  "taking hold": {
+    "translationEs": "empezando a apoderarse"
+  },
+  "thick": {
+    "ipa": "/θɪk/",
+    "pos": "adjetivo"
+  },
+  "threat": {
+    "translationEs": "amenaza",
+    "ipa": "/θrɛt/",
+    "pos": "sustantivo"
+  },
+  "timber": {
+    "translationEs": "troncos",
+    "ipa": "/ˈtɪmbər/",
+    "pos": "sustantivo"
+  },
+  "tingling": {
+    "translationEs": "hormigueo",
+    "ipa": "/ˈtɪŋɡəlɪŋ/",
+    "pos": "sustantivo"
+  },
+  "trail": {
+    "translationEs": "sendero",
+    "ipa": "/treɪl/",
+    "pos": "sustantivo"
+  },
+  "trotted": {
+    "translationEs": "trotó; avanzó a paso rápido y ligero",
+    "ipa": "/ˈtrɑtɪd/",
+    "pos": "verbo"
+  },
+  "tugged": {
+    "translationEs": "tiró",
+    "ipa": "/tʌɡd/",
+    "pos": "verbo"
+  },
+  "twigs": {
+    "translationEs": "ramitas",
+    "ipa": "/twɪɡz/",
+    "pos": "sustantivo"
+  },
+  "unwilling": {
+    "translationEs": "reacio; que no quiere hacerlo",
+    "ipa": "/ʌnˈwɪlɪŋ/",
+    "pos": "adjetivo"
+  },
+  "waist": {
+    "translationEs": "cintura",
+    "ipa": "/weɪst/",
+    "pos": "sustantivo"
+  },
+  "warning": {
+    "ipa": "/ˈwɔːrnɪŋ/",
+    "pos": "sustantivo"
+  },
+  "went out": {
+    "translationEs": "se apagaron"
+  },
+  "whined": {
+    "translationEs": "gimió",
+    "ipa": "/waɪnd/",
+    "pos": "verbo"
+  },
+  "whip": {
+    "ipa": "/wɪp/",
+    "pos": "sustantivo",
+    "translationEs": "látigo"
+  },
+  "winding": {
+    "translationEs": "serpenteando",
+    "ipa": "/ˈwaɪndɪŋ/",
+    "pos": "verbo"
+  },
+  "wooded": {
+    "translationEs": "cubiertas de árboles",
+    "ipa": "/ˈwʊdɪd/",
+    "pos": "adjetivo"
+  },
+  "woodland": {
+    "translationEs": "zona boscosa",
+    "ipa": "/ˈwʊdlənd/",
+    "pos": "sustantivo"
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "acute": {
+    "translationEs": "agudo / muy sensible",
+    "ipa": "/əˈkjut/",
+    "pos": "adjetivo"
+  },
+  "admit": {
+    "translationEs": "admito / confieso",
+    "ipa": "/ədˈmɪt/",
+    "pos": "verbo"
+  },
+  "bear": {
+    "translationEs": "soportar",
+    "ipa": "/bɛr/",
+    "pos": "verbo"
+  },
+  "beating": {
+    "translationEs": "latido / golpeteo rítmico",
+    "ipa": "/ˈbitɪŋ/",
+    "pos": "sustantivo"
+  },
+  "beneath": {
+    "translationEs": "debajo de",
+    "ipa": "/bɪˈniθ/",
+    "pos": "preposición"
+  },
+  "breathed": {
+    "translationEs": "respiraba",
+    "ipa": "/briːðd/",
+    "pos": "verbo"
+  },
+  "burst": {
+    "translationEs": "estallar",
+    "ipa": "/bɝst/",
+    "pos": "verbo"
+  },
+  "caution": {
+    "translationEs": "precaución / cuidado",
+    "ipa": "/ˈkɔʃən/",
+    "pos": "sustantivo"
+  },
+  "cautious": {
+    "translationEs": "cauteloso",
+    "ipa": "/ˈkɔʃəs/",
+    "pos": "adjetivo"
+  },
+  "chuckled": {
+    "translationEs": "solté una risita",
+    "ipa": "/ˈtʃʌkəld/",
+    "pos": "verbo"
+  },
+  "crevice": {
+    "translationEs": "abertura estrecha",
+    "ipa": "/ˈkrɛvɪs/",
+    "pos": "sustantivo"
+  },
+  "deed": {
+    "translationEs": "acto / crimen",
+    "ipa": "/did/",
+    "pos": "sustantivo"
+  },
+  "desire": {
+    "translationEs": "deseo",
+    "ipa": "/dɪˈzaɪr/",
+    "pos": "sustantivo"
+  },
+  "disease": {
+    "translationEs": "enfermedad",
+    "ipa": "/dɪˈziːz/",
+    "pos": "sustantivo"
+  },
+  "dismembered": {
+    "translationEs": "desmembré",
+    "ipa": "/dɪsˈmɛmbərd/",
+    "pos": "verbo"
+  },
+  "dissemble": {
+    "translationEs": "disimular / fingir",
+    "ipa": "/dɪˈsɛmbəl/",
+    "pos": "verbo"
+  },
+  "dissimulation": {
+    "translationEs": "disimulo / ocultación de intenciones",
+    "ipa": "/dɪˌsɪmjəˈleɪʃən/",
+    "pos": "sustantivo"
+  },
+  "dreadfully": {
+    "translationEs": "terriblemente",
+    "ipa": "/ˈdrɛdfəli/",
+    "pos": "adverbio"
+  },
+  "drove": {
+    "translationEs": "llevó",
+    "ipa": "/droʊv/",
+    "pos": "verbo"
+  },
+  "drown it out": {
+    "translationEs": "ahogar el ruido",
+    "ipa": "/draʊn ɪt aʊt/",
+    "pos": "expresión verbal"
+  },
+  "dull": {
+    "ipa": "/dʌl/",
+    "pos": "adjetivo"
+  },
+  "dulled": {
+    "translationEs": "embotó / redujo la sensibilidad de",
+    "ipa": "/dʌld/",
+    "pos": "verbo"
+  },
+  "evil eye": {
+    "translationEs": "ojo maligno",
+    "ipa": "/ˌivəl ˈaɪ/",
+    "pos": "sustantivo"
+  },
+  "fastened": {
+    "translationEs": "cerradas y aseguradas",
+    "ipa": "/ˈfæsənd/",
+    "pos": "verbo"
+  },
+  "fastening": {
+    "translationEs": "cierre / broche",
+    "ipa": "/ˈfæsənɪŋ/",
+    "pos": "sustantivo"
+  },
+  "film": {
+    "translationEs": "película fina / capa que empaña el ojo",
+    "ipa": "/fɪlm/",
+    "pos": "sustantivo"
+  },
+  "floorboards": {
+    "translationEs": "tablas del suelo",
+    "ipa": "/ˈflɔrˌbɔrdz/",
+    "pos": "sustantivo"
+  },
+  "flung": {
+    "translationEs": "abrí de golpe",
+    "ipa": "/flʌŋ/",
+    "pos": "verbo"
+  },
+  "foamed": {
+    "translationEs": "eché espuma por la boca",
+    "ipa": "/foʊmd/",
+    "pos": "verbo"
+  },
+  "foresight": {
+    "translationEs": "previsión / capacidad de anticiparse",
+    "ipa": "/ˈfɔrsaɪt/",
+    "pos": "sustantivo"
+  },
+  "fury": {
+    "translationEs": "furia / ira intensa",
+    "ipa": "/ˈfjʊri/",
+    "pos": "sustantivo"
+  },
+  "groan": {
+    "translationEs": "gemido",
+    "ipa": "/ɡroʊn/",
+    "pos": "sustantivo"
+  },
+  "hand": {
+    "ipa": "/hænd/",
+    "pos": "sustantivo",
+    "translationEs": "mano"
+  },
+  "hark": {
+    "translationEs": "escucha",
+    "ipa": "/hɑrk/",
+    "pos": "verbo"
+  },
+  "haunted": {
+    "translationEs": "atormentó / persiguió sin descanso",
+    "ipa": "/ˈhɔntɪd/",
+    "pos": "verbo"
+  },
+  "hearing": {
+    "translationEs": "oído",
+    "ipa": "/ˈhɪrɪŋ/",
+    "pos": "sustantivo"
+  },
+  "hearken": {
+    "translationEs": "escucha",
+    "ipa": "/ˈhɑrkən/",
+    "pos": "verbo"
+  },
+  "hid": {
+    "translationEs": "escondí",
+    "ipa": "/hɪd/",
+    "pos": "verbo"
+  },
+  "hideous": {
+    "translationEs": "horrendo / repulsivo",
+    "ipa": "/ˈhɪdiəs/",
+    "pos": "adjetivo"
+  },
+  "knock": {
+    "translationEs": "golpe en la puerta",
+    "ipa": "/nɑːk/",
+    "pos": "sustantivo"
+  },
+  "lantern": {
+    "translationEs": "farol",
+    "ipa": "/ˈlæntɚn/",
+    "pos": "sustantivo"
+  },
+  "latch": {
+    "translationEs": "pestillo de la puerta",
+    "ipa": "/lætʃ/",
+    "pos": "sustantivo"
+  },
+  "leaped": {
+    "translationEs": "salté",
+    "ipa": "/lipt/",
+    "pos": "verbo"
+  },
+  "lie down": {
+    "translationEs": "tumbarse"
+  },
+  "light": {
+    "translationEs": "luz",
+    "ipa": "/laɪt/",
+    "pos": "sustantivo"
+  },
+  "made up my mind": {
+    "translationEs": "tomé la decisión / me decidí"
+  },
+  "madman": {
+    "translationEs": "loco",
+    "ipa": "/ˈmædmən/",
+    "pos": "sustantivo"
+  },
+  "madness": {
+    "translationEs": "locura",
+    "ipa": "/ˈmædnəs/",
+    "pos": "sustantivo"
+  },
+  "minute hand": {
+    "translationEs": "minutero",
+    "ipa": "/ˈmɪnɪt ˌhænd/",
+    "pos": "sustantivo"
+  },
+  "mockery": {
+    "translationEs": "burla",
+    "ipa": "/ˈmɑkəri/",
+    "pos": "sustantivo"
+  },
+  "muffled": {
+    "translationEs": "amortiguado / apagado",
+    "ipa": "/ˈmʌfəld/",
+    "pos": "adjetivo"
+  },
+  "my blood ran cold": {
+    "translationEs": "se me heló la sangre"
+  },
+  "paced": {
+    "translationEs": "caminé de un lado a otro",
+    "ipa": "/peɪst/",
+    "pos": "verbo"
+  },
+  "pitied": {
+    "translationEs": "sentí lástima por",
+    "ipa": "/ˈpɪtid/",
+    "pos": "verbo"
+  },
+  "planks": {
+    "translationEs": "tablones del suelo",
+    "ipa": "/plæŋks/",
+    "pos": "sustantivo"
+  },
+  "pulse": {
+    "translationEs": "pulso",
+    "ipa": "/pʌls/",
+    "pos": "sustantivo"
+  },
+  "raved": {
+    "translationEs": "desvarié / deliré",
+    "ipa": "/reɪvd/",
+    "pos": "verbo"
+  },
+  "ray": {
+    "translationEs": "rayo / haz de luz",
+    "ipa": "/reɪ/",
+    "pos": "sustantivo"
+  },
+  "rid myself of": {
+    "translationEs": "librarme de",
+    "ipa": "/rɪd maɪˈsɛlf əv/",
+    "pos": "expresión verbal"
+  },
+  "ringing": {
+    "translationEs": "zumbido",
+    "ipa": "/ˈrɪŋɪŋ/",
+    "pos": "sustantivo"
+  },
+  "sagacity": {
+    "translationEs": "sagacidad / agudeza de juicio",
+    "ipa": "/səˈɡæsəti/",
+    "pos": "sustantivo"
+  },
+  "scarcely": {
+    "translationEs": "apenas",
+    "ipa": "/ˈskɛrsli/",
+    "pos": "adverbio"
+  },
+  "scraped": {
+    "translationEs": "arrastré haciendo ruido",
+    "ipa": "/skreɪpt/",
+    "pos": "verbo"
+  },
+  "scream": {
+    "translationEs": "gritar",
+    "ipa": "/skrim/",
+    "pos": "verbo"
+  },
+  "seized": {
+    "translationEs": "se apoderó de",
+    "ipa": "/siːzd/",
+    "pos": "verbo"
+  },
+  "sharpened": {
+    "translationEs": "agudizó",
+    "ipa": "/ˈʃɑːrpənd/",
+    "pos": "verbo"
+  },
+  "sharpness": {
+    "translationEs": "agudeza",
+    "ipa": "/ˈʃɑːrpnəs/",
+    "pos": "sustantivo"
+  },
+  "shone out": {
+    "translationEs": "se filtró",
+    "ipa": "/ʃoʊn aʊt/",
+    "pos": "verbo frasal"
+  },
+  "shriek": {
+    "translationEs": "alarido / grito agudo",
+    "ipa": "/ʃrik/",
+    "pos": "sustantivo"
+  },
+  "shrieked": {
+    "translationEs": "gritó / grité",
+    "ipa": "/ʃrikt/",
+    "pos": "verbo"
+  },
+  "shutters": {
+    "translationEs": "contraventanas",
+    "ipa": "/ˈʃʌtərz/",
+    "pos": "sustantivo"
+  },
+  "stirred": {
+    "translationEs": "se movió",
+    "ipa": "/stɜrd/",
+    "pos": "verbo"
+  },
+  "suspected": {
+    "translationEs": "sospechaban",
+    "ipa": "/səˈspɛktɪd/",
+    "pos": "verbo"
+  },
+  "swore": {
+    "translationEs": "maldije / dije palabrotas",
+    "ipa": "/swɔːr/",
+    "pos": "verbo"
+  },
+  "tear up": {
+    "translationEs": "arranquen",
+    "ipa": "/tɛr ʌp/",
+    "pos": "verbo frasal"
+  },
+  "terrify": {
+    "translationEs": "aterrorizar",
+    "ipa": "/ˈtɛrəfaɪ/",
+    "pos": "verbo"
+  },
+  "terror": {
+    "ipa": "/ˈtɛrər/",
+    "pos": "sustantivo",
+    "translationEs": "terror"
+  },
+  "thread": {
+    "translationEs": "hilo",
+    "ipa": "/θrɛd/",
+    "pos": "sustantivo"
+  },
+  "trifles": {
+    "translationEs": "nimiedades / cosas sin importancia",
+    "ipa": "/ˈtraɪfəlz/",
+    "pos": "sustantivo"
+  },
+  "triumph": {
+    "translationEs": "triunfo",
+    "ipa": "/ˈtraɪəmf/",
+    "pos": "sustantivo"
+  },
+  "untouched": {
+    "translationEs": "intactos",
+    "ipa": "/ʌnˈtʌtʃt/",
+    "pos": "adjetivo"
+  },
+  "urged": {
+    "translationEs": "insté / animé",
+    "ipa": "/ɜrdʒd/",
+    "pos": "verbo"
+  },
+  "valuables": {
+    "translationEs": "objetos de valor",
+    "ipa": "/ˈvæljuəbəlz/",
+    "pos": "sustantivo"
+  },
+  "veil": {
+    "translationEs": "velo / capa que cubre",
+    "ipa": "/veɪl/",
+    "pos": "sustantivo"
+  },
+  "vexed": {
+    "translationEs": "molestaba / atormentaba",
+    "ipa": "/vɛkst/",
+    "pos": "verbo"
+  },
+  "villains": {
+    "translationEs": "canallas",
+    "ipa": "/ˈvɪlənz/",
+    "pos": "sustantivo"
+  },
+  "vulture": {
+    "translationEs": "buitre",
+    "ipa": "/ˈvʌltʃər/",
+    "pos": "sustantivo"
+  },
+  "was pitch-dark": {
+    "translationEs": "estaba completamente a oscuras"
+  },
+  "watch": {
+    "translationEs": "reloj",
+    "ipa": "/wɑtʃ/",
+    "pos": "sustantivo"
+  },
+  "wrapped": {
+    "translationEs": "envuelto",
+    "ipa": "/ræpt/",
+    "pos": "verbo"
+  },
+  "wronged": {
+    "translationEs": "hizo daño / trató injustamente",
+    "ipa": "/rɔŋd/",
+    "pos": "verbo"
+  }
+}

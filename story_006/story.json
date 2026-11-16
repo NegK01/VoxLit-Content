@@ -1,136 +1,294 @@
 {
   "id": "story_006",
-  "title": "Sunday Soup",
-  "level": "A2",
-  "description": "Every Sunday, Oscar makes soup alone in his small kitchen — the same soup, the same way his wife taught him. One Sunday, his new neighbor knocks to borrow salt. She stays for the whole afternoon.",
-  "genre": ["slice-of-life", "drama"],
-  "is_premium": false,
   "header_scene": "scene_01.webp",
-  "audio_file": "",
   "paragraphs": [
     {
       "id": 0,
-      "text": "[calm] Oscar\u0027s Sundays always began the same way. He woke up at seven, made coffee in the small silver pot his wife had used for forty years, and sat at the kitchen table to listen to the radio for a while. Then he started the soup. The soup was the most important part. It always had been."
+      "text": "At nine o'clock, the man left the main Yukon trail and climbed a steep bank. A narrow path led east through the spruce trees. He stopped at the top to catch his breath and looked at his watch. The morning was clear, without a cloud anywhere, yet the light was gray and dull. The sun had not risen. At this time of year, it remained below the horizon for days."
     },
     {
       "id": 1,
-      "text": "His wife, Marta, had taught him to make it. Not by writing anything down — she never wrote recipes down — but by showing him, step by step, in this same kitchen, twenty years ago. He had paid close attention. She had not expected him to remember. He had remembered everything."
+      "text": "Behind him, the Yukon stretched white and wide beneath its thick covering of ice and snow. A thin dark line marked the main trail, winding between wooded islands and disappearing into the distance. South, it led toward the sea; north, toward Dawson and the settlements beyond. The man glanced at that enormous, silent country without feeling any wonder. He was concerned with the distance ahead and the time it would take."
     },
     {
       "id": 2,
-      "text": "He was adding the onion when he heard the knock. It was just past eleven — not an hour for visitors. He set down his knife and went to the door. A young woman stood in the hallway. She had short dark hair and paint on her fingers. He had seen her twice before in the elevator. She had just moved in."
+      "text": "This was his first winter in the Yukon. He noticed things quickly and dealt with practical problems well, but he rarely considered what lay beyond them. Fifty degrees below zero meant that he needed warm clothes and must protect his skin. It did not make him think about how easily a human body could fail. To him, cold was an unpleasant condition to manage, and he believed he knew how to manage it."
     },
     {
       "id": 3,
-      "text": "\"I\u0027m sorry to bother you,\" she said. \"I\u0027m Lena. From number seven. I\u0027m making pasta and I have no salt. I know it\u0027s a strange thing to ask.\" She looked slightly embarrassed. Oscar stepped back and opened the door wider. \"Come in,\" he said. \"I have salt.\""
+      "text": "He spat, and the moisture cracked in the air before it reached the snow. That surprised him. At fifty below, it should crack when it landed. Clearly, today was colder, although he could not tell how much colder. It hardly mattered. His companions were waiting at an old mining claim on the left fork of Henderson Creek. He expected to reach their camp by six, with a fire and supper ready."
     },
     {
       "id": 4,
-      "text": "[light chuckle] She stepped into the kitchen, saw the pot on the stove, and stopped. \"That smells incredible,\" she said. \"What is it?\" Oscar handed her the salt. \"Soup,\" he said simply. She looked at him, then at the pot, then back at him. \"Just soup?\" \"Yes,\" he said. \"Just soup.\""
+      "text": "Under his shirt, against his skin, he carried biscuits filled with bacon. Keeping them there prevented them from freezing. He smiled at the thought of lunch and started through the trees. Fresh snow partly covered the narrow trail, but he had no sled to slow him down. He rubbed his nose and cheekbones with a mitten. His beard was thick, yet it did little to protect his nose and cheekbones."
     },
     {
       "id": 5,
-      "text": "She asked how he made it. He was not sure why he answered in detail — he usually did not talk much about it. But he told her: the order of the vegetables, the time for each one, why the heat had to be low, why you never stirred it too much. She listened carefully, the salt container still in her hand."
+      "text": "A large gray husky followed at his heels. The dog resembled a wolf and understood this weather better than the man did. The temperature was actually seventy-five degrees below zero Fahrenheit, about minus fifty-nine Celsius. The man did not know that, and the dog knew nothing about numbers. Its instinct told it to stop traveling, find a fire, or curl up beneath the snow, away from the terrible air."
     },
     {
       "id": 6,
-      "text": "[calm] She put the salt down on the counter and started helping without being asked. He showed her when to add the herbs. She added them. For a while, they worked in the kitchen without talking. Outside, the Sunday light came through the window and sat on the floor between them."
+      "text": "Frost whitened the dog's muzzle and eyelashes. Ice had formed a heavier covering around the man's mouth, growing with every breath. Frozen tobacco juice hung from his chin in a long, yellow strip of ice. He had experienced cold weather before, though nothing quite like this. He kept walking, occasionally rubbing his face, and thought about the comfortable evening ahead. The dog watched his movements, hoping that he would stop and make a fire."
     },
     {
       "id": 7,
-      "text": "They ate at the small table by the window. She told him she had moved because of a relationship that had ended. She said it simply, without asking for sympathy. He did not offer any. He listened. It seemed to be what she needed.",
-      "scene_image": "scene_02.webp"
+      "text": "At ten o'clock, he reached Henderson Creek. He had crossed several miles of woodland and a flat stretch of rough, snow-covered ground. Now he stepped down onto the frozen creek, where the old sled trail was easier to follow. He was traveling at four miles an hour. With ten miles to go before the forks, he calculated that he would reach them at half past twelve. That would be the place for lunch."
     },
     {
       "id": 8,
-      "text": "He told her about Marta. Not much — just that she had been the one who cooked on Sundays for most of their life together, and that after she died, he had learned to do it himself, because Sundays without soup seemed wrong. Lena nodded. She did not say she was sorry. He appreciated that."
+      "text": "As he walked, his nose and cheeks repeatedly lost feeling. He rubbed them until they stung, but the numbness returned almost as soon as he stopped. He regretted having no covering across his face. Still, he was not seriously worried about frostbite, the damage cold could do to his skin. A sore face seemed a small problem. He watched the creek carefully, noticing its bends, fallen timber, and the snow beneath his feet."
     },
     {
       "id": 9,
-      "text": "[sigh] After Lena left, Oscar stood at the sink and washed two bowls. He had not washed two bowls on a Sunday in three years. He set them on the drying rack side by side. He looked at them for a moment. Then he went to turn off the radio, which had been playing quietly the whole afternoon."
+      "text": "Suddenly, he jumped back. Something had bent beneath his weight, and he had heard a faint crack. The creek itself was frozen to the bottom, but springs from the hillsides still fed water over its ice. Snow hid these pools. Some were shallow; others were deep enough to soak a traveler to the waist. Thin layers of ice could cover them, one above another, making the smooth white surface a trap."
     },
     {
       "id": 10,
-      "text": "[calm] The next Sunday began like every other Sunday. Oscar woke at seven and made his coffee in the small silver pot. He sat at the kitchen table and listened to the radio. But that morning, before he started the soup, he did something he had not done in three years. He stood up, went to the bedroom, and opened the drawer where Marta\u0027s things were kept."
+      "text": "He stood still and studied the banks. Wet feet would force him to stop, build a fire, and dry his boots and socks before continuing. He decided the water came from the right, so he moved carefully around the danger on the left, testing each step. Once he reached solid ground, he returned to his steady pace. During the next two hours, he found several more pools, usually betrayed by slightly sunken snow."
     },
     {
       "id": 11,
-      "text": "Inside the drawer, under a folded scarf, was Marta\u0027s notebook. It was small, with a soft brown cover, and the corners were worn from years of use. Marta had carried it everywhere. Oscar had seen it a thousand times. But he had never once opened it — not while she was alive, because it was hers, and not after she died, because he was afraid.",
-      "scene_image": "scene_03.webp"
+      "text": "At one doubtful place, he pushed the unwilling dog ahead of him. The animal hurried across the snow, broke through, and struggled sideways onto firm ground. Water froze almost immediately on its front legs and paws. It licked at the ice, then lay down and bit the pieces from between its toes. The man took off his right mitten and helped. In less than a minute, his fingers became so numb that he hurriedly covered them again."
     },
     {
       "id": 12,
-      "text": "[hesitates] He carried the notebook to the kitchen and put it on the table, near the window. Then he looked at it for a while and did not touch it again. Instead, he started the soup. He cut the onion. He warmed the oil. He told himself he would open the notebook later, when the soup was cooking, when he had time. He had been telling himself \"later\" for three years."
+      "text": "Noon brought the brightest light of the day, but still no sun and no shadows. At exactly half past twelve, the man reached the forks. Pleased with his progress, he took out his lunch and sat on a snowy log. His bare fingers lost feeling before he could eat. He struck them against his leg, changed hands, and tried to bite a biscuit. The ice around his mouth prevented him from opening it properly."
     },
     {
       "id": 13,
-      "text": "The knock came just past eleven, the way it had the Sunday before. Oscar opened the door. Lena stood in the hallway, and this time she was not holding an empty cup. She was holding a small bag of fresh bread. \"I\u0027m not here for salt,\" she said. \"I just thought — well. It\u0027s Sunday.\" Oscar stepped back and let her in."
+      "text": "He laughed at himself. Of course he needed a fire first. Then he noticed that his toes, which had stung when he sat down, no longer hurt. He moved them inside his boots and realized they were becoming numb. For a moment, he felt frightened. He stood, stamped his feet, and swung his arms until warmth returned. The older man he had met at Sulphur Creek had told the truth about the cold here."
     },
     {
       "id": 14,
-      "text": "[light chuckle] \"The soup again?\" Lena said, when she saw the pot. \"The soup again,\" Oscar agreed. She put the bread on the counter and washed her hands without being asked, the way she had the week before. It was strange, Oscar thought, how quickly a thing could become a habit. One Sunday was an accident. Two Sundays, and it was almost a tradition."
+      "text": "He collected dry twigs that spring floods had left among the bushes. Beginning carefully with a small flame, he soon built a strong fire. Its warmth melted the ice from his face and allowed him to eat his biscuits. Nearby, the dog stretched out close to the heat, keeping its coat safely away from the flames. The man finished lunch, filled his pipe, and enjoyed a smoke. There seemed to be plenty of time."
     },
     {
       "id": 15,
-      "text": "They worked together for a while, easy and quiet. Then Lena went to the table to move a chair, and she saw the notebook lying there in the light from the window. She did not pick it up. But she looked at it, and then she looked at Oscar. \"What\u0027s that?\" she asked. \"It looks old.\""
+      "text": "When he finally put on his mittens and started up the left fork, the dog looked back toward the fire. It wanted to stay. The man had never shown it much kindness; it knew his harsh commands and the threat of the whip. It did not follow him out of love. He provided food and fire, and now his sharp voice made it leave the warmth and return to the trail behind him."
     },
     {
       "id": 16,
-      "text": "[hesitates] \"It was Marta\u0027s,\" Oscar said. He dried his hands on a cloth. \"Her notebook. She kept it with her always.\" Lena waited, the way she did — without filling the silence. \"I have never opened it,\" Oscar said. The words sounded strange out loud. \"Three years, and I have never opened it. I think I have been afraid of what is inside. And afraid of what is not.\""
+      "text": "For half an hour, the man saw no warning signs of hidden water. Then, on a patch of smooth snow that looked perfectly firm, the surface broke. He struggled out quickly, but both feet and the lower part of his legs were wet, halfway up to his knees. He cursed his luck. Drying his clothes would cost an hour, and he had wanted to be in camp by six.",
+      "scene_image": "scene_02.webp"
     },
     {
       "id": 17,
-      "text": "Lena did not tell him he should open it. She did not tell him he should not. She finished cutting the bread and set the table, two plates, the way they had done it before. \"It\u0027s yours now,\" she said simply. \"You can open it today, or in another three years. It will wait for you. It already has.\""
+      "text": "He climbed the bank to a group of small spruce trees. Dry sticks, branches, and old grass lay caught in the bushes around their trunks. He placed several larger pieces of wood on the snow to make a base, so the first flame would not sink into melting snow. From his pocket, he took a piece of birch bark, the thin outer covering of the tree, and lit it with a match."
     },
     {
       "id": 18,
-      "text": "[calm] After they had eaten, and after Lena had gone home, Oscar sat alone at the table with the notebook in front of him. The kitchen was warm and quiet. He put his hand flat on the soft brown cover for a moment. Then, slowly, he opened it. He had expected recipes. Marta had never written her recipes down — but he had expected them anyway, because that was the easy thing to expect.",
-      "scene_image": "scene_04.webp"
+      "text": "He added dry grass and the smallest twigs, working slowly. As the flame strengthened, he fed it thicker wood. He was crouching beneath a spruce, where he could pull twigs from the surrounding bushes and put them straight onto the fire. He knew that this attempt had to succeed. With wet feet in such cold, he could not simply run to get warm. His feet would freeze while he tried."
     },
     {
       "id": 19,
-      "text": "[sigh] There were no recipes. The notebook was full of small, ordinary lines, written in Marta\u0027s round handwriting, each one marked with a date. Bought new shoes today. Oscar burned the rice and we laughed. The garden is doing well this year. It was not a book of cooking. It was a book of days — quiet, small, ordinary days. Oscar read three pages, then closed it gently. It was enough for one Sunday. But he knew, now, that he would open it again."
+      "text": "Already, he could feel nothing below his ankles. He had removed his mittens to work, and his fingers were rapidly becoming useless. Walking had kept warm blood moving through his hands and feet; now that he had stopped, the cold was taking hold. Still, the fire was growing. Soon he could add proper branches, remove his wet boots and socks, and dry them while keeping his bare feet near the heat."
     },
     {
       "id": 20,
-      "text": "[calm] By the fourth Sunday, no one knocked anymore. Lena simply came at eleven, and Oscar simply left the door unlocked for her. They had found a quiet way of being together — cooking, talking a little, eating, washing the bowls side by side. Oscar had not had a routine with another person in it for three years. He had forgotten how much weight a small routine could carry."
+      "text": "He remembered the older man's advice: at temperatures below minus fifty degrees Fahrenheit, no one should travel alone. He had laughed at that warning. Now he smiled again. Here he was, alone after an accident, and he had built his fire successfully. Staying calm was all that mattered. The old man had been too cautious. Yet when he reached for another twig, he had to look to see whether his fingers were holding it."
     },
     {
       "id": 21,
-      "text": "That Sunday, while the soup cooked, Oscar showed her a page from Marta\u0027s notebook. It was a line about a winter long ago, when the pipes had frozen and they had carried water from a neighbor\u0027s house. \"She wrote down the small things,\" Oscar said. \"Not the big ones. I think the small things were the ones she wanted to keep.\" Lena read the line twice."
+      "text": "His boots were covered with ice, and his thick socks had become stiff around his lower legs. The frozen laces would not move. He tugged at them with numb fingers, then drew his knife to cut them. Before he could do so, snow fell from the tree above him. A heavy white mass struck the fire. In a moment, the flames disappeared beneath a fresh heap of snow. His boots were still on.",
+      "scene_image": "scene_03.webp"
     },
     {
       "id": 22,
-      "text": "[hesitates] After that, Lena grew quiet. It was not an unhappy quiet, but Oscar noticed it. He had spent forty years with a woman who went quiet before she said something difficult, and he knew the shape of it. He did not ask her what was wrong. He stirred the soup, lowered the heat, and waited, the way she had once waited for him."
+      "text": "He had chosen the wrong place. For weeks, no wind had disturbed the snow resting on the spruce branches. Each time he pulled a twig from the bushes, he had given the tree a slight shake. At last, one upper branch dropped its load onto the branches below. Those shook loose in turn, until the falling snow spread through the tree and came down on him and the fire. He had never thought to look up."
     },
     {
       "id": 23,
-      "text": "\"I told you I moved here because of a relationship,\" Lena said at last. She was looking at the table, not at him. \"That was true. But it was not the whole reason.\" Oscar said nothing. He sat down across from her. He let the kitchen be quiet, so that there would be room for whatever she needed to say."
+      "text": "For a moment, he stared at the white heap. It felt as if someone had announced his death. Then he forced himself to be calm. A companion could build another fire while he warmed his hands. The old man had understood that. But there was no companion, and he had to begin again. Even if he succeeded, he would probably lose some toes. He could not afford to think about failure."
     },
     {
       "id": 24,
-      "text": "\"Before the relationship ended, my mother was sick for a long time,\" Lena said. \"Years. I took care of her. I was glad to do it — I want to say that clearly. But when she died, I had nothing left. Not for the relationship, not for my friends, not for myself. Everyone at home looked at me and saw a sad story. I moved here because here, nobody knows the story.\""
+      "text": "This time, he made a base in an open space, away from the trees. He gathered dry grass and tiny twigs, then larger branches for later. His fingers would not close properly, so he collected material in awkward handfuls. Pieces of rotten wood and damp green moss came with it. He could not sort them out easily. Across the new pile, the dog sat watching him, waiting for the warmth it expected him to provide."
     },
     {
       "id": 25,
-      "text": "Oscar listened. He did not say that he understood, although he did. He did not say that it would get easier, although perhaps it would. He had learned, in three years without Marta, that those words were for the person who said them, not for the person who heard them. So he simply listened, and let her talk, and did not look away from her face."
+      "text": "He reached into his pocket for more birch bark. He could hear it rustle but could not feel it or grip it. With every passing second, his feet were freezing harder. He pulled his mittens on with his teeth and began swinging his arms, beating his hands against his sides. The dog sat comfortably with its thick tail curled over its front paws. Looking at its warm coat, the man felt a sudden, painful envy."
     },
     {
       "id": 26,
-      "text": "[calm] When Lena finished, the kitchen was quiet. The soup made its low, soft sound on the stove. The afternoon light lay on the floor between them, the way it had on that first Sunday. Oscar did not offer her advice. He had no advice to offer. He only knew that she had carried something heavy into his kitchen, and that, for a little while, she had been able to set it down."
+      "text": "At last, a distant tingling returned to his fingers. It grew into a sharp ache, and he welcomed the pain. He took off his right mitten and managed to bring out the bark. Then he pulled out his bundle of matches. Before he could separate one, his fingers lost feeling again and dropped them all into the snow. He tried to pick them up, watching his hands closely, but they would not obey him."
     },
     {
       "id": 27,
-      "text": "After a moment, Oscar said only one thing. \"Marta used to say that the soup is always better on the second day.\" Lena looked up at him. \"She was right,\" he said. \"Some things need a day to become themselves. I think people are the same. You do not have to be better today.\" It was not advice. It was just something true, said gently."
+      "text": "He covered his hands and scooped the matches into his lap with a handful of snow. After much effort, he pressed the bundle between his mittens and lifted it to his mouth. The ice around his lips cracked as he forced them apart. Using his teeth, he pulled one match free. It dropped onto his lap. He looked down at it and understood that separating a match had solved only half the problem."
     },
     {
       "id": 28,
-      "text": "[hesitates] Lena did not cry, and Oscar was glad of that — not because tears would have been wrong, but because she had cried enough, in another town, in another kitchen. Instead she smiled, a small and tired and real smile, and picked up her spoon. They ate the soup together. It was, as it always was, quiet and warm and enough."
+      "text": "Bending forward, he picked it up with his teeth. Again and again, he scratched it against his leg. Finally, it caught. Holding the little flame in his mouth, he leaned toward the bark. The sharp fumes entered his nose and lungs. He coughed, dropped the match into the snow, and watched it go out. The old man was right. In cold like this, a traveler needed a partner."
     },
     {
       "id": 29,
-      "text": "[sigh] When Lena left that evening, she stopped at the door. \"Next Sunday,\" she said, \"I want to make the soup. You can watch. You can tell me everything I do wrong.\" Oscar said that he would like that very much. After she had gone, he washed the two bowls and set them on the rack to dry. Then he sat down with Marta\u0027s notebook and opened it to a new page, and read about another small, ordinary, happy day."
+      "text": "He beat his hands again, but this time no feeling returned. Suddenly, he pulled both mittens off with his teeth and pressed the whole bundle of matches between the bases of his hands. His arms still worked, so he could hold them together even though his fingers were useless. He struck the bundle against his leg. All the matches burst into flame at once. He turned his face aside and brought them toward the bark."
+    },
+    {
+      "id": 30,
+      "text": "The matches began burning his hands. First he smelled his own skin, then felt a deep pain that grew sharper. He held on. His clumsy hands blocked much of the flame, and the bark was slow to catch. At last, unable to bear the pain, he pulled his hands apart. The burning matches fell into the snow with a hiss. But a small flame remained on the bark. He still had a chance."
+    },
+    {
+      "id": 31,
+      "text": "He lifted grass and twigs between the bases of his hands and laid them on the flame. Bits of rotten wood and green moss clung to the fuel. He tried to remove them with his teeth. Every movement was difficult, and now his whole body had begun to shiver. The little fire needed care, but his shaking made him less and less able to give it. He leaned over it, trying to keep control.",
+      "scene_image": "scene_04.webp"
+    },
+    {
+      "id": 32,
+      "text": "A large piece of damp moss dropped onto the flame. He tried to push it away, but a sudden shiver drove his hand too far. The burning grass and twigs scattered. He tried to bring them together again, shaking harder with the effort. The small pieces gave off separate puffs of smoke and went out. There was no fire now. Across the ruined pile, the dog shifted from one front paw to the other."
+    },
+    {
+      "id": 33,
+      "text": "Looking at the dog, he remembered a story about a man who had survived a blizzard by killing a large animal and sheltering inside its body. He could kill the dog and warm his hands inside it. Once his fingers worked, he could build another fire. He called the animal toward him, but fear had changed his voice. The dog lowered its ears and watched him suspiciously. It would not come closer."
+    },
+    {
+      "id": 34,
+      "text": "He got down on his hands and knees and crawled toward it. That strange movement alarmed the dog even more, and it stepped away. He sat back in the snow and struggled to recover his usual manner. Using his teeth, he put on his mittens, then stood. He had to look down to make sure he was on his feet. He could feel no connection between them and the ground."
+    },
+    {
+      "id": 35,
+      "text": "Standing seemed to make him familiar again. He called in his ordinary commanding voice, and this time the dog approached. As it came within reach, he threw out his arms. His hands could not grip its coat. Before it escaped, however, he caught it between his arms and sat down, holding its body against him. The animal growled, whined, and struggled. He held it tightly, but he could do nothing more."
+    },
+    {
+      "id": 36,
+      "text": "He could neither draw his knife nor hold it. His frozen fingers could not close around the handle, and he could not kill the dog with his bare hands either. The plan was impossible. He released the animal, which rushed away with its tail low and stopped some distance off. It watched him with its ears pointed forward. He looked at his own hands. He needed his eyes to know where they were."
+    },
+    {
+      "id": 37,
+      "text": "For five minutes, he swung his arms and beat his mittened hands against his sides. The effort stopped his shivering, but brought no feeling back to his fingers. Then he understood that he might lose more than his hands and feet. He might die here. The thought sent him into a panic. He turned and ran up the creek along the faint trail. The dog followed."
+    },
+    {
+      "id": 38,
+      "text": "At first, he ran without seeing where he was going. Gradually, the banks, fallen trees, and bare branches became clear again. Running made him feel better. Perhaps he could keep going until he reached camp. His companions would take care of him there. He would lose some fingers and toes, perhaps part of his face, but they would save the rest. He held that picture in his mind and forced himself onward."
+    },
+    {
+      "id": 39,
+      "text": "Another thought kept returning: camp was too far away, and the freezing had already gone too far. He pushed it aside. It seemed strange that he could still run on feet he could not feel. They struck the ground and carried his weight, yet he seemed to float above the snow. He stumbled several times. At last, his legs failed, and he collapsed. When he tried to stand again, he could not."
+    },
+    {
+      "id": 40,
+      "text": "He would rest, then walk instead of running. Sitting in the snow, he felt an unexpected warmth through his chest and body. He was comfortable and no longer shivering. But when he touched his nose and cheeks, there was no feeling there. Running had not brought his hands or feet back to life. The freezing must be spreading. He tried to think about something else, but the image of his whole body turning stiff would not leave him."
+    },
+    {
+      "id": 41,
+      "text": "Fear forced him up and into another desperate run. Once he slowed to a walk, then fear made him run again. The dog stayed behind him. When he fell a second time, it sat facing him with its tail over its paws. Its warmth and security made him angry, and he cursed it until it lowered its ears. His shivering returned sooner this time. The cold seemed to be entering him from every side."
+    },
+    {
+      "id": 42,
+      "text": "He got up once more, but managed only about a hundred feet before stumbling forward and falling. That was his last burst of panic. After he had caught his breath, he sat up and thought about how foolish he must have looked, running and falling like that. He was going to freeze anyway. He might as well face it quietly. With that thought came a strange peace, followed by the first soft pull of sleep."
+    },
+    {
+      "id": 43,
+      "text": "He imagined his companions finding his body the next day. In his mind, he was walking beside them, following the trail in search of himself. They came around a bend, and there he was, lying in the snow. He seemed to stand with the others and look down at his own body. It certainly was cold. When he returned home to the States, he could tell people what real cold meant."
+    },
+    {
+      "id": 44,
+      "text": "His thoughts drifted to the old man at Sulphur Creek. He could see him clearly, warm and comfortable, smoking his pipe. \"You were right,\" he mumbled. \"You were right.\" Then he slipped into what felt like the deepest, most pleasant sleep he had ever known. The dog remained opposite him, waiting. The short day was ending, and the light slowly faded. Still, the man made no move to build a fire."
+    },
+    {
+      "id": 45,
+      "text": "The dog had never known a man to sit so long in the snow without making one. It lifted and lowered its front paws and whined softly, flattening its ears in case he shouted at it. He said nothing. Later, it whined more loudly. Finally, it crept close and caught the smell of death. Its fur rose, and it backed away. The man would never provide warmth for it again."
+    },
+    {
+      "id": 46,
+      "text": "For a little longer, the dog stayed nearby, howling beneath the bright stars. Then it turned and trotted up the trail toward the camp it knew, where there were other people to give it food and make fires."
     }
   ],
-  "quizzes": []
+  "quizzes": [
+    {
+      "id": "q_006_b2_inference_dog_instinct",
+      "type": "comprehension",
+      "after_paragraph_id": 5,
+      "question": "What does the dog's instinct tell it to do in this cold?",
+      "options": [
+        "Keep moving to stay warm until it reaches camp.",
+        "Stop traveling and find a fire or shelter.",
+        "Turn back and follow its tracks out of the woods."
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "q_006_b2_translation_numbness",
+      "type": "translation",
+      "after_paragraph_id": 8,
+      "word": "numbness",
+      "correct": "entumecimiento",
+      "options": [
+        "entumecimiento",
+        "picazón",
+        "hinchazón"
+      ]
+    },
+    {
+      "id": "q_006_b2_matching_trail_and_cold",
+      "type": "matching",
+      "after_paragraph_id": 14,
+      "pairs": [
+        {
+          "en": "settlements",
+          "es": "poblados"
+        },
+        {
+          "en": "woodland",
+          "es": "zona boscosa"
+        },
+        {
+          "en": "frostbite",
+          "es": "lesión por frío extremo"
+        },
+        {
+          "en": "shallow",
+          "es": "poco profundo"
+        }
+      ]
+    },
+    {
+      "id": "q_006_b2_comprehension_false_confidence",
+      "type": "comprehension",
+      "after_paragraph_id": 20,
+      "question": "What does the man's reaction to the older man's warning reveal?",
+      "options": [
+        "He accepts the warning and decides to wait for his companions to come and help.",
+        "His hands have warmed up, so he believes he can safely return to the trail.",
+        "Building the fire convinces him that he can cope alone, even as his hands fail."
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": "q_006_b2_comprehension_tree_snow",
+      "type": "comprehension",
+      "after_paragraph_id": 23,
+      "question": "What caused the snow to fall onto the man's fire?",
+      "options": [
+        "A gust of wind blew snow from a nearby bank onto the fire.",
+        "He shook the tree while pulling twigs, loosening snow that fell through its branches.",
+        "Heat from the fire melted the snow resting on the branches."
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "q_006_b2_comprehension_dog_plan",
+      "type": "comprehension",
+      "after_paragraph_id": 36,
+      "question": "Why does the man give up his plan to use the dog's warmth?",
+      "options": [
+        "The dog gets away before he can catch it.",
+        "His frozen fingers cannot grip the knife.",
+        "He decides running will warm him faster."
+      ],
+      "correct_index": 1
+    },
+    {
+      "id": "q_006_b2_final_action",
+      "type": "comprehension",
+      "after_paragraph_id": 46,
+      "question": "Why does the dog head toward the camp?",
+      "options": [
+        "It knows people there can provide food and make fires.",
+        "It expects the man to catch up after taking a short rest.",
+        "It has found a new trail leading away from the creek."
+      ],
+      "correct_index": 0
+    }
+  ]
 }

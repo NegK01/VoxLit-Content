@@ -1,0 +1,499 @@
+{
+  "all the same": {
+    "translationEs": "aun así"
+  },
+  "aloud": {
+    "translationEs": "en voz alta",
+    "ipa": "/əˈlaʊd/",
+    "pos": "adverbio"
+  },
+  "anxiously": {
+    "translationEs": "con preocupación",
+    "ipa": "/ˈæŋkʃəsli/",
+    "pos": "adverbio"
+  },
+  "apron": {
+    "translationEs": "delantal",
+    "ipa": "/ˈeɪprən/",
+    "pos": "sustantivo"
+  },
+  "better off here": {
+    "translationEs": "aquí estás mejor"
+  },
+  "blind": {
+    "translationEs": "persiana",
+    "ipa": "/blaɪnd/",
+    "pos": "sustantivo"
+  },
+  "bolt": {
+    "translationEs": "cerrojo",
+    "ipa": "/boʊlt/",
+    "pos": "sustantivo"
+  },
+  "breathed": {
+    "translationEs": "susurró",
+    "ipa": "/briːðd/",
+    "pos": "verbo"
+  },
+  "buried": {
+    "translationEs": "enterraron",
+    "ipa": "/ˈbɛrid/",
+    "pos": "verbo"
+  },
+  "caught in the machinery": {
+    "translationEs": "quedó atrapado en la maquinaria",
+    "ipa": "/kɑt ɪn ðə məˈʃinəri/"
+  },
+  "cemetery": {
+    "translationEs": "cementerio",
+    "ipa": "/ˈsɛmɪtɛri/",
+    "pos": "sustantivo"
+  },
+  "check": {
+    "translationEs": "jaque",
+    "ipa": "/tʃɛk/"
+  },
+  "checkmate": {
+    "translationEs": "jaque mate",
+    "ipa": "/ˈtʃɛkmeɪt/",
+    "pos": "sustantivo"
+  },
+  "chess": {
+    "translationEs": "ajedrez",
+    "ipa": "/tʃɛs/",
+    "pos": "sustantivo"
+  },
+  "chord": {
+    "translationEs": "acorde musical",
+    "ipa": "/kɔːrd/",
+    "pos": "sustantivo"
+  },
+  "chords": {
+    "translationEs": "acordes musicales",
+    "ipa": "/kɔːrdz/",
+    "pos": "sustantivo"
+  },
+  "cloth": {
+    "ipa": "/klɑːθ/",
+    "pos": "sustantivo",
+    "translationEs": "trapo"
+  },
+  "clothes": {
+    "ipa": "/kloʊðz/",
+    "pos": "sustantivo",
+    "translationEs": "ropa"
+  },
+  "coals": {
+    "translationEs": "brasas",
+    "ipa": "/koʊlz/",
+    "pos": "sustantivo"
+  },
+  "coincidence": {
+    "translationEs": "coincidencia",
+    "ipa": "/koʊˈɪnsɪdəns/",
+    "pos": "sustantivo"
+  },
+  "collapsed": {
+    "translationEs": "se desplomó",
+    "ipa": "/kəˈlæpst/",
+    "pos": "verbo"
+  },
+  "come": {
+    "translationEs": "venir / llegar",
+    "ipa": "/kʌm/",
+    "pos": "verbo"
+  },
+  "come true": {
+    "translationEs": "hacerse realidad"
+  },
+  "compensation": {
+    "translationEs": "indemnización",
+    "ipa": "/ˌkɑːmpənˈseɪʃən/",
+    "pos": "sustantivo"
+  },
+  "courage": {
+    "translationEs": "valor",
+    "ipa": "/ˈkɜːrɪdʒ/",
+    "pos": "sustantivo"
+  },
+  "creaked": {
+    "translationEs": "crujió",
+    "ipa": "/kriːkt/",
+    "pos": "verbo"
+  },
+  "cushion": {
+    "translationEs": "cojín",
+    "ipa": "/ˈkʊʃən/",
+    "pos": "sustantivo"
+  },
+  "deserted": {
+    "translationEs": "desierto",
+    "ipa": "/dɪˈzɜːrtɪd/",
+    "pos": "adjetivo"
+  },
+  "died away": {
+    "translationEs": "se fue apagando"
+  },
+  "disappointment": {
+    "ipa": "/ˌdɪsəˈpɔɪntmənt/",
+    "pos": "sustantivo",
+    "translationEs": "decepción"
+  },
+  "distract": {
+    "translationEs": "distraer",
+    "ipa": "/dɪˈstrækt/",
+    "pos": "verbo"
+  },
+  "drew back": {
+    "translationEs": "retrocedió / se echó hacia atrás"
+  },
+  "echoes": {
+    "translationEs": "ecos",
+    "ipa": "/ˈɛkoʊz/",
+    "pos": "sustantivo"
+  },
+  "emperor": {
+    "translationEs": "emperador",
+    "ipa": "/ˈɛmpərər/",
+    "pos": "sustantivo"
+  },
+  "faint": {
+    "translationEs": "leve, apenas perceptible",
+    "ipa": "/feɪnt/",
+    "pos": "adjetivo"
+  },
+  "fairy tale": {
+    "translationEs": "cuento de hadas"
+  },
+  "fate": {
+    "translationEs": "destino",
+    "ipa": "/feɪt/",
+    "pos": "sustantivo"
+  },
+  "felt his way": {
+    "translationEs": "avanzó a tientas"
+  },
+  "fetch": {
+    "translationEs": "ir a buscar",
+    "ipa": "/fɛtʃ/",
+    "pos": "verbo"
+  },
+  "fireplace": {
+    "translationEs": "chimenea",
+    "ipa": "/ˈfaɪərpleɪs/",
+    "pos": "sustantivo"
+  },
+  "flickered": {
+    "translationEs": "parpadeó",
+    "ipa": "/ˈflɪkərd/",
+    "pos": "verbo"
+  },
+  "forehead": {
+    "translationEs": "frente",
+    "ipa": "/ˈfɔːrhɛd/",
+    "pos": "sustantivo"
+  },
+  "fright": {
+    "translationEs": "susto",
+    "ipa": "/fraɪt/",
+    "pos": "sustantivo"
+  },
+  "frightened": {
+    "translationEs": "asustado",
+    "ipa": "/ˈfraɪtənd/",
+    "pos": "adjetivo"
+  },
+  "funeral": {
+    "translationEs": "funeral",
+    "ipa": "/ˈfjuːnərəl/",
+    "pos": "sustantivo"
+  },
+  "hid": {
+    "translationEs": "ocultó / escondió",
+    "ipa": "/hɪd/",
+    "pos": "verbo"
+  },
+  "his": {
+    "translationEs": "su / sus"
+  },
+  "holy man": {
+    "translationEs": "hombre santo"
+  },
+  "ill at ease": {
+    "translationEs": "incómodo"
+  },
+  "knitting": {
+    "translationEs": "tejiendo",
+    "ipa": "/ˈnɪtɪŋ/",
+    "pos": "verbo"
+  },
+  "knock": {
+    "translationEs": "golpe en la puerta",
+    "ipa": "/nɑːk/",
+    "pos": "sustantivo"
+  },
+  "knocked": {
+    "translationEs": "llamó a la puerta",
+    "ipa": "/nɑːkt/",
+    "pos": "verbo"
+  },
+  "knocking": {
+    "translationEs": "golpes en la puerta",
+    "ipa": "/ˈnɑːkɪŋ/",
+    "pos": "sustantivo"
+  },
+  "laid": {
+    "translationEs": "puso / apoyó con cuidado",
+    "ipa": "/leɪd/",
+    "pos": "verbo"
+  },
+  "laughter": {
+    "translationEs": "risa",
+    "ipa": "/ˈlæftər/",
+    "pos": "sustantivo"
+  },
+  "lives": {
+    "translationEs": "vidas",
+    "ipa": "/laɪvz/",
+    "pos": "sustantivo"
+  },
+  "loss": {
+    "translationEs": "pérdida",
+    "ipa": "/lɔːs/",
+    "pos": "sustantivo"
+  },
+  "mantelpiece": {
+    "translationEs": "repisa de la chimenea",
+    "ipa": "/ˈmæntəlpiːs/",
+    "pos": "sustantivo"
+  },
+  "match": {
+    "translationEs": "fósforo",
+    "ipa": "/mætʃ/",
+    "pos": "sustantivo"
+  },
+  "matches": {
+    "translationEs": "fósforos",
+    "ipa": "/ˈmætʃɪz/",
+    "pos": "sustantivo"
+  },
+  "misery": {
+    "translationEs": "pena / aflicción",
+    "ipa": "/ˈmɪzəri/",
+    "pos": "sustantivo"
+  },
+  "nonsense": {
+    "translationEs": "disparate",
+    "ipa": "/ˈnɑːnsɛns/",
+    "pos": "sustantivo"
+  },
+  "owe": {
+    "translationEs": "deber",
+    "ipa": "/oʊ/",
+    "pos": "verbo"
+  },
+  "parlour": {
+    "translationEs": "sala de estar",
+    "ipa": "/ˈpɑːrlər/",
+    "pos": "sustantivo"
+  },
+  "paw": {
+    "translationEs": "pata de animal",
+    "ipa": "/pɔː/",
+    "pos": "sustantivo"
+  },
+  "pay off": {
+    "translationEs": "saldar una deuda"
+  },
+  "postman": {
+    "translationEs": "cartero",
+    "ipa": "/ˈpoʊstmən/",
+    "pos": "sustantivo"
+  },
+  "pounds": {
+    "translationEs": "libras esterlinas",
+    "ipa": "/paʊndz/",
+    "pos": "sustantivo"
+  },
+  "recognition": {
+    "translationEs": "reconocimiento",
+    "ipa": "/ˌrɛkəɡˈnɪʃən/",
+    "pos": "sustantivo"
+  },
+  "relieved": {
+    "translationEs": "aliviado",
+    "ipa": "/rɪˈliːvd/",
+    "pos": "adjetivo"
+  },
+  "responsibility": {
+    "translationEs": "responsabilidad",
+    "ipa": "/rɪˌspɑːnsəˈbɪləti/",
+    "pos": "sustantivo"
+  },
+  "sank": {
+    "translationEs": "se dejó caer",
+    "ipa": "/sæŋk/",
+    "pos": "verbo"
+  },
+  "scrape": {
+    "translationEs": "raspar",
+    "ipa": "/skreɪp/",
+    "pos": "verbo"
+  },
+  "sensible": {
+    "translationEs": "sensato",
+    "ipa": "/ˈsɛnsəbəl/",
+    "pos": "adjetivo"
+  },
+  "sergeant-major": {
+    "translationEs": "sargento mayor",
+    "ipa": "/ˌsɑrdʒənt ˈmeɪdʒɚ/",
+    "pos": "sustantivo"
+  },
+  "shivered": {
+    "translationEs": "se estremeció",
+    "ipa": "/ˈʃɪvərd/",
+    "pos": "verbo"
+  },
+  "shone": {
+    "translationEs": "brillaba / iluminaba",
+    "ipa": "/ʃoʊn/",
+    "pos": "verbo"
+  },
+  "sideboard": {
+    "translationEs": "aparador",
+    "ipa": "/ˈsaɪdbɔːrd/",
+    "pos": "sustantivo"
+  },
+  "slid": {
+    "translationEs": "deslizó",
+    "ipa": "/slɪd/",
+    "pos": "verbo"
+  },
+  "slide": {
+    "translationEs": "deslizar",
+    "ipa": "/slaɪd/",
+    "pos": "verbo"
+  },
+  "snatched": {
+    "translationEs": "agarró de un tirón",
+    "ipa": "/snætʃt/",
+    "pos": "verbo"
+  },
+  "soldier": {
+    "translationEs": "soldado",
+    "ipa": "/ˈsoʊldʒər/",
+    "pos": "sustantivo"
+  },
+  "solemn": {
+    "translationEs": "solemne",
+    "ipa": "/ˈsɑːləm/",
+    "pos": "adjetivo"
+  },
+  "spell": {
+    "translationEs": "hechizo",
+    "ipa": "/spɛl/",
+    "pos": "sustantivo"
+  },
+  "strike": {
+    "translationEs": "encender",
+    "ipa": "/straɪk/",
+    "pos": "verbo"
+  },
+  "struck": {
+    "ipa": "/strʌk/",
+    "pos": "verbo",
+    "translationEs": "tocó"
+  },
+  "struck a match": {
+    "translationEs": "encendió un fósforo",
+    "ipa": "/strʌk ə mætʃ/",
+    "pos": "expresión verbal"
+  },
+  "supper": {
+    "translationEs": "cena",
+    "ipa": "/ˈsʌpɚ/",
+    "pos": "sustantivo"
+  },
+  "sympathy": {
+    "translationEs": "condolencias",
+    "ipa": "/ˈsɪmpəθi/",
+    "pos": "sustantivo"
+  },
+  "tailor": {
+    "translationEs": "sastre",
+    "ipa": "/ˈteɪlər/",
+    "pos": "sustantivo"
+  },
+  "take chances": {
+    "translationEs": "arriesgarse"
+  },
+  "take the blame": {
+    "translationEs": "asumir la culpa"
+  },
+  "thread": {
+    "translationEs": "hilo",
+    "ipa": "/θrɛd/",
+    "pos": "sustantivo"
+  },
+  "thrown": {
+    "ipa": "/θroʊn/",
+    "pos": "verbo"
+  },
+  "trembling": {
+    "ipa": "/ˈtrɛmblɪŋ/"
+  },
+  "trousers": {
+    "translationEs": "pantalones",
+    "ipa": "/ˈtraʊzərz/",
+    "pos": "sustantivo"
+  },
+  "twisted": {
+    "translationEs": "se retorció",
+    "ipa": "/ˈtwɪstɪd/",
+    "pos": "verbo"
+  },
+  "uneasy": {
+    "translationEs": "inquieto",
+    "ipa": "/ʌnˈiːzi/",
+    "pos": "adjetivo"
+  },
+  "wardrobe": {
+    "translationEs": "armario",
+    "ipa": "/ˈwɔːrdroʊb/",
+    "pos": "sustantivo"
+  },
+  "warning": {
+    "translationEs": "aviso / advertencia",
+    "ipa": "/ˈwɔːrnɪŋ/",
+    "pos": "sustantivo"
+  },
+  "went out": {
+    "translationEs": "se apagó",
+    "ipa": "/wɛnt aʊt/",
+    "pos": "verbo frasal"
+  },
+  "whiskey": {
+    "translationEs": "whisky",
+    "ipa": "/ˈwɪski/",
+    "pos": "sustantivo"
+  },
+  "winked": {
+    "translationEs": "guiñó un ojo",
+    "ipa": "/wɪŋkt/",
+    "pos": "verbo"
+  },
+  "wish": {
+    "ipa": "/wɪʃ/"
+  },
+  "wishes": {
+    "translationEs": "deseos",
+    "ipa": "/ˈwɪʃɪz/",
+    "pos": "sustantivo"
+  },
+  "withered": {
+    "translationEs": "reseco y arrugado",
+    "ipa": "/ˈwɪðərd/",
+    "pos": "adjetivo"
+  }
+}
